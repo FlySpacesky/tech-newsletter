@@ -40,8 +40,11 @@ def main() -> int:
         return 2
     edition = json.loads(Path("docs/edition.json").read_text(encoding="utf-8"))
     date = edition["date"]
-    display_date = datetime.strptime(date, "%Y-%m-%d").strftime("%Y.%m.%d")
-    body = {"messages": [{"type": "text", "text": f"科技雷達｜{display_date}\n\n今日科技新聞已整理完成：AI／資安、晶片基礎設施、商業與產品趨勢。\n\n立即閱讀：{site_url}"}]}
+    start_date = datetime.strptime(edition.get("start_date", date), "%Y-%m-%d").strftime("%Y.%m.%d")
+    end_date = datetime.strptime(edition.get("end_date", date), "%Y-%m-%d").strftime("%Y.%m.%d")
+    article_count = edition.get("count", 0)
+    source_count = edition.get("source_count", 8)
+    body = {"messages": [{"type": "text", "text": f"每兩日科技電子報｜{start_date}—{end_date}\n\n已彙整 {source_count} 個來源、共 {article_count} 篇文章，依來源網站分類，包含圖片、摘要與原文連結。\n\n立即閱讀：{site_url}"}]}
     post("/validate/broadcast", token, body)
     retry_key = str(uuid.UUID(hashlib.md5(f"tech-newsletter:{date}".encode()).hexdigest()))
     post("/broadcast", token, body, retry_key)
