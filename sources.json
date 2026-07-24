@@ -1,10 +1,99 @@
 {
   "sources": [
-    {"name": "科技島 TechNice", "homepage": "https://www.technice.com.tw/", "feeds": ["https://www.technice.com.tw/feed/"]},
-    {"name": "INSIDE", "homepage": "https://www.inside.com.tw/", "feeds": ["https://www.inside.com.tw/feed"]},
-    {"name": "TechNews 科技新報", "homepage": "https://technews.tw/", "feeds": ["https://technews.tw/feed/"]},
-    {"name": "數位時代", "homepage": "https://www.bnext.com.tw/articles", "feeds": ["https://www.bnext.com.tw/rss"]},
-    {"name": "TechOrange 科技報橘", "homepage": "https://techorange.com/latest/", "feeds": ["https://techorange.com/feed/", "https://buzzorange.com/techorange/feed/"]},
-    {"name": "Meet 創業小聚", "homepage": "https://meet.bnext.com.tw/articles", "feeds": ["https://meet.bnext.com.tw/rss"]}
+    {
+      "name": "Flipboard 科技專區",
+      "short_name": "Flipboard",
+      "homepage": "https://flipboard.com/section/-3tsv8ou05s0muig9",
+      "feeds": [],
+      "listing_pages": [
+        "https://flipboard.com/section/-3tsv8ou05s0muig9"
+      ],
+      "allow_external_links": true,
+      "article_url_patterns": ["^https?://"]
+    },
+    {
+      "name": "科技島 TechNice",
+      "short_name": "TechNice",
+      "homepage": "https://www.technice.com.tw/",
+      "feeds": ["https://www.technice.com.tw/feed/"],
+      "listing_pages": [
+        "https://www.technice.com.tw/",
+        "https://www.technice.com.tw/page/2/",
+        "https://www.technice.com.tw/page/3/"
+      ],
+      "article_url_patterns": ["^https://www\\.technice\\.com\\.tw/(?!category/|tag/|author/|page/|wp-content/).+?/\\d+/?$"]
+    },
+    {
+      "name": "INSIDE 硬塞的網路趨勢觀察",
+      "short_name": "INSIDE",
+      "homepage": "https://www.inside.com.tw/",
+      "feeds": ["https://www.inside.com.tw/feed"],
+      "listing_pages": [
+        "https://www.inside.com.tw/?page=1",
+        "https://www.inside.com.tw/?page=2",
+        "https://www.inside.com.tw/?page=3"
+      ],
+      "article_url_patterns": ["^https://www\\.inside\\.com\\.tw/article/\\d+"]
+    },
+    {
+      "name": "TechNews 科技新報",
+      "short_name": "TechNews",
+      "homepage": "https://technews.tw/",
+      "feeds": ["https://technews.tw/feed/"],
+      "listing_pages": [
+        "https://technews.tw/",
+        "https://technews.tw/page/2/",
+        "https://technews.tw/page/3/"
+      ],
+      "article_url_patterns": ["^https://([a-z]+\\.)?technews\\.tw/\\d{4}/\\d{2}/\\d{2}/"]
+    },
+    {
+      "name": "數位時代 BNext",
+      "short_name": "BNext",
+      "homepage": "https://www.bnext.com.tw/articles",
+      "feeds": ["https://www.bnext.com.tw/rss"],
+      "listing_pages": [
+        "https://www.bnext.com.tw/articles?page=1",
+        "https://www.bnext.com.tw/articles?page=2",
+        "https://www.bnext.com.tw/articles?page=3"
+      ],
+      "article_url_patterns": ["^https://www\\.bnext\\.com\\.tw/article/\\d+"]
+    },
+    {
+      "name": "TechOrange 科技報橘",
+      "short_name": "TechOrange",
+      "homepage": "https://techorange.com/latest/",
+      "feeds": ["https://techorange.com/feed/", "https://buzzorange.com/techorange/feed/"],
+      "listing_pages": [
+        "https://techorange.com/latest/",
+        "https://techorange.com/latest/page/2/",
+        "https://techorange.com/latest/page/3/"
+      ],
+      "article_url_patterns": ["^https://techorange\\.com/\\d{4}/\\d{2}/\\d{2}/"]
+    },
+    {
+      "name": "Meet 創業小聚",
+      "short_name": "Meet",
+      "homepage": "https://meet.bnext.com.tw/articles/list?page=1",
+      "feeds": ["https://meet.bnext.com.tw/rss"],
+      "listing_pages": [
+        "https://meet.bnext.com.tw/articles/list?page=1",
+        "https://meet.bnext.com.tw/articles/list?page=2",
+        "https://meet.bnext.com.tw/articles/list?page=3"
+      ],
+      "article_url_patterns": ["^https://meet\\.bnext\\.com\\.tw/articles/view/\\d+"]
+    },
+    {
+      "name": "Cool3c",
+      "short_name": "Cool3c",
+      "homepage": "https://www.cool3c.com/",
+      "feeds": ["https://www.cool3c.com/rss"],
+      "listing_pages": [
+        "https://www.cool3c.com/?page=1",
+        "https://www.cool3c.com/?page=2",
+        "https://www.cool3c.com/?page=3"
+      ],
+      "article_url_patterns": ["^https://www\\.cool3c\\.com/article/\\d+"]
+    }
   ]
 }
