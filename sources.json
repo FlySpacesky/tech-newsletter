@@ -1,0 +1,10 @@
+{
+  "sources": [
+    {"name": "科技島 TechNice", "homepage": "https://www.technice.com.tw/", "feeds": ["https://www.technice.com.tw/feed/"]},
+    {"name": "INSIDE", "homepage": "https://www.inside.com.tw/", "feeds": ["https://www.inside.com.tw/feed"]},
+    {"name": "TechNews 科技新報", "homepage": "https://technews.tw/", "feeds": ["https://technews.tw/feed/"]},
+    {"name": "數位時代", "homepage": "https://www.bnext.com.tw/articles", "feeds": ["https://www.bnext.com.tw/rss"]},
+    {"name": "TechOrange 科技報橘", "homepage": "https://techorange.com/latest/", "feeds": ["https://techorange.com/feed/", "https://buzzorange.com/techorange/feed/"]},
+    {"name": "Meet 創業小聚", "homepage": "https://meet.bnext.com.tw/articles", "feeds": ["https://meet.bnext.com.tw/rss"]}
+  ]
+}
