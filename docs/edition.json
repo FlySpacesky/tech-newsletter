@@ -1,1 +1,18 @@
-{"date": "2026-07-24", "count": 12}
+{
+  "date": "2026-07-24",
+  "start_date": "2026-07-23",
+  "end_date": "2026-07-24",
+  "source_count": 8,
+  "count": 155,
+  "per_source": {
+    "Flipboard": 0,
+    "TechNice": 24,
+    "INSIDE": 23,
+    "TechNews": 40,
+    "BNext": 28,
+    "TechOrange": 18,
+    "Meet": 2,
+    "Cool3c": 20
+  },
+  "warnings": 5
+}
