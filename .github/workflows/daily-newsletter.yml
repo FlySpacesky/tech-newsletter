@@ -1,0 +1,45 @@
+name: Daily tech newsletter
+
+on:
+  schedule:
+    - cron: "7 10 * * *"
+      timezone: "Asia/Taipei"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-tech-newsletter
+  cancel-in-progress: false
+
+jobs:
+  publish-and-broadcast:
+    runs-on: ubuntu-latest
+    env:
+      SITE_URL: https://flyspacesky.github.io/tech-newsletter/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate newsletter
+        run: python scripts/generate_newsletter.py
+
+      - name: Commit and publish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet && exit 0
+          git commit -m "newsletter: $(date -u +%F)"
+          git push
+
+      - name: Wait for GitHub Pages
+        run: python scripts/wait_for_pages.py
+
+      - name: Validate and broadcast to LINE
+        env:
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+        run: python scripts/send_line.py
