@@ -2,117 +2,40 @@ name: Daily tech newsletter
 
 on:
   schedule:
-    # 主排程及第一至第三次補償
-    - cron: "7,22,37,52 10 * * *"
+    - cron: "0 10 * * *"
       timezone: "Asia/Taipei"
-
-    # 最後補償
-    - cron: "7 11 * * *"
-      timezone: "Asia/Taipei"
-
-  # 保留人工測試及外部備援呼叫
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: daily-tech-newsletter-main
+  group: daily-tech-newsletter
   cancel-in-progress: false
 
 jobs:
   publish-and-broadcast:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
-
     env:
       SITE_URL: https://flyspacesky.github.io/tech-newsletter/
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Record trigger information
-        run: |
-          echo "Event: $GITHUB_EVENT_NAME"
-          echo "Schedule: ${{ github.event.schedule }}"
-          echo "Run ID: $GITHUB_RUN_ID"
-          echo "Run URL: https://github.com/${{ github.repository }}/actions/runs/${GITHUB_RUN_ID}"
-
-      - name: Check today's delivery
-        id: delivery
-        shell: bash
-        run: |
-          TODAY=$(TZ=Asia/Taipei date +%F)
-          RECEIPT="docs/delivery/${TODAY}.json"
-          OUTBOX="docs/outbox/${TODAY}.json"
-
-          echo "today=${TODAY}" >> "$GITHUB_OUTPUT"
-
-          if [ -f "$RECEIPT" ]; then
-            echo "mode=skip" >> "$GITHUB_OUTPUT"
-            echo "今天已成功廣播，略過此次補償排程。"
-          elif [ -f "$OUTBOX" ]; then
-            echo "mode=retry" >> "$GITHUB_OUTPUT"
-            echo "找到尚未確認成功的廣播內容，進行重試。"
-          else
-            echo "mode=generate" >> "$GITHUB_OUTPUT"
-            echo "今天尚未產生電子報，開始建立。"
-          fi
-
       - name: Generate newsletter
-        if: steps.delivery.outputs.mode == 'generate'
         run: python scripts/generate_newsletter.py
-
-      - name: Prepare fixed LINE outbox
-        if: steps.delivery.outputs.mode == 'generate'
-        run: python scripts/prepare_line.py
-
-      - name: Commit and publish newsletter
-        if: steps.delivery.outputs.mode == 'generate'
+      - name: Commit and publish
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add docs
-
-          if git diff --cached --quiet; then
-            echo "No newsletter changes."
-          else
-            git commit -m "newsletter: ${{ steps.delivery.outputs.today }}"
-            git pull --rebase origin main
-            git push origin main
-          fi
-
+          git diff --cached --quiet && exit 0
+          git commit -m "newsletter: $(date -u +%F)"
+          git push
       - name: Wait for GitHub Pages
-        if: steps.delivery.outputs.mode != 'skip'
         run: python scripts/wait_for_pages.py
-
       - name: Validate and broadcast to LINE
-        if: steps.delivery.outputs.mode != 'skip'
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
         run: python scripts/send_line.py
-
-      - name: Save delivery receipt
-        if: steps.delivery.outputs.mode != 'skip'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add docs/delivery
-
-          if git diff --cached --quiet; then
-            echo "No receipt changes."
-          else
-            git commit -m "delivery: ${{ steps.delivery.outputs.today }}"
-            git pull --rebase origin main
-            git push origin main
-          fi
