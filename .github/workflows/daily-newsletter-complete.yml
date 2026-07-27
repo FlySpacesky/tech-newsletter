@@ -1,0 +1,139 @@
+name: Daily tech newsletter
+
+on:
+  schedule:
+    # GitHub Actions 最短只支援每 5 分鐘排程一次。
+    # 每分鐘觸發由 Cloudflare Worker 負責。
+    - cron: "30-59/5 9 * * *"
+      timezone: "Asia/Taipei"
+    - cron: "0-30/5 10 * * *"
+      timezone: "Asia/Taipei"
+
+  # 供人工測試及 Cloudflare Worker 呼叫。
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# 防止 Cloudflare 每分鐘呼叫時同時執行多個 LINE 廣播。
+concurrency:
+  group: daily-tech-newsletter-main
+  cancel-in-progress: false
+
+jobs:
+  publish-and-broadcast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    env:
+      SITE_URL: https://flyspacesky.github.io/tech-newsletter/
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Record trigger information
+        shell: bash
+        run: |
+          echo "Event: ${GITHUB_EVENT_NAME}"
+          echo "Schedule: ${{ github.event.schedule }}"
+          echo "Run ID: ${GITHUB_RUN_ID}"
+          echo "Run URL: https://github.com/${{ github.repository }}/actions/runs/${GITHUB_RUN_ID}"
+          echo "Taipei time: $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M:%S %Z')"
+
+      - name: Check today's delivery state
+        id: delivery
+        shell: bash
+        run: |
+          TODAY=$(TZ=Asia/Taipei date +%F)
+          RECEIPT="docs/delivery/${TODAY}.json"
+          OUTBOX="docs/outbox/${TODAY}.json"
+
+          echo "today=${TODAY}" >> "${GITHUB_OUTPUT}"
+
+          if [ -f "${RECEIPT}" ]; then
+            echo "mode=skip" >> "${GITHUB_OUTPUT}"
+            echo "Delivery receipt already exists: ${RECEIPT}"
+            echo "Today's newsletter has already been sent; stopping safely."
+          elif [ -f "${OUTBOX}" ]; then
+            echo "mode=retry" >> "${GITHUB_OUTPUT}"
+            echo "Existing outbox found: ${OUTBOX}"
+            echo "Reusing the same LINE message and retry key."
+          else
+            echo "mode=generate" >> "${GITHUB_OUTPUT}"
+            echo "No receipt or outbox exists for ${TODAY}; generating a new edition."
+          fi
+
+      - name: Generate newsletter
+        if: steps.delivery.outputs.mode == 'generate'
+        run: python scripts/generate_newsletter.py
+
+      - name: Prepare fixed LINE outbox
+        if: steps.delivery.outputs.mode == 'generate'
+        run: python scripts/prepare_line.py
+
+      - name: Commit and publish newsletter
+        if: steps.delivery.outputs.mode == 'generate'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add docs
+
+          if git diff --cached --quiet; then
+            echo "No newsletter changes to commit."
+          else
+            git commit -m "newsletter: ${{ steps.delivery.outputs.today }}"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Wait for GitHub Pages
+        if: steps.delivery.outputs.mode != 'skip'
+        run: python scripts/wait_for_pages.py
+
+      - name: Validate and broadcast to LINE
+        if: steps.delivery.outputs.mode != 'skip'
+        env:
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+        run: python scripts/send_line.py
+
+      - name: Save delivery receipt
+        if: steps.delivery.outputs.mode != 'skip'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          RECEIPT="docs/delivery/${{ steps.delivery.outputs.today }}.json"
+
+          if [ ! -f "${RECEIPT}" ]; then
+            echo "Expected delivery receipt was not created: ${RECEIPT}" >&2
+            exit 1
+          fi
+
+          git add "${RECEIPT}"
+
+          if git diff --cached --quiet; then
+            echo "Delivery receipt is already committed."
+          else
+            git commit -m "delivery: ${{ steps.delivery.outputs.today }}"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Final status
+        if: always()
+        shell: bash
+        run: |
+          echo "Mode: ${{ steps.delivery.outputs.mode }}"
+          echo "Date: ${{ steps.delivery.outputs.today }}"
+          echo "Job status: ${{ job.status }}"
