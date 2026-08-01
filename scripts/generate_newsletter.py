@@ -6,9 +6,11 @@ from __future__ import annotations
 import argparse
 import email.utils
 import html
+import http.cookiejar
 import json
 import re
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -29,6 +31,18 @@ SKIP_HOSTS = {
     "youtube.com", "www.youtube.com", "line.me", "twitter.com", "x.com",
     "linkedin.com", "www.linkedin.com", "threads.net", "www.threads.net",
 }
+
+# Meet's latest-news pages pass through bnextmedia's visitor-session
+# redirect before returning the requested page. A plain urlopen() call does
+# not retain those cookies and loops until urllib aborts. Keep one
+# cookie-aware session for Meet; initialize it before article workers run.
+MEET_HOST = "meet.bnext.com.tw"
+MEET_COOKIE_JAR = http.cookiejar.CookieJar()
+MEET_OPENER = urllib.request.build_opener(
+    urllib.request.HTTPCookieProcessor(MEET_COOKIE_JAR)
+)
+MEET_SESSION_LOCK = threading.Lock()
+MEET_SESSION_READY = threading.Event()
 
 
 @dataclass
@@ -198,10 +212,26 @@ def parse_feed(raw: bytes, source: str) -> list[Item]:
 def fetch(url: str, accept_html: bool = False, attempts: int = 3) -> bytes:
     accept = "text/html,application/xhtml+xml,*/*;q=0.8" if accept_html else "application/rss+xml,application/atom+xml,application/xml,text/xml;q=0.9,*/*;q=0.5"
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": accept, "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.7"})
+    is_meet = (urllib.parse.urlparse(url).hostname or "").lower() == MEET_HOST
     for attempt in range(attempts):
         try:
-            with urllib.request.urlopen(req, timeout=18) as response:
-                return response.read()
+            if is_meet:
+                # The first latest-news request establishes the cookies. All
+                # article requests happen after that page is parsed and may
+                # reuse the established session concurrently.
+                if not MEET_SESSION_READY.is_set():
+                    with MEET_SESSION_LOCK:
+                        if not MEET_SESSION_READY.is_set():
+                            with MEET_OPENER.open(req, timeout=60) as response:
+                                body = response.read()
+                            MEET_SESSION_READY.set()
+                            return body
+                else:
+                    with MEET_OPENER.open(req, timeout=60) as response:
+                        return response.read()
+            else:
+                with urllib.request.urlopen(req, timeout=18) as response:
+                    return response.read()
         except urllib.error.HTTPError as exc:
             if exc.code not in {429, 500, 502, 503, 504} or attempt + 1 >= attempts:
                 raise
@@ -482,6 +512,8 @@ def collect_source(source: dict, start_day: date, end_day: date) -> tuple[list[I
         )
         if paginated and page_dates:
             ordered_dates = sorted(page_dates)
+            if source.get("stop_after_page_reaches_older_date") and ordered_dates[0] < start_day:
+                break
             median_day = ordered_dates[len(ordered_dates) // 2]
             if median_day < start_day:
                 break
