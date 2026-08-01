@@ -610,9 +610,12 @@ main{{padding:34px 0 56px}}section{{scroll-margin-top:82px;margin:0 0 40px}}.sec
 .story-copy{{padding:17px 20px}}time{{font-size:12px;color:var(--brand);font-weight:800}}h3{{font-size:20px;line-height:1.4;margin:5px 0 7px}}h3 a{{text-decoration:none}}h3 a:hover{{text-decoration:underline}}
 .story p{{margin:0 0 8px;color:#4b5565}}.read{{font-size:13px;color:var(--brand);font-weight:800;text-decoration:none}}.empty{{padding:22px;background:#fff;border:1px dashed #c9c4bb;border-radius:12px;color:var(--muted)}}
 footer{{background:#fff;border-top:1px solid var(--line);padding:26px 0 42px;color:var(--muted);font-size:13px}}
+.back-to-top{{position:fixed;right:18px;bottom:18px;z-index:20;width:48px;height:48px;border:0;border-radius:50%;display:grid;place-items:center;background:#1e2442;color:#fff;font:800 26px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;box-shadow:0 8px 24px rgba(24,34,48,.3);cursor:pointer;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(8px);transition:opacity .2s ease,transform .2s ease,visibility .2s ease}}
+.back-to-top.is-visible{{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}}.back-to-top:hover{{background:var(--brand)}}.back-to-top:focus-visible{{outline:3px solid #ffd3c8;outline-offset:3px}}
 @media(max-width:900px){{.story{{grid-template-columns:220px minmax(0,1fr)}}}}
 @media(max-width:680px){{header{{padding:40px 0 32px}}.story{{grid-template-columns:140px minmax(0,1fr)}}.story-image{{aspect-ratio:4/3}}.story-copy{{padding:13px}}h3{{font-size:17px}}.story p{{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}}}}
-@media(max-width:480px){{.story{{grid-template-columns:1fr}}.story-image{{aspect-ratio:16/9}}.story-copy{{padding:15px}}}}
+@media(max-width:480px){{.story{{grid-template-columns:1fr}}.story-image{{aspect-ratio:16/9}}.story-copy{{padding:15px}}.back-to-top{{right:14px;bottom:14px;width:44px;height:44px;font-size:24px}}}}
+@media(prefers-reduced-motion:reduce){{html{{scroll-behavior:auto}}.back-to-top{{transition:none}}}}
 </style></head><body>
 <header><div class="wrap"><div class="kicker">TWO-DAY TECHNOLOGY NEWSLETTER</div><h1>每兩日科技電子報</h1><div class="date">{date_range}</div>
 <div class="stats"><div class="stat"><b>{len(sources)}</b>個來源</div><div class="stat"><b>{count}</b>篇文章</div><div class="stat">兩日自動翻頁</div></div>
@@ -620,6 +623,7 @@ footer{{background:#fff;border-top:1px solid var(--line);padding:26px 0 42px;col
 <nav><div class="wrap">{''.join(nav)}</div></nav>
 <main class="wrap">{''.join(sections)}</main>
 <footer><div class="wrap">每日約 10:07（Asia/Taipei）更新，內容涵蓋今天與昨天；支援分頁的來源會自動往後讀取，直到文章早於本期日期範圍或沒有新文章才停止，並依網址去重。每篇同時顯示相對時間與台灣時間；摘要與圖片取自來源公開中繼資料，內容以原文為準。</div></footer>
+<button class="back-to-top" id="back-to-top" type="button" aria-label="回到頁面頂端" title="回到頂端">↑</button>
 <script>
 function refreshRelativeTimes(){{
   const now=Date.now();
@@ -641,6 +645,16 @@ function refreshRelativeTimes(){{
 }}
 refreshRelativeTimes();
 setInterval(refreshRelativeTimes,60000);
+const backToTop=document.getElementById("back-to-top");
+function refreshBackToTop(){{
+  backToTop.classList.toggle("is-visible",window.scrollY>320);
+}}
+backToTop.addEventListener("click",()=>{{
+  const reduceMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  window.scrollTo({{top:0,behavior:reduceMotion?"auto":"smooth"}});
+}});
+window.addEventListener("scroll",refreshBackToTop,{{passive:true}});
+refreshBackToTop();
 </script>
 </body></html>'''
 
@@ -687,3 +701,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
