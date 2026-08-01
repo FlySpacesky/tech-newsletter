@@ -71,11 +71,12 @@
       "name": "Meet 創業小聚",
       "short_name": "Meet",
       "homepage": "https://meet.bnext.com.tw/articles/list?page=1",
-      "feeds": ["https://meet.bnext.com.tw/rss"],
+      "feeds": [],
       "pagination": {
         "first_url": "https://meet.bnext.com.tw/articles/list?page=1",
         "url_template": "https://meet.bnext.com.tw/articles/list?page={page}"
       },
+      "stop_after_page_reaches_older_date": true,
       "article_url_patterns": ["^https://meet\\.bnext\\.com\\.tw/articles/view/\\d+"]
     },
     {
