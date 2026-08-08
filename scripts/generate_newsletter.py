@@ -121,6 +121,42 @@ class PageParser(HTMLParser):
         return clean("".join(self._title_text), 140)
 
 
+class NewsletterArchiveParser(HTMLParser):
+    """Collect canonical article URLs per source from a rendered edition."""
+
+    def __init__(self, sources: list[dict]) -> None:
+        super().__init__(convert_charrefs=True)
+        self.source_by_section = {
+            f"source-{index}": source["name"]
+            for index, source in enumerate(sources, start=1)
+        }
+        self.current_source: str | None = None
+        self.inside_story = False
+        self.seen_sections: set[str] = set()
+        self.keys: set[tuple[str, str]] = set()
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        values = {key.lower(): (value or "") for key, value in attrs}
+        if tag == "section":
+            section_id = values.get("id", "")
+            self.current_source = self.source_by_section.get(section_id)
+            if self.current_source:
+                self.seen_sections.add(section_id)
+        elif tag == "article" and self.current_source:
+            classes = values.get("class", "").split()
+            self.inside_story = "story" in classes
+        elif tag == "a" and self.current_source and self.inside_story:
+            link = html.unescape(values.get("href", "")).strip()
+            if link.startswith(("http://", "https://")):
+                self.keys.add((self.current_source, canonical_key(link)))
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "article":
+            self.inside_story = False
+        elif tag == "section":
+            self.current_source = None
+
+
 def clean(value: str, limit: int = 190) -> str:
     value = re.sub(r"<[^>]+>", " ", value or "")
     value = html.unescape(value)
@@ -541,6 +577,63 @@ def canonical_key(url: str) -> str:
     return urllib.parse.urlunparse((parsed.scheme.lower(), parsed.netloc.lower(), parsed.path.rstrip("/"), "", "", ""))
 
 
+def load_previous_edition_keys(
+    output: Path,
+    previous_day: date,
+    sources: list[dict],
+) -> set[tuple[str, str]]:
+    """Load the exact per-source URLs that appeared in yesterday's edition."""
+    archive_path = output / "archive" / f"{previous_day.isoformat()}.html"
+    if not archive_path.exists():
+        print(
+            f"Previous edition not found: {archive_path}; cross-day deduplication skipped.",
+            file=sys.stderr,
+        )
+        return set()
+
+    parser = NewsletterArchiveParser(sources)
+    try:
+        parser.feed(archive_path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError) as exc:
+        print(
+            f"Unable to read previous edition {archive_path}: {exc}; "
+            "cross-day deduplication skipped.",
+            file=sys.stderr,
+        )
+        return set()
+
+    expected_sections = {f"source-{index}" for index in range(1, len(sources) + 1)}
+    missing_sections = sorted(expected_sections - parser.seen_sections)
+    if missing_sections:
+        print(
+            f"WARNING: Previous edition is missing source sections: "
+            f"{', '.join(missing_sections)}",
+            file=sys.stderr,
+        )
+    print(
+        f"Previous edition {previous_day.isoformat()}: "
+        f"{len(parser.keys)} per-source article(s) loaded for deduplication.",
+        file=sys.stderr,
+    )
+    return parser.keys
+
+
+def remove_previous_edition_duplicates(
+    items: list[Item],
+    previous_keys: set[tuple[str, str]],
+) -> tuple[list[Item], dict[str, int]]:
+    """Remove only articles already published by the same source yesterday."""
+    kept: list[Item] = []
+    removed: dict[str, int] = {}
+    for item in items:
+        key = (item.source, canonical_key(item.link))
+        if key in previous_keys:
+            removed[item.source] = removed.get(item.source, 0) + 1
+        else:
+            kept.append(item)
+    return kept, removed
+
+
 def fill_shared_images(items: list[Item]) -> list[Item]:
     """Reuse an image when the same article appears in another configured source."""
     images = {
@@ -616,7 +709,7 @@ def render(items: list[Item], sources: list[dict], start_day: date, end_day: dat
         if source_items:
             body = "\n".join(story(item, generated_at) for item in source_items)
         else:
-            body = '<p class="empty">今天與昨天未找到可確認發布日期的文章。</p>'
+            body = '<p class="empty">今天與昨天沒有尚未在昨日電子報刊出的新文章。</p>'
         sections.append(f'''<section id="{section_id}">
   <div class="section-head"><div><span>來源 {index:02d}</span><h2>{html.escape(source["name"])}</h2></div><strong>{len(source_items)} 篇</strong></div>
   <div class="stories">{body}</div>
@@ -655,7 +748,7 @@ footer{{background:#fff;border-top:1px solid var(--line);padding:26px 0 42px;col
 <p class="source-line"><strong>本期來源：</strong>{html.escape(source_names)}</p></div></header>
 <nav><div class="wrap">{''.join(nav)}</div></nav>
 <main class="wrap">{''.join(sections)}</main>
-<footer><div class="wrap">每日約 10:07（Asia/Taipei）更新，內容涵蓋今天與昨天；支援分頁的來源會自動往後讀取，直到文章早於本期日期範圍或沒有新文章才停止，並依網址去重。每篇同時顯示相對時間與台灣時間；摘要與圖片取自來源公開中繼資料，內容以原文為準。</div></footer>
+<footer><div class="wrap">每日約 10:07（Asia/Taipei）更新，內容涵蓋今天與昨天；支援分頁的來源會自動往後讀取，直到文章早於本期日期範圍或沒有新文章才停止，先依網址去重，再排除同一來源已於昨日電子報刊出的文章。每篇同時顯示相對時間與台灣時間；摘要與圖片取自來源公開中繼資料，內容以原文為準。</div></footer>
 <button class="back-to-top" id="back-to-top" type="button" aria-label="回到頁面頂端" title="回到頂端">↑</button>
 <script>
 function refreshRelativeTimes(){{
@@ -709,10 +802,22 @@ def main() -> int:
     cached_items = load_cache(cache_path, config["sources"])
     fresh_items, errors = collect(config, now)
     items = fill_shared_images(merge_items([fresh_items, cached_items], start_day, end_day))
+    previous_keys = load_previous_edition_keys(output, start_day, config["sources"])
+    items, removed_by_source = remove_previous_edition_duplicates(items, previous_keys)
+    for source in config["sources"]:
+        removed = removed_by_source.get(source["name"], 0)
+        print(
+            f"{source['short_name']}: {removed} previous-edition duplicate(s) removed",
+            file=sys.stderr,
+        )
     if not items:
         for message in errors:
             print(message, file=sys.stderr)
-        print("No articles matched today or yesterday; refusing to overwrite the current edition.", file=sys.stderr)
+        print(
+            "No new articles remained after previous-edition deduplication; "
+            "refusing to overwrite the current edition.",
+            file=sys.stderr,
+        )
         return 2
     (output / "archive").mkdir(parents=True, exist_ok=True)
     edition = end_day.strftime("%Y-%m-%d")
@@ -734,4 +839,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
