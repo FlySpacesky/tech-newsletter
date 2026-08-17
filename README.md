@@ -2,7 +2,9 @@
 
 每天台灣時間約 10:07，GitHub Actions 會彙整「今天＋昨天」兩個日期的科技新聞，產生單一響應式 HTML、發布到 GitHub Pages，確認新頁面可開啟後再廣播至 LINE 官方帳號。
 
-公開網址：<https://flyspacesky.github.io/tech-newsletter/>
+最新一期：<https://flyspacesky.github.io/tech-newsletter/>
+
+每日產生的版本另存於 `docs/archive/YYYY-MM-DD.html`。LINE 每一期都使用該日期的固定封存網址，例如 `https://flyspacesky.github.io/tech-newsletter/archive/2026-08-17.html`，所以日後重新開啟舊訊息時仍會看到當時那一期，不會被最新首頁取代。
 
 ## 8 個固定來源
 
@@ -40,6 +42,7 @@ Flipboard 使用其科技專區 RSS，直接取得精確發布時間、摘要與
 - LINE 訊息先呼叫 `/validate/broadcast` 驗證，再呼叫 `/broadcast`。
 - 每天使用固定的 `X-Line-Retry-Key`，同一天重跑不會重複廣播。
 - GitHub Pages 尚未更新時會取消 LINE 廣播。
+- 發送前會確認當期日期固定封存頁已發布，LINE outbox 若仍指向會變動的首頁則拒絕廣播。
 - Channel access token 僅存於 GitHub Actions Secret。
 
 ## 本機測試

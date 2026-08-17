@@ -14,6 +14,8 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from newsletter_urls import validate_archive_url
+
 
 LINE_API = "https://api.line.me/v2/bot/message"
 TZ = ZoneInfo("Asia/Taipei")
@@ -164,6 +166,7 @@ def write_receipt(
     status: str,
     result: dict,
     retry_key: str,
+    edition_url: str,
 ) -> Path:
     """Save an auditable success receipt."""
 
@@ -187,6 +190,7 @@ def write_receipt(
             "",
         ),
         "retry_key": retry_key,
+        "edition_url": edition_url,
         "github_run_id": os.environ.get(
             "GITHUB_RUN_ID",
             "",
@@ -214,6 +218,39 @@ def write_receipt(
     temporary_file.replace(receipt_file)
 
     return receipt_file
+
+
+def validate_outbox(outbox: dict, today: str) -> tuple[str, str, dict]:
+    """Validate that LINE will receive today's immutable archive URL."""
+
+    outbox_date = str(outbox.get("date", ""))
+    retry_key = str(outbox.get("retry_key", ""))
+    edition_url = str(outbox.get("edition_url", "")).strip()
+    body = outbox.get("body")
+
+    if outbox_date != today:
+        raise ValueError(
+            f"Outbox date mismatch: {outbox_date} != {today}"
+        )
+    if not retry_key:
+        raise ValueError("Outbox does not contain retry_key.")
+    if not isinstance(body, dict):
+        raise ValueError("Outbox does not contain a valid body.")
+    if not edition_url:
+        raise ValueError("Outbox does not contain edition_url.")
+
+    validate_archive_url(today, edition_url)
+    messages = body.get("messages")
+    if not isinstance(messages, list) or not any(
+        isinstance(message, dict)
+        and edition_url in str(message.get("text", ""))
+        for message in messages
+    ):
+        raise ValueError(
+            "LINE message does not contain the validated edition_url."
+        )
+
+    return retry_key, edition_url, body
 
 
 def main() -> int:
@@ -275,28 +312,14 @@ def main() -> int:
         )
         return 2
 
-    outbox_date = str(outbox.get("date", ""))
-    retry_key = str(outbox.get("retry_key", ""))
-    body = outbox.get("body")
-
-    if outbox_date != today:
-        print(
-            f"Outbox date mismatch: "
-            f"{outbox_date} != {today}",
-            file=sys.stderr,
+    try:
+        retry_key, edition_url, body = validate_outbox(
+            outbox,
+            today,
         )
-        return 2
-
-    if not retry_key:
+    except ValueError as exc:
         print(
-            "Outbox does not contain retry_key.",
-            file=sys.stderr,
-        )
-        return 2
-
-    if not isinstance(body, dict):
-        print(
-            "Outbox does not contain a valid body.",
+            f"Invalid LINE outbox: {exc}",
             file=sys.stderr,
         )
         return 2
@@ -326,6 +349,7 @@ def main() -> int:
             status,
             result,
             retry_key,
+            edition_url,
         )
 
         if status == "accepted":
