@@ -14,13 +14,16 @@
     {
       "name": "科技島 TechNice",
       "short_name": "TechNice",
-      "homepage": "https://www.technice.com.tw/",
-      "feeds": ["https://www.technice.com.tw/feed/"],
+      "homepage": "https://www.technice.com.tw/latest/",
+      "feeds": [],
+      "listing_article_class": "elementor-post",
+      "collection_scope": "technice-latest-v1",
+      "stop_when_all_articles_older": true,
       "pagination": {
-        "first_url": "https://www.technice.com.tw/",
-        "url_template": "https://www.technice.com.tw/page/{page}/"
+        "first_url": "https://www.technice.com.tw/latest/",
+        "url_template": "https://www.technice.com.tw/latest/{page}/"
       },
-      "article_url_patterns": ["^https://www\\.technice\\.com\\.tw/(?!category/|tag/|author/|page/|wp-content/).+?/\\d+/?$"]
+      "article_url_patterns": ["^https://www\\.technice\\.com\\.tw/(?!latest/|category/|tag/|author/|page/|wp-content/).+?/\\d+/?$"]
     },
     {
       "name": "INSIDE 硬塞的網路趨勢觀察",
