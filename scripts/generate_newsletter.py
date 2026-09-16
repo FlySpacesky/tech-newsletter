@@ -54,6 +54,7 @@ class Item:
     source: str
     published: datetime
     image: str = ""
+    collection_scope: str = ""
 
 
 class PageParser(HTMLParser):
@@ -119,6 +120,29 @@ class PageParser(HTMLParser):
     @property
     def page_title(self) -> str:
         return clean("".join(self._title_text), 140)
+
+
+class ScopedListingParser(PageParser):
+    """Read links only inside article cards belonging to the requested list."""
+
+    def __init__(self, article_class: str) -> None:
+        super().__init__()
+        self.article_class = article_class
+        self.article_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "article":
+            classes = (dict(attrs).get("class") or "").split()
+            if self.article_depth or self.article_class in classes:
+                self.article_depth += 1
+        if self.article_depth:
+            super().handle_starttag(tag, attrs)
+
+    def handle_endtag(self, tag: str) -> None:
+        if self.article_depth:
+            super().handle_endtag(tag)
+            if tag == "article":
+                self.article_depth -= 1
 
 
 class NewsletterArchiveParser(HTMLParser):
@@ -347,7 +371,8 @@ def normalize_url(href: str, base: str) -> str:
 
 
 def listing_candidates(raw: bytes, listing_url: str, source: dict) -> tuple[list[str], dict[str, str]]:
-    parser = PageParser()
+    article_class = source.get("listing_article_class")
+    parser = ScopedListingParser(article_class) if article_class else PageParser()
     parser.feed(decode_page(raw))
     patterns = [re.compile(value, re.I) for value in source.get("article_url_patterns", [])]
     result: list[str] = []
@@ -390,6 +415,7 @@ def item_to_dict(item: Item) -> dict:
         "source": item.source,
         "published": item.published.astimezone(timezone.utc).isoformat(),
         "image": item.image,
+        **({"collection_scope": item.collection_scope} if item.collection_scope else {}),
     }
 
 
@@ -401,10 +427,14 @@ def load_cache(path: Path, sources: list[dict]) -> list[Item]:
     except (OSError, json.JSONDecodeError):
         return []
     rows = payload.get("items", []) if isinstance(payload, dict) else []
-    known_sources = {source["name"] for source in sources}
+    known_sources = {source["name"]: source for source in sources}
     result: list[Item] = []
     for row in rows:
         if not isinstance(row, dict) or row.get("source") not in known_sources:
+            continue
+        required_scope = known_sources[row["source"]].get("collection_scope", "")
+        if required_scope and row.get("collection_scope") != required_scope:
+            # Never restore old all-site cache entries into a curated list.
             continue
         published = parse_date(str(row.get("published", "")))
         link = str(row.get("link", ""))
@@ -418,6 +448,7 @@ def load_cache(path: Path, sources: list[dict]) -> list[Item]:
                     str(row["source"]),
                     published,
                     str(row.get("image", "")),
+                    str(row.get("collection_scope", "")),
                 )
             )
     return result
@@ -445,7 +476,8 @@ def richer_item(current: Item, candidate: Item) -> Item:
     link = candidate.link if "utm_" not in candidate.link else current.link
     title = current.title if len(current.title) >= len(candidate.title) else candidate.title
     published = min(current.published, candidate.published)
-    return Item(title, link, summary or DEFAULT_SUMMARY, current.source, published, image)
+    return Item(title, link, summary or DEFAULT_SUMMARY, current.source, published, image,
+                current.collection_scope or candidate.collection_scope)
 
 
 def listing_page_urls(source: dict):
@@ -518,6 +550,8 @@ def collect_source(source: dict, start_day: date, end_day: date) -> tuple[list[I
 
         new_urls = [url for url in page_urls if canonical_key(url) not in seen_candidates]
         if not new_urls:
+            if source.get("listing_article_class") and not page_urls:
+                errors.append(f"{source['short_name']} listing {listing_url}: no article cards found")
             if paginated:
                 break
             continue
@@ -548,6 +582,11 @@ def collect_source(source: dict, start_day: date, end_day: date) -> tuple[list[I
             if canonical_key(url) in feed_by_key
         )
         if paginated and page_dates:
+            if source.get("stop_when_all_articles_older"):
+                # Mixed or partially parsed pages must not hide later in-window articles.
+                if len(page_dates) >= len(new_urls) and max(page_dates) < start_day:
+                    break
+                continue
             ordered_dates = sorted(page_dates)
             if source.get("stop_after_page_reaches_older_date") and ordered_dates[0] < start_day:
                 break
@@ -566,6 +605,7 @@ def collect_source(source: dict, start_day: date, end_day: date) -> tuple[list[I
     dedup: dict[str, Item] = {}
     for item in sorted(gathered, key=lambda row: row.published, reverse=True):
         if in_edition_window(item, start_day, end_day):
+            item.collection_scope = source.get("collection_scope", "")
             key = canonical_key(item.link)
             current = dedup.get(key)
             dedup[key] = item if current is None else richer_item(current, item)
