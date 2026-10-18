@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-17",
-  "start_date": "2026-10-16",
-  "end_date": "2026-10-17",
+  "date": "2026-10-18",
+  "start_date": "2026-10-17",
+  "end_date": "2026-10-18",
   "source_count": 8,
-  "count": 134,
+  "count": 70,
   "per_source": {
-    "Flipboard": 27,
-    "TechNice": 12,
-    "INSIDE": 9,
-    "TechNews": 40,
-    "BNext": 21,
-    "TechOrange": 8,
-    "Meet": 2,
-    "Cool3c": 15
+    "Flipboard": 28,
+    "TechNice": 4,
+    "INSIDE": 5,
+    "TechNews": 27,
+    "BNext": 2,
+    "TechOrange": 0,
+    "Meet": 0,
+    "Cool3c": 4
   },
-  "warnings": 0
+  "warnings": 1
 }
