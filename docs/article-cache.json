@@ -1,6 +1,999 @@
 {
-  "updated": "2026-10-23T01:31:20.247428+00:00",
+  "updated": "2026-10-24T01:31:16.111930+00:00",
   "items": [
+    {
+      "title": "科學家發現「抗凍」金屬，-253°C 極限低溫仍不脆裂",
+      "link": "https://technews.tw/2026/10/24/scientists-discover-extremely-low-temperature-antifreeze-metal/",
+      "summary": "一支國際研究團隊近期取得重大材料學突破，發現兩種以鈮與鈦為基礎的實驗合金，即使身處約 20 開爾文（相當於 - […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-24T01:30:27+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/19144538/New-study-reveals-metal-alloys-that-unexpectedly-resist-extreme-cold-staying-tough-at-253%C2%B0C-300x200.jpg"
+    },
+    {
+      "title": "AI 投資疑慮未消、油價飆漲，美股三大指數全面收黑",
+      "link": "https://finance.technews.tw/2026/10/24/us-major-indices-lower-ai-doubts-oil-prices-surge/",
+      "summary": "根據外電報導，受到 AI 投資回報疑慮及中東能源供應風險影響，美股週五（23 日）三大指數全面收黑。道瓊工業指 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-24T01:18:27+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/09/17173836/Financial-Chart-Dark-Blue-Candlestick-Graph-300x200.jpg"
+    },
+    {
+      "title": "輝達 AI 工廠點將！矽品 CPO 產能拚增 30 倍，欣興、京元電迎擴產爆發期",
+      "link": "https://technews.tw/2026/10/24/nvidia-names-4-supply-chain-boost-production-shipments-kyec-unimicron-spil/",
+      "summary": "輝達德國柏林 GTC 於 10 月 21 日登場，根據《財訊》雙週刊報導，輝達超大規模與高效能運算副總裁 Ia […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-24T01:00:12+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/22152058/GTC-Berlin-2026-Live-Updates-From-NVIDIA-CEO-Jensen-Huang%E2%80%99s-Keynote-300x200.jpg"
+    },
+    {
+      "title": "一手送健保、一手削弱勢？《老人福利法》大修背後的殘酷代價",
+      "link": "https://finance.technews.tw/2026/10/24/price-free-nhi-premiums-seniors-65-low-income-subsidies-dentures-lenses-gone-senior-benefits-healthcare-gap-vulnerable/?utm_source=flipboard&utm_content=other",
+      "summary": "TechNews 科技新報 立法院三讀通過《老人福利法》，未來將在排富前提下，由中央統一補助年滿 65 歲以上長輩健保費。 但這項修法可能反而衝擊中低收入長輩醫療權益，同時增加保費負擔的不公現象。 10月16日，立法院院會在國民黨團與民眾黨團主導下，三讀通過《老人福利法》第22條修正案，未來年滿65歲 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-24T00:47:04+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2024/10/14084925/joyce-romero-D7d7XTrTZOQ-unsplash.jpg"
+    },
+    {
+      "title": "Wi-Fi 也能當金屬探測器用！瑞典開發 AI 系統辨識隱藏手槍，準確率達 72.5%",
+      "link": "https://technews.tw/2026/10/24/researchers-train-ai-to-detect-concealed-handguns-using-wi-fi-signals/",
+      "summary": "瑞典國防研究局（FOI）開發出名為 WiFireNet 的實驗性人工智慧系統，嘗試用 Wi-Fi 訊號變化辨識 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-24T00:45:26+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/19112955/juhele-retractable-belt-stanchion-4326819_1920-300x150.png"
+    },
+    {
+      "title": "AI 成功法則：20% 靠技術、80% 靠轉型，打造對手難以複製的護城河",
+      "link": "https://finance.technews.tw/2026/10/24/rules-for-successful-ai-transformation/",
+      "summary": "企業對人工智慧（AI）的投資熱潮持續升溫。相關報告顯示，94% 的執行長表示即使短期回報不明朗，仍會持續加碼投 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-24T00:30:06+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/11/19103549/Gemini_Generated_Image_j389xmj389xmj389-300x218.jpg"
+    },
+    {
+      "title": "一手送健保、一手削弱勢？《老人福利法》大修背後的殘酷代價",
+      "link": "https://finance.technews.tw/2026/10/24/price-free-nhi-premiums-seniors-65-low-income-subsidies-dentures-lenses-gone-senior-benefits-healthcare-gap-vulnerable/",
+      "summary": "立法院三讀通過《老人福利法》，未來將在排富前提下，由中央統一補助年滿 65 歲以上長輩健保費。 但這項修法可能 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-24T00:00:37+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2024/10/14084925/joyce-romero-D7d7XTrTZOQ-unsplash-300x231.jpg"
+    },
+    {
+      "title": "補足印太運補缺口，美國空軍投資 Natilus 翼身融合貨機",
+      "link": "https://technews.tw/2026/10/24/usaf-invested-natilus-3-5-million-for-its-kona-bwb-aircraft/",
+      "summary": "美國空軍近期授予航空新創 Natilus 350 萬美元研發合約，支持旗下翼身融合貨機 KONA 開發，瞄準印 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T23:00:55+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23210419/Natilus-KONA-BWB-300x189.jpg"
+    },
+    {
+      "title": "【英特爾「機器人準備度差距」報告】邊緣 AI 算力是自動化規模的後盾，專用型 AMR 與工業手臂是產出翻倍主力",
+      "link": "https://techorange.com/2026/10/24/robotics-readiness-gap/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+      "summary": "英特爾（Intel）發布《機器人準備度差距報告》（The Robotics Readiness Gap Report），研究深入調查全球 800 位來自美國、中國、德國、日本、英國與韓國的企業高管、資訊科技（IT）主管，以及機器人專家；涵蓋製造業、零售業、醫療保健、國防與智慧城市等五大重要產業。 報告指出，過去大家印象中的機器人，大多是固定在工廠某個位置、只能重複做同一種動作…",
+      "source": "TechOrange 科技報橘",
+      "published": "2026-10-23T22:29:00+00:00",
+      "image": "https://techorange.com/app/uploads/2026/10/6701d25c6f4924c8-720x402.jpeg"
+    },
+    {
+      "title": "不用拿抹布也不必沾手！這款日亞迷你拖把乾濕兩用，桌面水漬隨手就能清。",
+      "link": "https://www.cool3c.com/article/253166",
+      "summary": "平常在家裡打掃，最常遇到的其實不是什麼大髒污，而是一些看到就會想順手弄掉的小地方。像桌面上的灰塵、浴室鏡子上的水氣，或是廚房檯面剛好濺到幾滴水，雖然都不是什麼嚴重的髒，但放著就是會覺得有點阿雜。 前陣子逛日本 Amazon 時剛好看到這款迷你拖把，覺得它的用途滿簡單，就是拿來處理這些平常容易遇到的小地方。乾的灰塵可以清，碰到水漬也能直接吸，浴室鏡面的結露、桌面水滴，甚至廚房周…",
+      "source": "Cool3c",
+      "published": "2026-10-23T16:05:00+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/35236ab5-ca46-4a05-9f2d-ad25ce0cbf27.jpg"
+    },
+    {
+      "title": "NASA 最新示警：北極海冰「冬夏雙減」結構脆化，2050 年前恐面臨夏季無冰危機",
+      "link": "https://technews.tw/2026/10/24/arctic-sea-ice-shrinking-crisis/",
+      "summary": "根據 NASA 與美國國家冰雪資料中心（NSIDC）的最新分析，北極海冰正遭遇嚴峻的氣候考驗，無論是冬季還是夏 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T16:00:58+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/19115510/Arctic-Sea-Ice-Shrinks-to-Its-2026-Minimum-300x227.jpg"
+    },
+    {
+      "title": "科幻場景成真，研究證實「雙太陽系統」有孕育穩定類地行星潛力",
+      "link": "https://technews.tw/2026/10/24/could-a-two-sun-world-become-reality/",
+      "summary": "宇宙中，雙太陽系統長期以來僅存在於科幻小說與電影的想像之中。然而，這類在天空中擁有兩個恆星的奇特世界，是否真的 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T16:00:47+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/08/08130702/Alpha-Centauri-A-Planet-300x169.jpg"
+    },
+    {
+      "title": "免吃藥開刀，研究證實客製化「微調走路角度」有效緩解膝關節痛",
+      "link": "https://technews.tw/2026/10/24/changing-walking-angle-can-relieve-arthritis/",
+      "summary": "美國最新研究指出，膝退化性關節炎患者若能根據自身狀況，微調走路時的足部角度，即使不依賴藥物或手術，也能有效減輕 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T16:00:04+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/12114056/mocap_knee_feature-300x169.jpeg"
+    },
+    {
+      "title": "精工將全球首款家用石英掛鐘重新詮釋，年誤差僅30秒",
+      "link": "https://www.cool3c.com/article/253343",
+      "summary": "精工Seiko的前身服部鐘錶店在1968年推出被譽為全球第一款家用石英掛鐘SPX-961，以遠優於當時機械中10倍以上的精度廣為鐘錶產業所知；精工以SPX-961為藍本，加入更為現代化的重新設計及全新石英機芯推出KX701S，年精度達正負30秒。KX701S建議將於11月下旬在日本推出，售價為27,500日幣首款家用石英掛鐘的現代化演藝▲SPX-961被譽為首款家用石英掛鐘…",
+      "source": "Cool3c",
+      "published": "2026-10-23T11:44:00+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/5cb27e3c-2722-4277-8557-a9acdfdf1061.webp"
+    },
+    {
+      "title": "日本免稅改「退款制」，11 月起先付含稅價出境再退稅",
+      "link": "https://finance.technews.tw/2026/10/23/japan-tax-free-system-changes-refund-model-november-pay-tax-inclusive-departure-refund/?utm_source=flipboard&utm_content=other",
+      "summary": "外國旅客在日本購物可享的消費稅免稅制度，將自 11 月 1 日起改變辦理方式，以防止免稅商品在日本國內遭轉售等不法情事。東京羽田機場已設置專用查驗設備。 日本電視台（Nippon TV）、朝日電視台及WWD JAPAN報導，外國旅客目前購物時可直接免除消費稅，11月1日起將改為先支付含稅價格、之後再辦 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T09:47:14+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2024/08/14093414/47977425431_e28710bccd_k.jpg"
+    },
+    {
+      "title": "泓德能源財務長無保請回，啟動職務代理機制",
+      "link": "https://technews.tw/2026/10/23/hongde-energy-cfo-released-without-bail-interim-management-mechanism-activated/?utm_source=flipboard&utm_content=other",
+      "summary": "回顧事件，檢調單位於 10 月 21 日前往泓德能源進行調查並調取相關資料。據媒體報導，花蓮地檢署偵辦約 7 年前花蓮縣鳳林鎮太陽光電場申請案，調查相關開發及行政程序是否涉及不法情事。泓德能源於 10 月 22 日發布重大訊息指出，花蓮地檢署向法院聲請羈押董事長謝源一、總經理周仕昌、財務長廖彥凱、工 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T09:47:14+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/04/07143102/498383.jpg"
+    },
+    {
+      "title": "日本擬設 AI 資安專隊，以模擬攻擊對抗 AI 網攻趨勢",
+      "link": "https://infosecu.technews.tw/2026/10/23/japan-to-reorganize-defense-research-around-ai-cyber/?utm_source=flipboard&utm_content=other",
+      "summary": "日本經濟產業省今日表示，將在獨立行政法人資訊處理推進機構（IPA）11 月設置一支專門團隊，用人工智慧（AI）模擬網路攻擊，藉由滲透測試找出系統漏洞，強化企業與產業界的資安防護。 每杯咖啡 65 元 總金額共新臺幣 0 元 關鍵字: AI 資安 , ipa , PHP 漏洞 , 日本",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T09:47:14+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2023/10/31184537/shutterstock_2310200129.jpg"
+    },
+    {
+      "title": "Volvo Cars 第三季由盈轉虧，營收重挫 22.6%、全球裁員 2,500 人",
+      "link": "https://finance.technews.tw/2026/10/23/volvo-cars-shares-slump-on-big-loss-2500-more-jobs-to-go/?utm_source=flipboard&utm_content=other",
+      "summary": "瑞典車廠富豪汽車（Volvo Cars）10 月 23 日公布第三季財報，受中國與美國市場走弱影響，業績由盈轉虧，營收也明顯下滑。公司第三季營收降至 668.96 億瑞典克朗，較 2025 年同期的 864.39 億瑞典克朗減少 22.6%；營業利益轉為虧損 55.92 億瑞典克朗，2025 年同期 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T09:47:14+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23162902/Volvo-EX60-Start-of-Production.jpg"
+    },
+    {
+      "title": "iPhone Duo 完美復刻任天堂 DS，摺起手機還能讓遊戲休眠",
+      "link": "https://technews.tw/2026/10/23/iphone-duo-nintendo-ds/?utm_source=flipboard&utm_content=other",
+      "summary": "隨著蘋果首款摺疊手機 iPhone Duo 正式上市，第三方開發者也開始探索摺疊螢幕的不同應用方式。知名復古遊戲模擬器 Delta 近日推出 2.0 版本，除了導入全新 Liquid Glass 介面設計，也針對 iPhone Duo 的摺疊型態進行最佳化，讓摺疊機瞬間變成任天堂 DS 掌上型遊戲機 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T09:47:14+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23162716/Delta-Retro-game-emulator-Nintendo-DS.jpeg"
+    },
+    {
+      "title": "Space Bunny 身分揭曉！MiniMax 公開 M3.1 Flash 428B 模型權重",
+      "link": "https://technews.tw/2026/10/23/minimax-m3-1-flash/?utm_source=flipboard&utm_content=other",
+      "summary": "中國 AI 新創 MiniMax 今日在 Hugging Face 與 ModelScope 公開程式設計用大型語言模型 M3.1 Flash 權重，證實之前匿名提供、處理逾 200 兆 Token 的「Space Bunny」就是它。授權採 MiniMax Community License，商用 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T09:47:13+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23172624/2026-10-23-17-25-29.jpg"
+    },
+    {
+      "title": "年初還被要求別碰，美國太空軍將向業界徵求地月空間現成技術",
+      "link": "https://technews.tw/2026/10/23/us-space-force-is-requesting-techs-for-cislunar-space-operations/?utm_source=flipboard&utm_content=other",
+      "summary": "隨著中國加快月地空間布局，美國太空軍準備發布兩項資訊請求書（RFI），尋求可迅速投入任務的商用設備與 AI 軟體，目標在 2029 年形成可部署能力。 太空軍負責先進計畫採購的普迪（Stephen Purdy）少將近日表示，年初他還被要求少談「月地空間」（Cislunar space），如今五角大廈高 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T09:47:13+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23173946/Cislunar-Space.jpg"
+    },
+    {
+      "title": "PHP 漏洞修補前四天已遭攻擊，AWS 揭駭客提前鎖定目標",
+      "link": "https://infosecu.technews.tw/2026/10/23/php-loopholes-aws/?utm_source=flipboard&utm_content=other",
+      "summary": "廣泛應用於網站與電子商務平台的程式語言 PHP，近日爆出兩項重大資安漏洞，然而攻擊活動可能比官方揭露時間更早。亞馬遜雲端服務（AWS）旗下威脅情報團隊 Amazon Threat Intelligence 發現，早在 10 月 17 日就已偵測到駭客針對 PHP2Shell 漏洞發動攻擊嘗試，比 1 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T09:47:13+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/08/28114121/hacker-8003400_1280.jpg"
+    },
+    {
+      "title": "研究：解讀人體微生物菌相，有助看穿疾病提早預防",
+      "link": "https://technews.tw/2026/10/23/human-microbiome-deciphering-early-disease-detection-prevention/?utm_source=flipboard&utm_content=other",
+      "summary": "人體內外棲息數以萬億計微生物，不僅參與生理機能調節，國家衛生研究院研究發現，有些細菌可能是好幫手，是示警心臟、腎臟及肺部等健康狀態「前哨站」，透過分析微菌相變化，有助從被動吃藥走向主動預防。 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T09:47:13+00:00",
+      "image": "https://ic-cdn.flipboard.com/technews.tw/348b8918471494eddd728ed608ccac1bd4deeb22/_xlarge.jpeg"
+    },
+    {
+      "title": "Space Bunny 身分揭曉！MiniMax 公開 M3.1 Flash 428B 模型權重",
+      "link": "https://technews.tw/2026/10/23/minimax-m3-1-flash/",
+      "summary": "中國 AI 新創 MiniMax 今日在 Hugging Face 與 ModelScope 公開程式設計用大 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T09:40:47+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23172624/2026-10-23-17-25-29-300x134.jpg"
+    },
+    {
+      "title": "年初還被要求別碰，美國太空軍將向業界徵求地月空間現成技術",
+      "link": "https://technews.tw/2026/10/23/us-space-force-is-requesting-techs-for-cislunar-space-operations/",
+      "summary": "隨著中國加快月地空間布局，美國太空軍準備發布兩項資訊請求書（RFI），尋求可迅速投入任務的商用設備與 AI 軟 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T09:40:26+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23173946/Cislunar-Space-300x200.jpg"
+    },
+    {
+      "title": "日本免稅改「退款制」，11 月起先付含稅價出境再退稅",
+      "link": "https://finance.technews.tw/2026/10/23/japan-tax-free-system-changes-refund-model-november-pay-tax-inclusive-departure-refund/",
+      "summary": "外國旅客在日本購物可享的消費稅免稅制度，將自 11 月 1 日起改變辦理方式，以防止免稅商品在日本國內遭轉售等 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T09:30:44+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2024/08/14093414/47977425431_e28710bccd_k-300x200.jpg"
+    },
+    {
+      "title": "彰化攜手華碩推動AI數位淨零轉型 助企業邁向智慧製造",
+      "link": "https://www.technice.com.tw/issues/ai/328945/",
+      "summary": "為協助彰化在地企業因應數位轉型、淨零排放等挑戰，彰化縣政府舉辦「彰化縣AI數位淨零轉型論壇」，攜手華碩科技、緯育TibaM，集結六大領域專業顧問，透過實務案例分享、政策資源介紹及企業一對一問診，協助在地企業掌握AI應用趨勢，找出符合自身需求的轉型方向，期盼透過公私協力，加速彰化產業邁向智慧製造與永續發展。",
+      "source": "科技島 TechNice",
+      "published": "2026-10-23T09:30:02+00:00",
+      "image": "https://www.technice.com.tw/wp-content/uploads/2026/10/11_20261022093522805_02_AI淨零論壇_tmp.jpg",
+      "collection_scope": "technice-latest-v1"
+    },
+    {
+      "title": "小米Redmi Watch 5 Lite特價1295元 1.96吋螢幕、內建GPS、續航力18天",
+      "link": "https://www.cool3c.com/article/253337",
+      "summary": "小米智慧手錶產品線完整，其中Redmi Watch 5 Lite屬於該系列的入門機種，既具備健康偵測、運動偵測等常見且實用的功能，在一般使用模式下也可支援長達18天續航時間。這款手錶採用1.96吋方形螢幕，以觸控為主，側邊有1個實體按鍵可以進行快捷操作。另外它內建獨立的GNSS模組，支援GPS等衛星定位，即使沒有帶手機也能追蹤定位，是入門級手錶較少見的功能。Redmi Wat…",
+      "source": "Cool3c",
+      "published": "2026-10-23T09:16:00+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/74379e21-03f4-4f76-a0d0-337fd815388b.webp"
+    },
+    {
+      "title": "美國肯德基分手百事、轉投可口可樂！40年老交情，為何留不住一杯汽水？",
+      "link": "https://www.bnext.com.tw/article/92781/kfc-pepsi-coca-cola-switch",
+      "summary": "合作近40年的肯德基與百事在美國分手，2027年起約3,700家門市改供可口可樂。飲料是速食業的高毛利武器，這場換約揭開兩大巨頭的通路攻防。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T09:11:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2019-05/img-1557908336-97045.jpg?w=900&output=webp"
+    },
+    {
+      "title": "Sigma將在2027年公布CONTEMPORARY 50mm F1.4 CL DG高質感定焦鏡，著重柔和散景的類比感",
+      "link": "https://www.cool3c.com/article/253336",
+      "summary": "日本影像品牌Sigma現任執行長山木和人執掌後不僅將Sigma昇華為不遜於傳統相機品牌的光學大廠，同時帶有浪漫個性的山木和人也在推出高品質鏡頭的同時追求自己理想的影像願景，諸如fp系列與BF相機即是很好的例子，同時在Sigma推出主打金屬加工工藝的BF後，更推出主打高質感金屬鏡筒、緊湊設計與類比氣氛的I系列鏡頭；在Sigma宣布BF2相機的同時，也預告將於2027年初推出CO…",
+      "source": "Cool3c",
+      "published": "2026-10-23T09:08:00+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/85bc880c-378a-4533-a1a3-7621c7d29265.webp"
+    },
+    {
+      "title": "Sony INZONE H9 II 攜手 Fnatic 推橘黑聯名配色！INZONE E9 琉璃紫同步亮相，限時優惠 3,590 元起",
+      "link": "https://www.techbang.com/posts/134386-sony-inzone-h9-ii-fnatic-edition-and-e9-launch?utm_source=flipboard&utm_content=other",
+      "summary": "Sony INZONE H9 II 推出 Fnatic 聯名橘黑配色，INZONE E9 同步新增琉璃紫版本。兩款電競耳機延續 FPS 音效與隔音特色，11 月 22 日前限時優惠 3,590 元起。Sony 近日宣布為旗下 INZONE …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T09:00:00+00:00",
+      "image": "https://cdn2.techbang.com/system/images/797189/original/02749fcd1583fed7e522e00940f1a113.png?1792700372"
+    },
+    {
+      "title": "泓德能源財務長無保請回，啟動職務代理機制",
+      "link": "https://technews.tw/2026/10/23/hongde-energy-cfo-released-without-bail-interim-management-mechanism-activated/",
+      "summary": "泓德能源捲入花蓮光電開發案調查，司法程序出現最新進展。泓德能源今（23）日發布聲明指出，董事長謝源一、總經理周 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T08:52:11+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/04/07143102/498383-300x200.jpg"
+    },
+    {
+      "title": "日本擬設 AI 資安專隊，以模擬攻擊對抗 AI 網攻趨勢",
+      "link": "https://infosecu.technews.tw/2026/10/23/japan-to-reorganize-defense-research-around-ai-cyber/",
+      "summary": "日本經濟產業省今日表示，將在獨立行政法人資訊處理推進機構（IPA）11 月設置一支專門團隊，用人工智慧（AI） […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T08:50:25+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2023/10/31184537/shutterstock_2310200129-300x169.jpg"
+    },
+    {
+      "title": "PHP 漏洞修補前四天已遭攻擊，AWS 揭駭客提前鎖定目標",
+      "link": "https://infosecu.technews.tw/2026/10/23/php-loopholes-aws/",
+      "summary": "廣泛應用於網站與電子商務平台的程式語言 PHP，近日爆出兩項重大資安漏洞，然而攻擊活動可能比官方揭露時間更早。 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T08:49:01+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/08/28114121/hacker-8003400_1280.jpg"
+    },
+    {
+      "title": "Sigma推出FP2全片幅相機，一鍵切換靜態照片與專業錄影介面",
+      "link": "https://www.cool3c.com/article/253334",
+      "summary": "Sigma繼2021年推出fp L全片幅相機後，於2025年推出主打靜態攝影與造機工藝的BF，再於2026年10月23日宣布小型全片幅相機FP2，將重心聚焦在小型模組化設計及影片錄製、靜態拍攝雙用功能，與訴求專注於靜態拍攝與造型美感的BF區隔，同時名稱自小寫的fp改為FP，也許暗示雖為同一系列但在設計理念已略有不同。Sigma FP2單機建議售價為346,500日幣，預計於2…",
+      "source": "Cool3c",
+      "published": "2026-10-23T08:47:00+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/313a8974-b55b-4a6b-b5cf-d276cd06ea23.webp"
+    },
+    {
+      "title": "AI高階PCB競爭升級 臻鼎總經理簡禎富：全球量產能力成決勝關鍵",
+      "link": "https://www.technice.com.tw/issues/ai/328942/",
+      "summary": "全球PCB領導大廠臻鼎科技受邀參加2026 TPCA Show「AI 賦能・全球佈局趨勢論壇」，由臻鼎總經理簡禎富與國際材料大廠啟諾迪（Qnity）、設備大廠科磊（KLA）高階主管同台，以「從技術突破到全球量產，強化AI時代的供應鏈韌性」為主題，探討AI浪潮下高階PCB產業的發展趨勢。",
+      "source": "科技島 TechNice",
+      "published": "2026-10-23T08:45:49+00:00",
+      "image": "https://www.technice.com.tw/wp-content/uploads/2026/10/1792742244939.jpg",
+      "collection_scope": "technice-latest-v1"
+    },
+    {
+      "title": "Volvo Cars 第三季由盈轉虧，營收重挫 22.6%、全球裁員 2,500 人",
+      "link": "https://finance.technews.tw/2026/10/23/volvo-cars-shares-slump-on-big-loss-2500-more-jobs-to-go/",
+      "summary": "瑞典車廠富豪汽車（Volvo Cars）10 月 23 日公布第三季財報，受中國與美國市場走弱影響，業績由盈轉 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T08:40:21+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23162902/Volvo-EX60-Start-of-Production.jpg"
+    },
+    {
+      "title": "不列顛王回歸！傳奇RPG《創世紀》將擺脫EA冷凍庫 原創者引用美著作權法強勢收回",
+      "link": "https://www.techbang.com/posts/134331-ultima-creator-reclaims-ip-from-ea?utm_source=flipboard&utm_content=other",
+      "summary": "傳奇製作人理查蓋瑞特宣布，將引用法律於2027年零成本收回被EA冷凍多年的創世紀版權。此舉讓創世紀這款RPG鼻祖重燃生機，更為創作者如何合法奪回作品版權樹立重要先例，引發全球遊戲業界高...催生《創世紀》（Ultima）系列的傳奇遊戲製作人理查．蓋瑞特（Richard …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T08:30:00+00:00",
+      "image": "https://cdn0.techbang.com/system/images/797006/original/85f08d0164f180c05791407066781895.jpg?1792571380"
+    },
+    {
+      "title": "iPhone Duo 完美復刻任天堂 DS，摺起手機還能讓遊戲休眠",
+      "link": "https://technews.tw/2026/10/23/iphone-duo-nintendo-ds/",
+      "summary": "隨著蘋果首款摺疊手機 iPhone Duo 正式上市，第三方開發者也開始探索摺疊螢幕的不同應用方式。知名復古遊 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T08:29:31+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23162716/Delta-Retro-game-emulator-Nintendo-DS.jpeg"
+    },
+    {
+      "title": "美國限制外國機器人反傷本土市場？IDC 估人形機器人 2030 年營收較預期少 58%",
+      "link": "https://techorange.com/2026/10/23/fcc-grants-intel-waiver-foreign-made-robotic-devices/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+      "summary": "美國聯邦通訊委員會（FCC）限制外國製造的先進機器人新機型進入美國市場，可能對美國人形機器人市場造成衝擊。《Forbes》近日報導指出，這項規定原本是為了保護美國機器人產業，但根據市場研究機構 IDC 的最新研究，人形機器人反而會是受衝擊最大的類別。IDC 預測，到 2030 年，美國人形機器人市場的營收將比未實施限制的基準情境低 58%；相較之下，家用清潔機器人的差距則為…",
+      "source": "TechOrange 科技報橘",
+      "published": "2026-10-23T08:28:17+00:00",
+      "image": "https://techorange.com/app/uploads/2026/10/0f75a2b4837f1413-720x405.jpg"
+    },
+    {
+      "title": "TOYOTA賣車女王陳茹芬：把自己當一門生意，才能賺到錢",
+      "link": "https://www.managertoday.com.tw/articles/view/73114",
+      "summary": "TOYOTA超級業務陳茹芬在近30歲時才轉行。在那之前，她做過會計、祕書、業務助理，她認為，「做業務可以賺到超乎你預期的錢，而且天花板在哪，是看你的實力到哪。」",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T08:28:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/wfvw-1792390262.jpg?w=900&output=webp"
+    },
+    {
+      "title": "研究：解讀人體微生物菌相，有助看穿疾病提早預防",
+      "link": "https://technews.tw/2026/10/23/human-microbiome-deciphering-early-disease-detection-prevention/",
+      "summary": "人體內外棲息數以萬億計微生物，不僅參與生理機能調節，國家衛生研究院研究發現，有些細菌可能是好幫手，是示警心臟、 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T08:20:05+00:00",
+      "image": "https://ic-cdn.flipboard.com/technews.tw/348b8918471494eddd728ed608ccac1bd4deeb22/_xlarge.jpeg"
+    },
+    {
+      "title": "iPhone Duo 才剛開賣，二代原型機就傳導入螢幕下 Face ID",
+      "link": "https://technews.tw/2026/10/23/iphone-duo-face-id/?utm_source=flipboard&utm_content=other",
+      "summary": "蘋果首款摺疊手機 iPhone Duo 今日開賣，不過日前已有諸多外國媒體體驗後指出，仍希望此一機款能支援 Face ID 功能（iPhone Duo 提供整合在側邊按鈕的 Touch ID 指紋辨識功能）；而現在就有最新的消息指稱，蘋果正在測試搭載螢幕下 Face ID 技術的 iPhone Du …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T08:14:25+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23154641/Apple-iPhone-Duo-optimized-apps-two-up.jpeg"
+    },
+    {
+      "title": "陳立武堅持「有訂單才擴產」，英特爾美國兩座新廠同步加速",
+      "link": "https://technews.tw/2026/10/23/intel-advances-chip-plants-as-ai-demand-surges/?utm_source=flipboard&utm_content=other",
+      "summary": "英特爾（Intel）延宕多時的美國晶圓廠擴建計畫，近日再度出現明顯進展。公司表示，位於亞利桑那州鳳凰城附近 Ocotillo 園區的 Fab 62 已開始安裝生產設備，這是晶圓廠投產前的重要最後階段之一；同時，俄亥俄州新奧爾巴尼的建廠工程也已完成首根大型屋頂桁架安裝，顯示該案正重新向前推進。 根據英特 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T08:14:25+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23153137/An-American-flag-hangs-from-Intel%E2%80%99s-Fab-62-in-Arizona.jpg"
+    },
+    {
+      "title": "川普國會危機致台股 AI 多頭變天？法人曝逢低撿便宜靠這三類基金",
+      "link": "https://finance.technews.tw/2026/10/23/congressional-control/?utm_source=flipboard&utm_content=other",
+      "summary": "美國期中選舉進入倒數，國會控制權可能重新洗牌，市場擔憂民主黨若拿下國會多數席次，恐牽制川普政府施政，甚至衝擊 AI 資料中心建設，讓高度仰賴美國科技巨頭資本支出的台股面臨考驗。鉅亨買基金表示，選舉結果確實可能加劇短線震盪，但國會變天不等於 AI 投資熱潮終結。 台股為何容易受到美國期中選舉牽動？羅瑤庭 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T08:14:25+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/04/07153449/GnkEAgYWsAAupoT.jpg"
+    },
+    {
+      "title": "強化對俄嚇阻，丹麥將採購 JSM 與 Anthem 長程飛彈",
+      "link": "https://technews.tw/2026/10/23/danmark-decided-to-buy-jsm-and-anthem-misslies-for-deterrting-russia/?utm_source=flipboard&utm_content=other",
+      "summary": "丹麥國防部 10 月 22 日宣布，將採購挪威康斯堡（Kongsberg）的聯合打擊飛彈（JSM），以及美國軍工新創 Covenant 開發的 Anthem 陸射巡弋飛彈，透過空中與地面兩種發射方式，強化丹麥與北約的長程精準打擊及嚇阻能力。 丹麥國防部長布魯斯（Jeppe Bruus）表示，這兩項採購 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T08:14:25+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23150820/JSM.jpg"
+    },
+    {
+      "title": "576 顆 GPU 合體成一顆巨型 GPU，輝達揭露 Rubin Ultra NVL576 架構",
+      "link": "https://technews.tw/2026/10/23/nvidia-to-connect-576-rubin-ultra-gpus-using-cpo-to-create-one-giant-gpu/?utm_source=flipboard&utm_content=other",
+      "summary": "輝達（NVIDIA）於 10 月 22 日的 OCP 2026 大會上進一步揭露了 Rubin Ultra 平台的規劃，宣布將利用新一代 CPO（共同封裝光學）技術與 NVLink 7，將 576 顆 GPU 串接成一個單一的運算域。其目標是讓整個液冷機櫃的運作模式如同一顆巨型 GPU，並主打「全球 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T08:14:24+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/03/19034632/GTC2025-7.png"
+    },
+    {
+      "title": "特斯拉 Roadster 2028 年量產，火箭式推進器帶動車用電子新想像",
+      "link": "https://technews.tw/2026/10/23/tesla-roadster-2028-mass-production-rocket-thrusters-drive-new-imagination-automotive-electronics/?utm_source=flipboard&utm_content=other",
+      "summary": "特斯拉新一代 Roadster 電動跑車導入創新設計，除了追求更高性能，也將冷氣體推進器（Cold Gas Thruster）等技術帶入車用市場。據供應鏈業者透露，隨著電動車朝高性能、智慧化發展，車輛對感測、監控及電子控制系統的要求將進一步提高，帶動功率半導體與相關電子零組件的潛在應用商機。 據外電報 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T08:14:24+00:00",
+      "image": "https://ic-cdn.flipboard.com/technews.tw/d4651d4041983522ea93fdabb6abc304d8e91f5f/_xlarge.jpeg"
+    },
+    {
+      "title": "20 個月靠 AI 出書 371 本大賺惹議，南非作家為己發聲",
+      "link": "https://technews.tw/2026/10/23/south-african-author-ai-books-371-20-months-profit-controversy-speaks-out/?utm_source=flipboard&utm_content=other",
+      "summary": "自 2025 年 2 月以來，南非作家「哈特」（Coral Hart）藉助人工智慧（AI）已出版多達 371 本書。儘管面對排山倒海批評甚至人身威脅，她依然堅定捍衛這種創作模式。 面對外界屢屢指責她製造「AI餿水」（AI slop，指低劣的AI生成文字、影音或圖像），哈特搬出最現實的評斷標準：「書賣得 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T08:14:24+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23151251/cropped-image-1.jpg"
+    },
+    {
+      "title": "Arc 瀏覽器 12/22 終止服務，開發商推薦 Dia 接棒",
+      "link": "https://technews.tw/2026/10/23/the-browser-company-to-sunset-arc-on-december-22/?utm_source=flipboard&utm_content=other",
+      "summary": "Arc 瀏覽器的開發商 The Browser Company 已決定，今年 12 月 22 日將讓 Arc 走入歷史，並鼓勵使用者轉往另一款 Dia 瀏覽器來使用。 The Browser Company 去年即停止開發 Arc，僅做基本維護，轉而聚焦另一款以 AI 優先的 Dia 瀏覽器。自那時起 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T08:14:24+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/05/29114437/AI-browser_Dia_The-Browser-Company.jpg"
+    },
+    {
+      "title": "Acoustune全新XHS耳機產品線首款產品XHS1400登場，結合HSX可拆式系統與傳承HS1300SS音色",
+      "link": "https://www.cool3c.com/article/253333",
+      "summary": "Acoustune宣布全新耳機產品線XHS，並公布首款XHS產品線產品XHS1400；XHS系列結合HSX系列可拆式模組化設計，並強調傳承自HS1300SS的音色，以全新方式詮釋Acoustune經典風格，但同時腔室模組亦可作為HSX1001的生及配件，搭配HSX1001 Jun-疾-的M:01模組化身真無線耳機。XHS1400提供黑色與金色二色，建議售價58,300日幣結合…",
+      "source": "Cool3c",
+      "published": "2026-10-23T08:12:00+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/c9b839e5-41ed-4ad1-a28f-074ca9504b31.webp"
+    },
+    {
+      "title": "手機背面磁吸閱讀器 3.7吋閱星曈X3體積更小、PPI提升至259、重量僅58g",
+      "link": "https://www.cool3c.com/article/253332",
+      "summary": "電子書閱讀器除了像平板越來越大之外，有廠商另闢蹊徑縮小化。閱星曈X3是款3.7吋電子書閱讀器，重量也只有58g相當輕盈，能磁吸貼在手機背面隨時翻過來看個幾頁小說。比起去年推出的閱星曈X4螢幕更小、PPI更高、重量更輕，但同樣沒有前光照明、沒有觸控只能透過實體按鍵操作。對於想要低調偶爾看個幾頁小說的人來說，這是個相當有趣的產品，而且價格也不貴只要1280元。3.7吋超迷你閱讀器…",
+      "source": "Cool3c",
+      "published": "2026-10-23T08:11:00+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/3b6d295e-f50a-4b74-a066-0434721b8093.webp"
+    },
+    {
+      "title": "576 顆 GPU 合體成一顆巨型 GPU，輝達揭露 Rubin Ultra NVL576 架構",
+      "link": "https://technews.tw/2026/10/23/nvidia-to-connect-576-rubin-ultra-gpus-using-cpo-to-create-one-giant-gpu/",
+      "summary": "輝達（NVIDIA）於 10 月 22 日的 OCP 2026 大會上進一步揭露了 Rubin Ultra 平 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T08:00:47+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/03/19034632/GTC2025-7.png"
+    },
+    {
+      "title": "iPhone Duo 到底會不會發熱？首波媒體評測彙整：的確會燙手甚至卡頓，重度使用者要留意",
+      "link": "https://www.techbang.com/posts/134381-iphone-duo-thermal-test-overheating-face-time",
+      "summary": "iPhone Duo 散熱評測揭曉！實測顯示 iPhone Duo 高負載下發熱明顯，散熱表現略遜於 iPhone 18 Pro Max。雖然均熱板加持，但其效能穩定度仍受限，導致 i...根據 MacRumors 報導，彙整外媒的評價。首批媒體對iPhone Duo …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T08:00:00+00:00",
+      "image": "https://cdn1.techbang.com/system/excerpt_images/134381/original/a03df4c3604b7c0d6e1ddf898bb21f83.jpg?1792664652"
+    },
+    {
+      "title": "華為與 DeepSeek 聯手挑戰 NVIDIA，SemiAnalysis 實測：軟體接近前沿、硬體仍落後",
+      "link": "https://techorange.com/2026/10/23/huawei-deepseek-ascend/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+      "summary": "中國 AI 新創 DeepSeek（深度求索）在 9 月 30 日為 6 個儲存庫釋出華為昇騰（Ascend）晶片支援，涵蓋 DeepGEMM、FlashMLA 等自家工具，以及第三方開源框架 TileLang。其中部分工具在 2025 年 DeepSeek「開源週」釋出時，只支援 NVIDIA 晶片。半導體研究機構 SemiAnalysis 在 10 月 21 日發布的報告…",
+      "source": "TechOrange 科技報橘",
+      "published": "2026-10-23T07:57:25+00:00",
+      "image": "https://techorange.com/app/uploads/2026/10/f092bc91f13553ae-720x486.jpg"
+    },
+    {
+      "title": "Acoustune推出SA2200 USB小尾巴，繼承AS2002調音進行升級",
+      "link": "https://www.cool3c.com/article/253330",
+      "summary": "日系音響品牌Acoustune宣布推出第二款USB小尾巴AS2200，主打延續首款USB小尾巴產品AS2002的調音，在音質與操作性進行升級，並搭載可辨識解碼與輸出狀況的小型OLED螢幕，並提供6種不同風格的數位濾波器可供選擇，當然具備3.5mm單端立體聲與4.4mm平衡輸出也是必備的。Acoustune AS2200建議售價52,800日幣，台灣上市計畫待代理商公布內部元件…",
+      "source": "Cool3c",
+      "published": "2026-10-23T07:48:00+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/4e8d7a9a-8c1f-41f9-b0e5-0ba6663dc8a6.webp"
+    },
+    {
+      "title": "iPhone Duo 才剛開賣，二代原型機就傳導入螢幕下 Face ID",
+      "link": "https://technews.tw/2026/10/23/iphone-duo-face-id/",
+      "summary": "蘋果首款摺疊手機 iPhone Duo 今日開賣，不過日前已有諸多外國媒體體驗後指出，仍希望此一機款能支援 F […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T07:47:07+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23154641/Apple-iPhone-Duo-optimized-apps-two-up.jpeg"
+    },
+    {
+      "title": "衣服還沒買，就能先收租金？ Trace 如何用「買前測試需求」翻轉二手時尚市場｜Meet創業小聚",
+      "link": "https://meet.bnext.com.tw/articles/view/53591",
+      "summary": "美國二手交易平台 Trace 將交易的起點往前移：在消費者決定購買新品之前，就先確認市場上是否有人願意租用或購買這件商品。",
+      "source": "Meet 創業小聚",
+      "published": "2026-10-23T07:46:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/mcif-1792742474.png/w_900,output_webp"
+    },
+    {
+      "title": "陳立武堅持「有訂單才擴產」，英特爾美國兩座新廠同步加速",
+      "link": "https://technews.tw/2026/10/23/intel-advances-chip-plants-as-ai-demand-surges/",
+      "summary": "英特爾（Intel）延宕多時的美國晶圓廠擴建計畫，近日再度出現明顯進展。公司表示，位於亞利桑那州鳳凰城附近 O […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T07:40:51+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23153137/An-American-flag-hangs-from-Intel%E2%80%99s-Fab-62-in-Arizona-300x169.jpg"
+    },
+    {
+      "title": "別急著點「請立即更新」 PHP兩大漏洞恐成駭客入侵破口",
+      "link": "https://www.technice.com.tw/techmanage/infosecurity/328938/",
+      "summary": "數位發展部資通安全署表示，開源伺服器端腳本語言PHP安全團隊21日晚間 釋出緊急安全更新，修補兩項嚴重漏洞。TrendAI™指出，攻擊者可能利用漏洞，在未經身分驗證的情況下遠端執行惡意程式碼，造成資料遭竊、檔案遭竄改或服務中斷。企業應立即盤點PHP使用情形，優先修補對外開放的服務，並確認更新實際生效、持續追查入侵跡象，降低資安風險。",
+      "source": "科技島 TechNice",
+      "published": "2026-10-23T07:32:23+00:00",
+      "image": "https://www.technice.com.tw/wp-content/uploads/2026/01/unnamed-4-1.jpg",
+      "collection_scope": "technice-latest-v1"
+    },
+    {
+      "title": "特斯拉 Roadster 2028 年量產，火箭式推進器帶動車用電子新想像",
+      "link": "https://technews.tw/2026/10/23/tesla-roadster-2028-mass-production-rocket-thrusters-drive-new-imagination-automotive-electronics/",
+      "summary": "特斯拉新一代 Roadster 電動跑車導入創新設計，除了追求更高性能，也將冷氣體推進器（Cold Gas T […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T07:31:43+00:00",
+      "image": "https://ic-cdn.flipboard.com/technews.tw/d4651d4041983522ea93fdabb6abc304d8e91f5f/_xlarge.jpeg"
+    },
+    {
+      "title": "20 個月靠 AI 出書 371 本大賺惹議，南非作家為己發聲",
+      "link": "https://technews.tw/2026/10/23/south-african-author-ai-books-371-20-months-profit-controversy-speaks-out/",
+      "summary": "自 2025 年 2 月以來，南非作家「哈特」（Coral Hart）藉助人工智慧（AI）已出版多達 371 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T07:30:42+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23151251/cropped-image-1.jpg"
+    },
+    {
+      "title": "比智慧手錶更方便？Natura推出AI智慧戒指，主打個人化助理，能學習你的生活習慣",
+      "link": "https://www.techbang.com/posts/134006-natura-smart-ring-ai-health-monitoring?utm_source=flipboard&utm_content=other",
+      "summary": "Natura 智慧戒指正式亮相，這款穿戴裝置內建先進的 AI 代理，不僅能全天候進行健康監測，更透過 AI 代理學習個人習慣以提供精準建議。Natura …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T07:30:00+00:00",
+      "image": "https://cdn0.techbang.com/system/images/795722/original/229a8189509b926f1a54f698ce98ce7b.jpg?1791608309"
+    },
+    {
+      "title": "川普國會危機致台股 AI 多頭變天？法人曝逢低撿便宜靠這三類基金",
+      "link": "https://finance.technews.tw/2026/10/23/congressional-control/",
+      "summary": "美國期中選舉進入倒數，國會控制權可能重新洗牌，市場擔憂民主黨若拿下國會多數席次，恐牽制川普政府施政，甚至衝擊 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T07:27:45+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/04/07153449/GnkEAgYWsAAupoT-300x200.jpg"
+    },
+    {
+      "title": "HTC公布掌中AI夥伴Vivee，雞蛋大小陪伴用戶透過AI探索世界及互動",
+      "link": "https://www.cool3c.com/article/253328",
+      "summary": "HTC宣布推出名為Vivee的掌中AI夥伴，標榜結合個性化、娛樂與收藏玩具的特性，宛若雞蛋大小便於放在桌面甚至掛在包包上，透過AI技術與視覺動畫效果陪伴用戶探索世界與互動。HTC Vivee於特定市場先行推出，預計2026年12月初出貨，建議售價為119美金，於2026年11月30日前預購促銷價為99美金，台灣上市計畫未定，但已設有專屬介紹頁面並顯示Coming Soon。將…",
+      "source": "Cool3c",
+      "published": "2026-10-23T07:23:00+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/f88d559d-f6f3-46b6-bbeb-3c0dbbfc3d52.webp"
+    },
+    {
+      "title": "強化對俄嚇阻，丹麥將採購 JSM 與 Anthem 長程飛彈",
+      "link": "https://technews.tw/2026/10/23/danmark-decided-to-buy-jsm-and-anthem-misslies-for-deterrting-russia/",
+      "summary": "丹麥國防部 10 月 22 日宣布，將採購挪威康斯堡（Kongsberg）的聯合打擊飛彈（JSM），以及美國軍 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T07:09:20+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23150820/JSM.jpg"
+    },
+    {
+      "title": "網頁直接順跑《戰神》！開源神技「PSP Web Recomp」免安裝模擬器 4倍畫質、60幀畫面流暢度驚呆玩家",
+      "link": "https://www.techbang.com/posts/134303-psp-web-recomp-god-of-war-browser-60fps?utm_source=flipboard&utm_content=other",
+      "summary": "開源專案 PSP Web Recomp 透過靜態重編譯技術，讓戰神在瀏覽器能以四倍解析度流暢執行。 PSP Web Recomp 藉由靜態重編譯擺脫模擬器效能包袱，以 60 FPS …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T07:00:00+00:00",
+      "image": "https://cdn2.techbang.com/system/images/796912/original/640f826bb6113a92ff69fe2195d3ef22.jpg?1792525578"
+    },
+    {
+      "title": "AMD Medusa Point系列APU內顯將由RDNA 3.5與RDNA 4m並存",
+      "link": "https://www.cool3c.com/article/253327",
+      "summary": "AMD預期在2027年推出基於Zen 6 CPU架構的Medusa系列處理器，根據AMD HIP光線追蹤庫v3.2.0的資料顯示，AMD的Medusa Point系列APU將同時提供RDNA 3.5與RDNA 4m兩種整合型GPU。中高階採用新RDNA 4mGPU架構、入門級沿用RDNA 3.5▲Medusa Point將同時提供兩種GPU架構，僅高階產品才會使用RDNA 4…",
+      "source": "Cool3c",
+      "published": "2026-10-23T06:59:00+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/07/b43a5b3c-8e87-450e-aeea-43669a9e17fa.webp"
+    },
+    {
+      "title": "說好的AI換機潮呢？全球PC出貨暴跌20%創史上最慘第三季，AI反而讓電腦貴了兩成",
+      "link": "https://www.bnext.com.tw/article/92616/ai-pc-shipments-crash-2026-q3-ram-shortage",
+      "summary": "AI PC的換機潮沒有到來。全球PC出貨第三季暴跌20.1%，創IDC史上最大跌幅。AI搶走記憶體推升售價近兩成，戴爾1月已收回AI行銷。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T06:47:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2024-06/img-1717578246-89574.jpg?w=900&output=webp"
+    },
+    {
+      "title": "NBA 2K27超車惡靈古堡9 登頂美國2026年最暢銷遊戲",
+      "link": "https://www.technice.com.tw/techmanage/game/328935/",
+      "summary": "《惡靈古堡9：安魂曲》稍早推出後，迅速成為2026年初的重要熱門遊戲，並為卡普空的生存恐怖動作系列創下多項新紀錄。在美國市場，該作原本是今年最暢銷的遊戲，但隨著2026年接近尾聲，勢必面臨激烈競爭。如今，《NBA 2K27》已取代《惡靈古堡9：安魂曲》的位置，迅速超越這款卡普空的暢銷作品。",
+      "source": "科技島 TechNice",
+      "published": "2026-10-23T06:44:51+00:00",
+      "image": "https://www.technice.com.tw/wp-content/uploads/2026/10/messageImage_1792736080084.jpg",
+      "collection_scope": "technice-latest-v1"
+    },
+    {
+      "title": "Arc 瀏覽器 12/22 終止服務，開發商推薦 Dia 接棒",
+      "link": "https://technews.tw/2026/10/23/the-browser-company-to-sunset-arc-on-december-22/",
+      "summary": "Arc 瀏覽器的開發商 The Browser Company 已決定，今年 12 月 22 日將讓 Arc […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T06:44:21+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/05/29114437/AI-browser_Dia_The-Browser-Company.jpg"
+    },
+    {
+      "title": "Uber、Bolt將納管，「一車多隊」同步鬆綁！如何牽動平台與車隊分潤？",
+      "link": "https://www.bnext.com.tw/article/92771/2026-uber-brought-under-regulation",
+      "summary": "交通部預告Uber、Bolt等叫車平台納入管理，最快11月底上路，並鬆綁「一車多車隊」。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T06:38:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2023-08/img-1693211259-52127.jpg?w=900&output=webp"
+    },
+    {
+      "title": "Tesla 自建地圖補強 FSD，純視覺自駕路線再受檢視 - INSIDE",
+      "link": "https://www.inside.com.tw/article/42716-tesla-building-own-maps-fsd-after-mocking-maps",
+      "summary": "Tesla 將整合車隊資料以建構自有地圖，旨在改善 FSD 於速限辨識、停車與路線選擇之效能。此新導航架構將逐步部署，以提升系統可靠性與使用者體驗。",
+      "source": "INSIDE 硬塞的網路趨勢觀察",
+      "published": "2026-10-23T06:35:19+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/social/1/image/2024/07/05a459be-2ba2-4868-8df6-b5a03cf1abcf.jpg"
+    },
+    {
+      "title": "川普致電提議大西洋更名，遭 Google 執行長拒絕作罷",
+      "link": "https://technews.tw/2026/10/23/trump-says-he-called-googles-ceo-to-discuss-renaming-atlantic-ocean/?utm_source=flipboard&utm_content=other",
+      "summary": "美國總統川普表示，他曾致電 Google 執行長皮查伊，討論將大西洋改名一事，但在皮查伊告訴他「請不要要求我們這麼做」後，他「大概會放棄」這個想法。 《華盛頓郵報》報導，川普先前將墨西哥灣（Gulf of Mexico）與安大略湖（Lake Ontario）改名，曾引發爭議。他昨天晚間在南卡羅來納州一 …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T06:35:18+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/01/25085930/54235539783_fdd924868b_k.jpg"
+    },
+    {
+      "title": "打造超過 150 個 AI 助理代管日常，美國爸爸化身「人類執行長」找回生活主導權",
+      "link": "https://technews.tw/2026/10/23/father-builds-100-ai-assistants-reclaim-life/?utm_source=flipboard&utm_content=other",
+      "summary": "美國印第安納州一名 44 歲的資安從業者兼 AI 教育創作者 Tristen O’Brien，近年來打造出超過 150 個 AI 代理人，協助他處理家庭、工作、內容創作與日常瑣事，目標是把時間還給自己與家人。這名父親表示，自己長期以來只能同時兼顧家庭、工作與學業三件事，若再多加一項，生活就容易失衡， …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T06:35:16+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/13102544/Tristen-OBrien.jpg"
+    },
+    {
+      "title": "川普致電提議大西洋更名，遭 Google 執行長拒絕作罷",
+      "link": "https://technews.tw/2026/10/23/trump-says-he-called-googles-ceo-to-discuss-renaming-atlantic-ocean/",
+      "summary": "美國總統川普表示，他曾致電 Google 執行長皮查伊，討論將大西洋改名一事，但在皮查伊告訴他「請不要要求我們 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T06:30:29+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/01/25085930/54235539783_fdd924868b_k-300x200.jpg"
+    },
+    {
+      "title": "iPhone Duo首波評測出爐！CNET給8.7分大讚，The Verge卻說日常操作得重新學",
+      "link": "https://www.techbang.com/posts/134366-iphone-duo-reviews-cnet-the-verge?utm_source=flipboard&utm_content=other",
+      "summary": "Apple首款摺疊手機登場，iPhone Duo首波評測引發熱議。媒體對iPhone Duo的大螢幕創作力讚譽有加，卻也指出操作邏輯的挑戰。這份深入評測揭露了摺疊手機在日常使用的真實優...用了一週 iPhone Duo，CNET 記者已經不想換回直板手機；The Verge …",
+      "source": "Flipboard 科技專區",
+      "published": "2026-10-23T06:30:00+00:00",
+      "image": "https://cdn1.techbang.com/system/images/797150/original/d6f7531b3c783b0cc873ca44237758d9.jpg?1792663272"
+    },
+    {
+      "title": "打造超過 150 個 AI 助理代管日常，美國爸爸化身「人類執行長」找回生活主導權",
+      "link": "https://technews.tw/2026/10/23/father-builds-100-ai-assistants-reclaim-life/",
+      "summary": "美國印第安納州一名 44 歲的資安從業者兼 AI 教育創作者 Tristen O’Brien，近年 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T06:23:22+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/13102544/Tristen-OBrien.jpg"
+    },
+    {
+      "title": "算力需求大爆發，SpaceX 發動「突擊」加薪 20% 徵員工趕工擴建超級電腦",
+      "link": "https://technews.tw/2026/10/23/spacex-urgently-hiring-employees-pay-raises-build-supercomputer/",
+      "summary": "SpaceX 向全體員工發布內部信件，祭出加薪 20% 的優渥條件，徵求自願者暫時移駐田納西州曼菲斯（Memp […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T06:20:40+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2024/11/06084350/sven-piper-z4El4WAsF8w-unsplash-300x200.jpg"
+    },
+    {
+      "title": "91APP、Zeabur為何接連遭駭？解析6起重大資安事件與金鑰外洩風險",
+      "link": "https://www.bnext.com.tw/article/92778/2026-october-cybersecurity-breaches-keys-91app-zeabur",
+      "summary": "91APP、Zeabur接連遭駭，同月國際也有LiteLLM、Railway出事，損失多半出在放錯地方或沒換掉的金鑰。6起事件一覽與自保清單。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T06:19:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/41ya-1792732879.png?w=900&output=webp"
+    },
+    {
+      "title": "春水堂進軍美國！瞄準台積電「小台北」商圈，何時開幕一次看",
+      "link": "https://www.bnext.com.tw/article/92779/chun-shui-tang-phoenix-arizona-tsmc-2027",
+      "summary": "春水興業集團副總劉彥伶宣布，春水堂首家美國門市將落腳亞利桑那州鳳凰城，占地約100坪，目標2027年第三季開幕，看準台積電設廠帶出的「小台北」商圈。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T06:19:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/cfxp-1792736197.jpg?w=900&output=webp"
+    },
+    {
+      "title": "東元小金雞安達康 29 日登錄興櫃，搶攻 AI 資料中心商機",
+      "link": "https://technews.tw/2026/10/23/teco-advanpower-list-emerging-stock-board-29th-eyes-ai-data-center-market/",
+      "summary": "東元電機旗下電力傳輸設備廠安達康預計於 10 月 29 日正式登錄興櫃交易，由富邦證券輔導。受惠於 AI 資料 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T06:17:26+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23141038/7963-300x200.jpg"
+    },
+    {
+      "title": "黃仁勳：2029 年前記憶體難過剩，與中國企業合作持開放態度",
+      "link": "https://technews.tw/2026/10/23/memory-oversupply-is-unlikely-before-2029/",
+      "summary": "輝達（NVIDIA）執行長黃仁勳針對近期市場對記憶體半導體供過於求的疑慮發表看法。他指出，隨著人工智慧（AI） […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T06:15:50+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23140609/NVIDIA-Jensen-Huang-300x226.jpg"
+    },
+    {
+      "title": "DeepSeek 與 MiniMax 獲准出海，傳配合中國 AI 技術出口新規",
+      "link": "https://technews.tw/2026/10/23/deepseek-minimax-win-approval-for-global-use-state-media-says/",
+      "summary": "中國央視旗下新媒體報導，DeepSeek 與 MiniMax 兩家人工智慧企業已獲准全球使用，並已完成相關登記 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T06:10:26+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2016/11/04114939/shutterstock_376002202-e1633059954841.jpg"
+    },
+    {
+      "title": "台積電明年營收能否破8兆 不只看輝達，更要看蘇姿丰",
+      "link": "https://www.bnext.com.tw/article/92776/tsmc-2027-revenue-amd-lisa-su-cowos",
+      "summary": "台積電明年營收能否突破8兆元？除了輝達，超微明年CoWoS下單量預估暴增逾2倍，蘇姿丰的AI晶片布局成為牽動台積電業績的新關鍵。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T06:03:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-0238aed72f124213.jpg"
+    },
+    {
+      "title": "AI餐飲管理半年簽六品牌、智慧養殖省工七成，好食好事 Demo Day 9 集結 16 組新創",
+      "link": "https://technews.tw/2026/10/23/haoshi_demo-day-2026/",
+      "summary": "好食好事加速器 10 月 20 日於台北 101 舉辦第九屆 Demo Day，以「FOOD / EVOLVE […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T06:00:40+00:00",
+      "image": ""
+    },
+    {
+      "title": "傳馬斯克出手挺天舞，投資 10 億美元助攻媒體版圖整合",
+      "link": "https://finance.technews.tw/2026/10/23/musk-backs-tianwu-1-billion-media-integration/",
+      "summary": "美國財經電視網 CNBC 引述一名知情人士報導，億萬富豪馬斯克（Elon Musk）已投資天舞（Skydanc […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T06:00:09+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/09/12102228/1017px-Paramountpicturesmelrosegate-300x212.jpg"
+    },
+    {
+      "title": "AI 燒錢過猛引爆市場疑慮，美股遇數月來最慘賣壓",
+      "link": "https://finance.technews.tw/2026/10/23/stocks-see-steepest-decline-in-months-amid-a-i-worries/",
+      "summary": "受科技巨頭財報引發資本支出擔憂，加上中東局勢再度升溫，美股 22 日遭遇數月以來最慘烈的一波拋售潮。避險資金湧 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T05:50:53+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2025/02/07161400/shutterstock_2022938759-300x200.jpg"
+    },
+    {
+      "title": "11月正式上市！比亞迪騰勢N8純電休旅 續航突破1000公里",
+      "link": "https://www.technice.com.tw/technology/autosystem/328933/",
+      "summary": "比亞迪將於下週開放騰勢N8 EV預訂，這款大型五人座豪華純電動休旅車，在中國輕型汽車行駛工況（CLTC）測試標準下，續航里程可超過623英里（1000公里）。",
+      "source": "科技島 TechNice",
+      "published": "2026-10-23T05:48:51+00:00",
+      "image": "https://www.technice.com.tw/wp-content/uploads/2026/08/BYD-new-Denza-N8-EV-range.jpeg",
+      "collection_scope": "technice-latest-v1"
+    },
+    {
+      "title": "Anthropic 上市前先過這三關！估值傳從 2 兆降到 1.5 兆美元，客戶集中、模型越界與安全政策爭議成隱憂 - INSIDE",
+      "link": "https://www.inside.com.tw/article/42717-anthropic-ipo-valuation-customer-concentration-model-safety",
+      "summary": "Anthropic 最快本週五公開 S-1，預計 11 月中掛牌，在利率走升、同業接連延後上市的秋季，成為唯一照表推進的科技 IPO。本文拆解這筆可能刷新紀錄的上市案：投資人討論的估值從約 2 兆美元降到 1.5 兆美元，上半年約 2 成營收來自 2 家客戶；評測模型誤闖真實網站，草案也把模型損害列入風險因素，執行長 Amodei 則公開承認部分失誤。",
+      "source": "INSIDE 硬塞的網路趨勢觀察",
+      "published": "2026-10-23T05:48:45+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/17c92c8e-1407-4d55-92ad-5c0d9c5bb09e.webp"
+    },
+    {
+      "title": "訂閱營收成長快於廣告：Spotify 第 3 季付費用戶增加 600 萬達 3.06 億，廣告營收年增 10% - INSIDE",
+      "link": "https://www.inside.com.tw/article/42721-spotify-q3-2026-306-million-subscribers-ad-revenue-10-percent-subscription-17-percent",
+      "summary": "Spotify 第 3 季付費訂閱用戶達 3.06 億，單季淨增 600 萬、年增 9%，總營收 49.69 億歐元、年增 16%。訂閱營收年增 17%，廣告營收年增 10%，營業利益 6.72 億歐元。Spotify 也預告第 4 季付費用戶 3.16 億，並提及 Taste Profile 與 Muse 整合。",
+      "source": "INSIDE 硬塞的網路趨勢觀察",
+      "published": "2026-10-23T05:45:03+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/09/c06c5079-ec6a-4e28-b721-b43930d9ad13.jpg"
+    },
+    {
+      "title": "SpaceX 洽談取得至少 8 萬座美國基地台，目指第四大行動電信業者 - INSIDE",
+      "link": "https://www.inside.com.tw/article/42720-spacex-talks-80000-us-cell-sites-fourth-wireless-carrier-bloomberg",
+      "summary": "Bloomberg 引述知情人士報導，SpaceX 正與基地台業者洽談取得至少 8 萬座美國基地台，為成為全美第四大行動電信業者鋪路，Crown Castle 為洽談對象之一。交易金額未公布，目前尚無簽約確認，SpaceX 也未公開回應。",
+      "source": "INSIDE 硬塞的網路趨勢觀察",
+      "published": "2026-10-23T05:35:10+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/04/046fc8c4-f78e-4546-85dc-ba9632f3c2c5.webp"
+    },
+    {
+      "title": "OpenAI 解僱 3 名安全研究員，WSJ 稱公司懷疑他們經由 Signal 對外洩漏模型設計 - INSIDE",
+      "link": "https://www.inside.com.tw/article/42719-openai-fired-three-safety-researchers-signal-chats-wsj-greenblatt",
+      "summary": "WSJ 追蹤報導指出，OpenAI 懷疑 3 名遭解僱的安全研究員，把內部模型設計洩漏給外部 AI 安全研究員 Greenblatt，過程包含會自動消失的 Signal 對話。OpenAI 稱他們違反敏感資訊處理程序，3 人則否認並認為與倡議 AI 安全有關。",
+      "source": "INSIDE 硬塞的網路趨勢觀察",
+      "published": "2026-10-23T05:26:10+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/09/398e26c2-9ffb-4bf5-bf83-f5c3d9ea3e4c.webp"
+    },
+    {
+      "title": "AI Agent 遇到登入畫面就卡關？1Password 推免交密碼新機制，串接 Meta、OpenAI",
+      "link": "https://techorange.com/2026/10/23/1password-for-agents-ai/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+      "summary": "當使用者要求 AI Agent（AI 代理）安排活動、管理行程或處理工作任務時，Agent 可能需要登入多個網站。然而，一旦遇到登入畫面，使用者往往得接手輸入帳號密碼，或直接將密碼提供給 Agent；前者中斷自動化流程，後者則可能使敏感憑證暴露於 AI 模型及相關系統。 為解決這項難題，密碼管理業者 1Password 宣布推出 1Password for Agents，讓…",
+      "source": "TechOrange 科技報橘",
+      "published": "2026-10-23T05:20:32+00:00",
+      "image": "https://techorange.com/app/uploads/2026/10/82b7b7a380005d5d-720x402.png"
+    },
+    {
+      "title": "過世前兩年贈與全白費？安永解析跨國遺產稅、遺囑效力與信託布局",
+      "link": "https://finance.technews.tw/2026/10/23/family-wealth-succession/",
+      "summary": "安永聯合會計師事務所近日舉辦「安永新世代寰宇領袖菁英會－沙龍雅聚」，解析跨國遺產繼承、遺囑規劃及家族財富傳承實 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T05:19:40+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23131857/Image-12-300x169.jpg"
+    },
+    {
+      "title": "中國電動車成本為何低三成五？供應鏈與決策效率拉開中歐差距 - INSIDE",
+      "link": "https://www.inside.com.tw/article/42715-china-eu-ev-cost",
+      "summary": "中國電動車憑藉供應鏈與組織效率，生產成本顯著低於歐洲。關稅僅能爭取轉型時間，歐洲車廠仍須從根本調整決策流程與擴大電池投資，才能彌補營運差距、維持競爭力。",
+      "source": "INSIDE 硬塞的網路趨勢觀察",
+      "published": "2026-10-23T05:12:41+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/003b8582-5552-423d-9193-b08570aafdd9.webp"
+    },
+    {
+      "title": "歐盟甲烷排放新規延後三年 進口商須於2031年前證明合規",
+      "link": "https://www.technice.com.tw/technology/energy/328930/",
+      "summary": "歐盟週四表決通過，將歐盟針對進口石油與天然氣的甲烷排放規範延後三年實施，在法國與美國等政府施壓下，延後時間比原先預期更長。",
+      "source": "科技島 TechNice",
+      "published": "2026-10-23T04:55:18+00:00",
+      "image": "https://www.technice.com.tw/wp-content/uploads/2024/12/EU-1.jpg",
+      "collection_scope": "technice-latest-v1"
+    },
+    {
+      "title": "公司曾連虧15年、慘到做垃圾桶，王永慶外孫的光通訊之戰",
+      "link": "https://www.bnext.com.tw/article/92777/fic-malaysia-plant-ai-optical-communication",
+      "summary": "大眾控股曾連虧15年、產線淪做垃圾桶，王永慶外孫簡民智接班後關9廠轉盈，如今砸60億元赴馬來西亞建廠，搶攻AI光通訊商機。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T04:42:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-1b0961e9253c8861.jpg"
+    },
+    {
+      "title": "Hugging Face 推出開源模型 Carbon-X：DNA 基準測試逼近 GPT-6.1 Sol、成本估僅 1/1,800",
+      "link": "https://techorange.com/2026/10/23/hugging-face-bio-carbon-x-dna/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+      "summary": "AI 模型分享與開發平台 Hugging Face 近日推出開源 AI 模型 Carbon-X，讓研究人員能貼上 DNA 序列，以自然語言提出問題，並取得模型的解讀、預測或說明。Hugging Face 資深研究科學家 Lewis Tunstall 接受《Business Insider》採訪時表示，Carbon-X 是「首創」的模型，結合 DNA 分析與自然語言，讓研究人員…",
+      "source": "TechOrange 科技報橘",
+      "published": "2026-10-23T04:36:15+00:00",
+      "image": "https://techorange.com/app/uploads/2026/10/a0e2c54133122699-720x466.png"
+    },
+    {
+      "title": "AI 代理上工前，為何需要「工作地圖」？UiPath、SAP、Celonis 搶補關鍵缺口",
+      "link": "https://techorange.com/2026/10/23/ai-agents-process-map-uipath-sap-celonis/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+      "summary": "SAP 於美國時間 9 月 22 日在亞特蘭大宣布擴充 Signavio 等工具，協助企業部署、治理與監控 AI 代理（AI agent，能替人執行任務的 AI 系統）；隔天，自動化軟體商 UiPath 在拉斯維加斯的年度大會 FUSION 2026 推出 Cartographer，把散落各處的流程知識整理成一份「工作地圖」（Map of Work）。更早在 5 月，流程智慧…",
+      "source": "TechOrange 科技報橘",
+      "published": "2026-10-23T04:24:21+00:00",
+      "image": "https://techorange.com/app/uploads/2026/10/267566559f1bbf2f-720x480.jpg"
+    },
+    {
+      "title": "馬斯克加碼布局AI晶片供應鏈 特斯拉與輝達砸28億美元投資三星",
+      "link": "https://www.technice.com.tw/issues/semicon/328928/",
+      "summary": "輝達與特斯拉已向三星支付近30億美元，用於開發人工智慧晶片所需的載板。這項技術稱為翻轉晶片球柵格陣列，透過將晶片裸片翻轉朝下，再利用焊料凸塊將其連接至封裝內的載板。相較於塑膠球柵格陣列（PBGA）等傳統技術，這項技術能大幅提升效能。根據韓國媒體《每日經濟新聞》的報導，由於FC-BGA被視為AI供應鏈下一個可能出現瓶頸的環節，兩家公司已表達投資興趣。",
+      "source": "科技島 TechNice",
+      "published": "2026-10-23T04:20:37+00:00",
+      "image": "https://www.technice.com.tw/wp-content/uploads/2026/09/ChatGPT-Image-2026年9月30日-上午11_48_05.png",
+      "collection_scope": "technice-latest-v1"
+    },
+    {
+      "title": "老人福利法修法漏洞！中低收入戶假牙、人工水晶體補助會取消嗎？",
+      "link": "https://www.bnext.com.tw/article/92775/elderly-welfare-act-nhi-premium-subsidy-cut",
+      "summary": "立法院三讀通過老人福利法，65歲以上排富後健保費由中央全額補助，約403萬人受益；但條文刪除中低收入長者假牙、人工水晶體等補助法源，恐衝擊弱勢醫療。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T04:03:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-dac881c6f6ba1382.jpg?w=900&output=webp"
+    },
+    {
+      "title": "OpenAI 動用近 2 千個 GPT-Rosalind 代理，32 分鐘完成小鼠全腦基因圖譜分析",
+      "link": "https://technews.tw/2026/10/23/openai-runs-1946-gpt-rosalind-agents-on-a-mouse-brain-atlas/",
+      "summary": "OpenAI 與藥物開發新創 PerturbAI、斯克里普斯研究所（Scripps Research）合作，讓 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T03:50:19+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2026/10/23103554/2026-10-23-10-34-39-300x169.png"
+    },
+    {
+      "title": "Spotify 原生車載 App 首搭 Audi，介面自主設計、支援副駕歌詞顯示 - INSIDE",
+      "link": "https://www.inside.com.tw/article/42714-spotify-s-new-in-vehicle-app-debuts-on-audi-models",
+      "summary": "Spotify 發表首款自主介面原生車載 App，由 Audi 率先搭載。此 App 不受範本限制，可獨立運作，並整合車輛語音助理與多螢幕功能，由 Spotify 完整掌控使用者體驗。",
+      "source": "INSIDE 硬塞的網路趨勢觀察",
+      "published": "2026-10-23T03:46:03+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/bbf831cb-f279-455f-b4d9-5dca8023f902.webp"
+    },
+    {
+      "title": "用白話文與 DNA 對話，Hugging Face 發表 Carbon-X 助攻基因療法",
+      "link": "https://technews.tw/2026/10/23/hugging-faces-new-ai-model-lets-you-chat-with-dna/",
+      "summary": "Hugging Face 於 10 月 22 日推出一款名為 Carbon-X 的開源 AI 生物模型，主打讓 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T03:40:05+00:00",
+      "image": ""
+    },
+    {
+      "title": "星巴克去冰補滿加15元！高秀玲為何引爆品牌危機？",
+      "link": "https://www.bnext.com.tw/article/92774/starbucks-no-ice-refill-fee-brand-crisis",
+      "summary": "台灣星巴克去冰補滿加收15元引發品牌危機。統一全資8年來淨利萎縮15%，董事長高秀玲砍買一送一、新增客製化收費救獲利，卻誤踩溝通與價值感兩大雷區。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T03:38:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-6c373f2d3aac40fe.jpg?w=900&output=webp"
+    },
+    {
+      "title": "搭載GB300的DGX Station for Windows將在12月推出 #SOCAMM2 (253313) - Cool3c",
+      "link": "https://www.cool3c.com/article/253313",
+      "summary": "Chevelle.fu發佈搭載GB300的DGX Station for Windows將在12月推出，最新資訊於2026-10-23 11:40：NVIDIA在2026年Computex 2026除了公布基於Windows環境的RTX Spark平台以外，也展示搭載Windows的DGX Stat...#(253313)",
+      "source": "Cool3c",
+      "published": "2026-10-23T03:37:00+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/3af1d0e2-8076-4c94-8515-4f092b65f47e.webp"
+    },
+    {
+      "title": "比爾蓋茲示警：AI 將帶來 20 年「劇烈陣痛期」，呼籲政府即刻介入監管",
+      "link": "https://technews.tw/2026/10/23/bill-gates-warns-ai-risks/",
+      "summary": "微軟共同創辦人比爾·蓋茲（Bill Gates）近日在專訪中再度提出強烈示警，預言人工智慧（AI）將在未來 2 […]",
+      "source": "TechNews 科技新報",
+      "published": "2026-10-23T03:30:01+00:00",
+      "image": "https://img.technews.tw/wp-content/uploads/2023/12/28174609/52377334392_ee888c3179_k-300x200.jpg"
+    },
+    {
+      "title": "用AI做網頁後怎麼檢查資安？一段提示詞確認Node.js、PHP是否該更新",
+      "link": "https://www.bnext.com.tw/article/92773/20261022-vibe-security-patch",
+      "summary": "PHP 爆出兩個 9.2 分重大漏洞，Node.js 也發布安全更新。分享一段提示詞，請 AI 陪你檢查電腦。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T03:30:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-fd2e8fa9d3c3eb00.jpg"
+    },
+    {
+      "title": "「主權不等於自建，握有掌控權才是。」微軟、鴻海、資誠、iKala 等專家共同拆解 AI 主權防線與邊界",
+      "link": "https://techorange.com/2026/10/23/sovereign-ai-2026/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+      "summary": "TechOrange 科技報橘於日前舉辦「2026 企業 AI 主權高峰論壇」，以「重塑企業核心競爭力：從 AI 成長引擎到營運韌性」為主軸，集結多位產業專家解析如何在使用 AI 的同時守住主導權，並同時掌握資料、權限與責任的邊界，企業才有底氣放手追求 AI 帶來的成長。科技報橘社長戴季全點出，一方面企業預算正從支付人力轉向支付數位勞動力，另一方面，台灣產業能夠長年贏得客戶信…",
+      "source": "TechOrange 科技報橘",
+      "published": "2026-10-23T03:19:48+00:00",
+      "image": "https://techorange.com/app/uploads/2026/10/d719a6717acb953c-720x481.jpg"
+    },
+    {
+      "title": "SK 海力士暫停 Solidigm 赴美 IPO 評估，美國 NAND 新廠資金另覓出路 - INSIDE",
+      "link": "https://www.inside.com.tw/article/42713-sk-hynix-solidigm-us-ipo-suspended",
+      "summary": "SK 海力士宣布停止評估美國子公司 Solidigm 的上市前募資與 IPO，理由是近期資本市場情勢與股價走勢；此前南韓金融監督院已表態這項上市牴觸重複上市規定。擴充美國產能的資金需求仍在，公司將持續尋求其他籌資方案。",
+      "source": "INSIDE 硬塞的網路趨勢觀察",
+      "published": "2026-10-23T03:10:13+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/afc69787-83ad-40b7-818e-bf9c543eee0b.webp"
+    },
+    {
+      "title": "新雲端需求爆發式成長 黃仁勳示警「資金不足」恐拖累AI基礎建設",
+      "link": "https://www.technice.com.tw/technology/software/328926/",
+      "summary": "輝達執行長黃仁勳週四向CNBC表示，新雲端（neocloud）業者的需求「高得驚人」，但資金短缺正限制產業成長。",
+      "source": "科技島 TechNice",
+      "published": "2026-10-23T03:10:02+00:00",
+      "image": "https://www.technice.com.tw/wp-content/uploads/2026/07/ALBUM_無止境的黃仁勳-_.jpg",
+      "collection_scope": "technice-latest-v1"
+    },
+    {
+      "title": "YouTube 合作夥伴計畫 2027 年 2 月 1 日調整，新頻道須滿 8,000 小時觀看才能分潤 - INSIDE",
+      "link": "https://www.inside.com.tw/article/42709-youtube-partner-program-feb-2027-8000-watch-hours-20m-shorts-views-accept-terms-jan-31",
+      "summary": "YouTube 說明頁指出，自 2027 年 2 月 1 日起，新創作者加入合作夥伴計畫須有 1,000 位訂閱者，並累計 8,000 小時合格觀看或 2,000 萬次 Shorts 觀看。既有成員身分不受影響，但須在 2027 年 1 月 31 日前接受更新條款。",
+      "source": "INSIDE 硬塞的網路趨勢觀察",
+      "published": "2026-10-23T03:07:23+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/social/1/image/2025/03/8de7227c-0a9f-4b5b-b34f-f1f2e96210aa.jpg"
+    },
+    {
+      "title": "美股晶片股為何重挫？英特爾、輝達、AMD股價下跌原因解析",
+      "link": "https://www.bnext.com.tw/article/92768/us-chip-stocks-plunge-nvidia-amd-intel",
+      "summary": "英特爾、超微10月22日重挫約8%，輝達跌4.4%。特斯拉下調資本支出、科林研發財測不如預期，加上Meta籌資引發AI融資疑慮，三大因素拖累晶片股。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T02:54:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2023-09/img-1695170384-62492.jpg?w=900&output=webp"
+    },
+    {
+      "title": "字節跳動、阿里、騰訊訂逾 350 億美元 NVIDIA RTX PRO 5500，Reuters 稱供貨恐僅滿足 5% 至 10% - INSIDE",
+      "link": "https://www.inside.com.tw/article/42711-bytedance-alibaba-tencent-nvidia-rtx-pro-5500-35-billion-orders-reuters",
+      "summary": "據 Reuters 獨家報導，字節跳動、阿里巴巴與騰訊合計訂購逾 300 萬張 NVIDIA RTX PRO 5500，標價總額逾 350 億美元。報導消息來源為匿名人士，三家企業未回應。",
+      "source": "INSIDE 硬塞的網路趨勢觀察",
+      "published": "2026-10-23T02:44:56+00:00",
+      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/08/7cf86941-ac6e-4dea-b4e7-f9863705820b.jpg"
+    },
+    {
+      "title": "2026九合一選舉懶人包：投票日期、資格、選票張數、投票所查詢",
+      "link": "https://www.bnext.com.tw/article/92598/2026-nine-in-one-elections-voting-guide",
+      "summary": "2026九合一選舉11月28日登場，投票時間8時至下午4時。18歲可以投票嗎？要帶什麼、能領幾張票？整理投票資格、投票所查詢、投票禁忌與核電公投資訊。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T02:39:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-b6dab97b06b70de7.jpg"
+    },
+    {
+      "title": "從切菜到乾燥加工！宜展如何結合桃園市政府創業資源，以AI開拓農產加工第二成長曲線？",
+      "link": "https://www.bnext.com.tw/article/92769/2026_tycg_07",
+      "summary": "農產加工仰賴老師傅經驗，如何透過AI規模化？宜展科技農業從數位管理到乾燥技術開發，借力桃園市政府創業輔導資源，拓展跨域合作，驗證營運模式的複製可能。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T02:30:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/cb1q-1792722560.jpg?w=900&output=webp"
+    },
+    {
+      "title": "從切菜到乾燥加工！宜展如何結合桃園市政府創業資源，以AI開拓農產加工第二成長曲線？｜Meet創業小聚",
+      "link": "https://meet.bnext.com.tw/articles/view/53590",
+      "summary": "農產加工仰賴老師傅經驗，如何透過AI規模化？宜展科技農業從數位管理到乾燥技術開發，借力桃園市政府創業輔導資源，拓展跨域合作，驗證營運模式的複製可能。",
+      "source": "Meet 創業小聚",
+      "published": "2026-10-23T02:30:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/cb1q-1792722560.jpg/w_900,output_webp"
+    },
+    {
+      "title": "006208分割懶人包｜何時分割、擬1拆8？和0050買哪個划算？",
+      "link": "https://www.bnext.com.tw/article/92767/006208-etf-split-vs-0050",
+      "summary": "006208將在12月18日表決分割，初估1拆8，每張約24.5萬元降至3.1萬元。與0050同追蹤臺灣50指數，哪檔費用低、買進門檻小？",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T02:21:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-08/4gd5-1787712648.png?w=900&output=webp"
+    },
+    {
+      "title": "OpenAI上市前傳再募300億美元 估值上看1.25兆美元",
+      "link": "https://www.technice.com.tw/issues/ai/328924/",
+      "summary": "據報導，OpenAI正接近取得另一輪大規模私人融資，而非直接推進首次公開募股（IPO）。消息人士向外媒CNBC透露，這家人工智慧研究機構正尋求募資最高300億美元，投前估值達1.25兆美元，本輪融資由Coatue及阿聯酋投資人領銜",
+      "source": "科技島 TechNice",
+      "published": "2026-10-23T02:20:43+00:00",
+      "image": "https://www.technice.com.tw/wp-content/uploads/2026/05/Gemini_Generated_Image_7a2fu07a2fu07a2f.png",
+      "collection_scope": "technice-latest-v1"
+    },
+    {
+      "title": "2026國民年金試算｜65歲國保老年年金怎麼領？國保跟勞保可以一起領嗎？",
+      "link": "https://www.bnext.com.tw/article/92112/national-pension-old-age-2026",
+      "summary": "國民年金老年年金新制上路，滿65歲免申請，勞保局主動寄通知書，填妥帳戶即自動入帳。A式B式怎麼算、每月領多少、與勞保能否雙領，本文一次整理。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T02:00:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2019-01/img-1547778085-84685.jpg?w=900&output=webp"
+    },
+    {
+      "title": "導航不是愈高階愈好！桃園產官資源如何賦能互宇向量，讓複雜技術真正「用得起、用得上」？｜Meet創業小聚",
+      "link": "https://meet.bnext.com.tw/articles/view/53589",
+      "summary": "掌握這則最新科技動態、產業背景與可能影響；詳細內容請參閱原文。",
+      "source": "Meet 創業小聚",
+      "published": "2026-10-23T02:00:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/424s-1792720772.jpg/w_900,output_webp"
+    },
+    {
+      "title": "資安公司 Bitdefender 推出新型 VPN：保護的不是你，而是你的 AI 代理",
+      "link": "https://techorange.com/2026/10/23/bitdefender-ai-agent-vpn/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
+      "summary": "資安業者 Bitdefender 推出專門為 AI 代理打造的 VPN 軟體，強調主動隔離每一次連線，使 AI 代理無法被網站或服務追蹤，並能將連線路由到特定國家或地區，繞過地理與區域封鎖。",
+      "source": "TechOrange 科技報橘",
+      "published": "2026-10-23T01:39:19+00:00",
+      "image": "https://techorange.com/app/uploads/2026/10/96b1e717d37000c1-720x405.jpg"
+    },
     {
       "title": "PHP 爆漏洞多國網站急搶修，駭客嘗試攻擊數百萬次",
       "link": "https://infosecu.technews.tw/2026/10/23/hacking-attempts-surge-as-companies-governments-rush-to-patch-php-flaws/",
@@ -57,6 +1050,14 @@
       "source": "TechNews 科技新報",
       "published": "2026-10-23T01:00:17+00:00",
       "image": "https://img.technews.tw/wp-content/uploads/2026/10/23085433/AI%E6%94%AF%E5%87%BA%E7%96%91%E6%85%AE%E5%BC%95%E7%88%86%E7%A7%91%E6%8A%80%E8%82%A1%E6%8B%8B%E5%94%AE-300x200.png"
+    },
+    {
+      "title": "導航不是愈高階愈好！桃園產官資源如何賦能互宇向量，讓複雜技術真正「用得起、用得上」？",
+      "link": "https://www.bnext.com.tw/article/92766/2026_tycg_06",
+      "summary": "當無人載具面臨定位訊號中斷，如何持續導航？互宇向量從光纖陀螺走向系統整合，降低部署門檻，透過桃園市政府產業交流平台，串接在地供應鏈，拓展國際航太市場。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-23T01:00:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/424s-1792720772.jpg?w=900&output=webp"
     },
     {
       "title": "路透：台積電探尋稀土零組件替代方案，防中國管制衝擊",
@@ -269,7 +1270,7 @@
     {
       "title": "停班停課最新名單｜22縣市颱風假查詢、放假標準與宣布時間一次看",
       "link": "https://www.bnext.com.tw/article/92745/typhoon-day-off-list-taiwan-22-counties",
-      "summary": "颱風薔琵逼近台灣，本文整理10月23日全台22縣市停班停課最新名單，一次看懂颱風假標準、宣布時間，以及居住地與工作地不同時的出勤與薪資規定。",
+      "summary": "颱風薔琵逼近台灣，本文整理10月24日全台22縣市停班停課最新名單，一次看懂颱風假標準、宣布時間，以及居住地與工作地不同時的出勤與薪資規定。",
       "source": "數位時代 BNext",
       "published": "2026-10-22T23:22:00+00:00",
       "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-0415eba42d51ea42.png?w=900&output=webp"
@@ -315,12 +1316,28 @@
       "image": "https://techorange.com/app/uploads/2026/10/a57d40bfcdc0129e-720x542.jpg"
     },
     {
+      "title": "Meta新商業條款10月30日生效：網站爬取授權、AI訓練爭議一次看",
+      "link": "https://www.bnext.com.tw/article/92714/meta-commercial-terms-web-scraping",
+      "summary": "在Facebook粉專分享一則新聞連結，可能等於授權Meta爬取整個官網。新條款10月30日生效，即使刪除「訓練」字眼，專家仍警告授權範圍過寬。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-22T21:43:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2019-12/img-1575363688-43497.jpg?w=900&output=webp"
+    },
+    {
       "title": "【科技早餐】Google Cloud 引進 OpenAI GPT-6，兩大 AI 對手跨陣營合作",
       "link": "https://techorange.com/2026/10/23/google-cloud-openai-gpt6-models/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
       "summary": "【科技早餐】今天精選 7 則國內外重要科技新聞。 ＊Google Cloud 引進 OpenAI GPT-6 模型，兩大 AI 對手跨陣營合作 Google Cloud 於 10 月 21 日宣布，將 OpenAI 最新的 GPT-6 Astra、GPT-6.1 Sol 與 GPT-6 Luna 模型納入旗下 Model Garden 平台，涵蓋程式開發、專業工作、AI 代理…",
       "source": "TechOrange 科技報橘",
       "published": "2026-10-22T21:30:00+00:00",
       "image": "https://techorange.com/app/uploads/2026/10/7fac740bcb518c19-720x405.png"
+    },
+    {
+      "title": "AI開店誰最會賺錢？18款模型模擬經營評比，GPT資產增至14倍、Claude議價最強",
+      "link": "https://www.bnext.com.tw/article/92747/ai-agent-ecommerce-bench-365-days-online-store-experiment",
+      "summary": "阿里巴巴與港科大讓18款AI模型各開電商經營365天。GPT-5.6 Sol把10萬元滾成143.1萬奪冠，卻有近兩成採購流向詐騙供應商。",
+      "source": "數位時代 BNext",
+      "published": "2026-10-22T20:00:00+00:00",
+      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/kqut-1792641042.png?w=900&output=webp"
     },
     {
       "title": "日本亞馬遜必買好物！IRIS OHYAMA 陶瓷蒸氣熨斗，30秒極速預熱。",
@@ -5908,1314 +6925,6 @@
       "source": "TechNews 科技新報",
       "published": "2026-10-16T16:00:06+00:00",
       "image": "https://img.technews.tw/wp-content/uploads/2022/01/05122530/James-Webb-Space-Telescope-300x233.jpg"
-    },
-    {
-      "title": "NVIDIA RTX Spark架構與平台分析：當Windows on Arm遇到最強GPU，遊戲、AI、創作全面暴走！",
-      "link": "https://www.techbang.com/posts/134159-nvidia-rtx-spark-analysis?utm_source=flipboard&utm_content=other",
-      "summary": "NVIDIA於RTX Spark Editor’s Day活動中詳細介紹RTX Spark平台的架構、平台、AI功能等特色，讓我們一起來看看這台搭載GB10 SoC的奇行種有什麼過人之處。NVIDIA於RTX Spark Editor’s Day活動中詳細介紹RTX …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T15:28:00+00:00",
-      "image": "https://cdn2.techbang.com/system/images/796326/original/4c2735a87086eb6fa863bab4534f2edf.jpg?1792123283"
-    },
-    {
-      "title": "彭博專訪 龔明鑫：台灣準備對中國緊縮 AI 晶片出口管制並打擊走私",
-      "link": "https://technews.tw/2026/10/16/bloomberg-interview-gong-ming-hsin-taiwan-tightens-ai-chip-export-controls-china/?utm_source=flipboard&utm_content=other",
-      "summary": "TechNews 科技新報 經濟部長龔明鑫近日接受彭博專訪表示，台灣準備緊縮人工智慧（AI）晶片出口管制，進一步與美國限制措施保持一致，加入川普政府打擊尖端半導體走私至中國的行列，但未透露實施時程。 龔明鑫在彭博（Bloomberg News）專訪中說，台灣擬將AI伺服器和尖端半導體納入出口管制清單。 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T14:47:44+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/08/27172410/114.jpg"
-    },
-    {
-      "title": "台灣將收緊對中國先進晶片出口，未許可輸出產品將首度列刑事犯罪",
-      "link": "https://finance.technews.tw/2026/10/16/taiwan-to-tighten-export-controls-on-advanced-chips-to-china/?utm_source=flipboard&utm_content=other",
-      "summary": "…",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T14:47:43+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/08/26155847/shutterstock_1498866761.jpg"
-    },
-    {
-      "title": "台灣將收緊對中國先進晶片出口，未許可輸出產品將首度列刑事犯罪",
-      "link": "https://finance.technews.tw/2026/10/16/taiwan-to-tighten-export-controls-on-advanced-chips-to-china/",
-      "summary": "為進一步同步美國的出口管制政策，並配合川普政府對先進半導體走私至中國的管制，台灣正準備收緊人工智慧（AI）晶片 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T14:35:11+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/08/26155847/shutterstock_1498866761-300x169.jpg"
-    },
-    {
-      "title": "彭博專訪 龔明鑫：台灣準備對中國緊縮 AI 晶片出口管制並打擊走私",
-      "link": "https://technews.tw/2026/10/16/bloomberg-interview-gong-ming-hsin-taiwan-tightens-ai-chip-export-controls-china/",
-      "summary": "經濟部長龔明鑫近日接受彭博專訪表示，台灣準備緊縮人工智慧（AI）晶片出口管制，進一步與美國限制措施保持一致，加 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T14:07:29+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/08/27172410/114-300x225.jpg"
-    },
-    {
-      "title": "東元不只賣馬達了！靠「模組化」搶攻AI資料中心商機，拚千億營收",
-      "link": "https://www.bnext.com.tw/article/92684/2026-teco-70",
-      "summary": "成立70年的東元電機，從傳統馬達製造商轉型為AI基礎建設整合商。東元以模組化方案搶攻全球CSP商機，力拚未來2至3年集團營收突破千億元。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T12:18:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/m9yg-1792143852.jpg?w=900&output=webp"
-    },
-    {
-      "title": "NVIDIA全球同步歡慶RTX Spark筆電開賣，GeForce資深副總裁Jeff Fisher親飛台灣現場展示黃仁勳親筆簽名ProArt P14",
-      "link": "https://www.cool3c.com/article/253099",
-      "summary": "NVIDIA在台灣時間10月16日晚間8點與全球同步開賣首波搭載RTX Spark的筆電裝置，為了歡慶對於NVIDIA推出首款GPU以來25年的重要時刻，NVIDIA在全球同步舉辦RTX Spark慶祝派對，NVIDIA GeForce資深副總裁Jeff Fisher也親自飛抵台灣現場，與諸多NVIDIA粉絲倒數慶祝重要的里程碑，同時也展示由NVIDIA執行長黃仁勳親筆簽名的…",
-      "source": "Cool3c",
-      "published": "2026-10-16T12:07:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/a61af512-2121-4250-b51b-147e94e8245b.webp"
-    },
-    {
-      "title": "ASUS ProArt P16（H7607）評測：RTX Spark N1X、128GB 統一記憶體，本機 AI 生成圖片與影片實測",
-      "link": "https://www.techbang.com/posts/134167-asus-proart-p16-h7607-review-local-ai-performance?utm_source=flipboard&utm_content=other",
-      "summary": "ASUS ProArt P16 搭載 RTX Spark 平台，具備強大 AI 效能。ASUS ProArt P16 透過輕薄機身與專屬軟體，讓生成式創作更高效便利。隨著 NVDIA RTX Spark 平台上市，ASUS ProArt P16（H7607）也搶先開賣，除了保有 ProArt …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T12:00:00+00:00",
-      "image": "https://cdn1.techbang.com/system/images/796278/original/fa77d4cac83b1bb0ef37481c135e4a01.jpg?1792085940"
-    },
-    {
-      "title": "意欲重塑AI PC概念的NVIDIA RTX Spark筆電即日推出，它會是你的下一台命定電腦嗎",
-      "link": "https://www.cool3c.com/article/253093",
-      "summary": "NVIDIA繼在2026年Computex正式公布傳聞已久的全新PC級SoC RTX Spark後，於台灣時間10月16日晚間8點宣布正式開賣，NVIDIA也在全球同步舉辦RTX Spark上市派對，歡慶NVIDIA在消費級與準專業級領域的重要里程碑；不過應該仍有許多人對於NVIDIA RTX Spark感到困惑，到底搭載這款平台的產品與現行的獨顯電競筆電、行動工作站有甚麼不…",
-      "source": "Cool3c",
-      "published": "2026-10-16T12:00:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/820c199e-2902-4360-a088-0886748e05c0.webp"
-    },
-    {
-      "title": "RTX Spark先鋒軍華碩ProArt P16評測，集強大內容創作、娛樂與裝置端AI能力於絕美的纖薄設計",
-      "link": "https://www.cool3c.com/article/253055",
-      "summary": "NVIDIA與設備夥伴逾2026年10月中旬正式推出RTX Spark筆電裝置，其中在台灣由華碩及微星拔得頭籌在日前開放預購，此次筆者在RTX Spark上市前夕取得華碩ProArt P16(H7607BA)的測試機進行初步體驗，感受NVIDIA再度進軍PC級SoC、並引領Windows PC邁入Windows代理式AI PC的關鍵之作。Asus ProArt P16(H76…",
-      "source": "Cool3c",
-      "published": "2026-10-16T12:00:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/51ba03fe-8556-4d8e-b857-c1eb25ab84c8.webp"
-    },
-    {
-      "title": "91APP 資料庫遭攻擊，已報案調查、呼籲消費者小心詐騙",
-      "link": "https://infosecu.technews.tw/2026/10/16/91app-ky-20261016/?utm_source=flipboard&utm_content=other",
-      "summary": "上櫃公司 91APP（91APP*-KY）16 日重訊公告，其 Commerce Cloud 資料庫遭受自動化攻擊，部分資訊被非法擷取。91APP 強調目前取得控制，並向警方報案，評估對公司營運無重大影響。 Commerce Cloud 為 91APP 核心產品之一，是協助品牌整合電商與實體門市的全通 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T11:31:40+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2022/02/24114254/cyber-g35b3541bf_1280.jpg"
-    },
-    {
-      "title": "簡立峰：AI 失控論只是種想像，台灣軟硬體迎 AI 新經濟",
-      "link": "https://infosecu.technews.tw/2026/10/16/jian-lifeng-ai-out-of-control-imagination-taiwan-software-hardware-new-ai-economy/?utm_source=flipboard&utm_content=other",
-      "summary": "Google 台灣前董事總經理簡立峰今天表示，說人工智慧（AI）失控論「還早」，AI 失控論「只是一種想像」，AI 應用讓軟體工具進入門檻大幅降低，台灣軟硬體產業可善用契機，發展 AI 時代新經濟。 每杯咖啡 65 元 總金額共新臺幣 0 元 關鍵字: AI 失控 , AI 末日論 , 簡立峰",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T11:31:39+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2018/02/06181729/21212-e1579227786612.jpg"
-    },
-    {
-      "title": "Anthropic 讓 METR 研究員以員工級權限進駐，外部評估報告公司無權否決",
-      "link": "https://technews.tw/2026/10/16/anthropic-just-opened-its-doors-to-outside-safety-watchdogs-heres-how-it-will-work/?utm_source=flipboard&utm_content=other",
-      "summary": "Anthropic 15 日於部落格宣布，非營利 AI 評估組織 METR（Model Evaluation and Threat Research）六名研究員已進駐公司，取得公司配發的筆電、辦公空間與工具，權限「大致等同」Anthropic 風險評估團隊，可就近審視尚未發表模型與代理。Anthro …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T11:31:39+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16175757/c2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125.jpg"
-    },
-    {
-      "title": "美中 AI 人才戰再起？17 歲天才少年陳廣宇告別「月之暗面」轉投矽谷",
-      "link": "https://technews.tw/2026/10/16/17-year-old-ai-prodigy-reportedly-leaves-moonshot-ai-to-join-anthropic/?utm_source=flipboard&utm_content=other",
-      "summary": "年僅17歲的人工智慧（AI）研究新星陳廣宇，近日證實已離開中國新創公司「月之暗面」（Moonshot AI），消息一出隨即引發科技界高度關注。曾深度參與大模型 Kimi 核心架構研發的他，在社群平台上發文回顧過去一年的工作點滴，形容這段經歷是「至今最美好的日子之一」，並特別感謝公司在他16歲時便給予 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T11:31:39+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16174556/nathan-chen.jpg"
-    },
-    {
-      "title": "91APP 資料庫遭攻擊，已報案調查、呼籲消費者小心詐騙",
-      "link": "https://infosecu.technews.tw/2026/10/16/91app-ky-20261016/",
-      "summary": "上櫃公司 91APP（91APP*-KY）16 日重訊公告，其 Commerce Cloud 資料庫遭受自動化 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T10:39:32+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2022/02/24114254/cyber-g35b3541bf_1280-300x200.jpg"
-    },
-    {
-      "title": "簡立峰：AI 失控論只是種想像，台灣軟硬體迎 AI 新經濟",
-      "link": "https://infosecu.technews.tw/2026/10/16/jian-lifeng-ai-out-of-control-imagination-taiwan-software-hardware-new-ai-economy/",
-      "summary": "Google 台灣前董事總經理簡立峰今天表示，說人工智慧（AI）失控論「還早」，AI 失控論「只是一種想像」， […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T10:20:27+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2018/02/06181729/21212-300x191.jpg"
-    },
-    {
-      "title": "「AI Agent 也需要自己的身分證。」從持續驗證到責任歸屬，來毅數位攜手合作夥伴拆解信任治理關鍵",
-      "link": "https://techorange.com/2026/10/16/keypasco-ai-agent-summit/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-      "summary": "這個 Agent 是誰？能夠存取哪些資料、使用哪些系統？當它做出錯誤決策或執行越權行動時，企業能不能追蹤、稽核，並釐清責任？ 面對 AI Agent 帶來的新型態資安風險與治理挑戰，Keypasco 來毅數位與 TechOrange 科技報橘共同主辦「2026 AI 信任治理論壇」，以「突破試點斷層，讓AI真正進入營運：從Agent身分、設備信任到持續驗證」為題，深入剖析 A…",
-      "source": "TechOrange 科技報橘",
-      "published": "2026-10-16T10:12:34+00:00",
-      "image": "https://techorange.com/app/uploads/2026/10/ab8654d0e92952c3-720x480.jpg"
-    },
-    {
-      "title": "Anthropic 讓 METR 研究員以員工級權限進駐，外部評估報告公司無權否決",
-      "link": "https://technews.tw/2026/10/16/anthropic-just-opened-its-doors-to-outside-safety-watchdogs-heres-how-it-will-work/",
-      "summary": "Anthropic 15 日於部落格宣布，非營利 AI 評估組織 METR（Model Evaluation […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T10:10:45+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16175757/c2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125-300x169.jpg"
-    },
-    {
-      "title": "美中 AI 人才戰再起？17 歲天才少年陳廣宇告別「月之暗面」轉投矽谷",
-      "link": "https://technews.tw/2026/10/16/17-year-old-ai-prodigy-reportedly-leaves-moonshot-ai-to-join-anthropic/",
-      "summary": "年僅17歲的人工智慧（AI）研究新星陳廣宇，近日證實已離開中國新創公司「月之暗面」（Moonshot AI）， […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T10:00:44+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16174556/nathan-chen-300x200.jpg"
-    },
-    {
-      "title": "布局面板級先進封裝！海德漢推出新平台，運動控制精度瞄準 5 奈米",
-      "link": "https://technews.tw/2026/10/16/heidenhain-semicon-west-david-doyle/?utm_source=flipboard&utm_content=other",
-      "summary": "海德漢（HEIDENHAIN）美國分公司總裁兼執行長 David Doyle 在 SEMICON West 接受採訪時表示，公司推出全新 METIS HP 平台，鎖定半導體面板級應用，透過高精度運動控制技術，協助設備業者因應先進封裝、量測與檢測等製程挑戰，並持續朝 5 奈米精度與重複性發展。 在被問到 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T09:57:52+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16173848/david.jpg"
-    },
-    {
-      "title": "東元 70 週年揭藍圖，AI 基建助攻千億營收目標",
-      "link": "https://technews.tw/2026/10/16/teco-70th-anniversary-blueprint-ai-infrastructure-boosts-100-billion-revenue-target/?utm_source=flipboard&utm_content=other",
-      "summary": "東元電機今（16）日舉辦成立 70 週年論壇，聚焦 AI 時代產業轉型與未來能源發展。東元董事長利明献表示，未來將以電力能源服務、AI 基礎建設及智慧動力為三大發展主軸，整合機電設備、能源管理及工程服務能力，擴大全球市場布局。隨著 AI 資料中心建置需求成長，東元維持未來 2 至 3 年達成千億元營 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T09:57:52+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16162504/1504.jpg"
-    },
-    {
-      "title": "骨折癒合卻持續劇痛，神經阻斷術助重獲新生",
-      "link": "https://technews.tw/2026/10/16/crps-healed/?utm_source=flipboard&utm_content=other",
-      "summary": "王姓男子遭重物砸傷腳掌造成趾骨粉碎性骨折，傷勢癒合後患部輕輕觸碰就出現針刺般劇烈疼痛，經大林慈濟醫院疼痛治療整合中心採神經阻斷術治療，疼痛大幅緩解。 大林慈濟醫院今天新聞稿表示，患者只要輕輕觸碰、水滴滴到或溫差變化都會劇痛，只能用拐杖輔助行走，多年求醫無解。 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T09:57:51+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/01/29110233/sick-asian-glasses-male-adult-feel-wrist-pain-hand-touch-wrist-muscle-with-stressful-tension-white-background-office-syndrome-ideas-concept.jpg"
-    },
-    {
-      "title": "專家：中國人口數據遭高估，實際人口約 12.7 億",
-      "link": "https://technews.tw/2026/10/16/experts-china-population-data-overestimated-actual-1-27-billion/?utm_source=flipboard&utm_content=other",
-      "summary": "中國人口問題專家、美國威斯康辛大學麥迪遜分校高級研究員易富賢最近發表一份有關中國人口研究報告，指出中國實際人口可能更接近 12.7 億，而非官方公布的 14 億，兩者差距可能高達 1.3 億人。 華爾街日報13日報導易富賢近期在「當代中國評論」（Contemporary China Review）的研 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T09:57:50+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/01/14122337/javier-quiroga-FeBqmwrm1YI-unsplash.jpg"
-    },
-    {
-      "title": "科學家揭月球上萬條活動斷層，NASA 阿提米絲著陸點恐面臨月震風險",
-      "link": "https://technews.tw/2026/10/16/moon-active-fault-lobate-scarps-ridge/?utm_source=flipboard&utm_content=other",
-      "summary": "當我們拉近視野仔細觀察月球表面，會發現月表佈滿蝕刻皺褶，這些特徵不單純為靜態疤痕，而是活動斷層。一項新研究首度系統性揭露月球表面超過 10,000 條年輕斷層分布，不僅證明月球內部至今持續冷卻收縮，更警示未來月球基地可能隨時面臨月震風險。 活動斷層指過去一段時間（地質學通常定義過去 10,000年內） …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T09:57:50+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16165855/moon-active-fault.jpg"
-    },
-    {
-      "title": "Razer無線耳機BlackShark V3現折1350元 搭載50mm驅動單體、支援70小時續航力",
-      "link": "https://www.cool3c.com/article/253096",
-      "summary": "Razer電競耳機產品線完整，其中BlackShark V3屬於中高階機種，採無線設計擺脫線材的束縛，並支援藍牙、2.4GHz等多種連線方式。這款耳機採用50mm驅動單體，搭配第二代Razer Hyperspeed Wireless技術可實現10ms超低延遲，且它的續航力也有不錯的表現，在充滿電的情況下可支援70小時續航力，充電15分鐘就能使用6小時。Razer BlackS…",
-      "source": "Cool3c",
-      "published": "2026-10-16T09:53:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/d4b992e6-8477-475e-ac33-2ab3b656eedf.webp"
-    },
-    {
-      "title": "恐怖新作《beyond the dark: nightwatch》10/22 登陸Nintendo Switch 2",
-      "link": "https://www.technice.com.tw/techmanage/game/328403/",
-      "summary": "獨立遊戲發行商 Q-Games 於今日稍早正式宣佈，取得由法國 Atlantis Studio 開發的 Nintendo Switch 2 專屬恐怖遊戲《beyond the dark: nightwatch》之亞洲地區發行權。本作預計於 10 月 22 日正式發售，售價為 2,480 日圓（含稅）。",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T09:47:14+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/10/youtube_thumbnail_maxresdefault_S7UAVm2GHkc.jpg",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "AI 揪出的漏洞誰來補？美國銀行加派 1,000 名承包商，少見公開修補人力規模",
-      "link": "https://techorange.com/2026/10/16/bank-of-america-contractors-patch-mythos-flaws/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-      "summary": "美國銀行（Bank of America）執行長 Brian Moynihan，美國時間 10/14 公布第三季財報後接受《CNBC》專訪時透露，為了修補 Anthropic 的 Mythos 等先進 AI 模型揭露的軟體漏洞，銀行第二季加派了 1,000 名外部承包商，與原有的 3,000 名內部員工一起作業。《CNBC》指出，這是美國大型企業最早具體說明為防範 Mytho…",
-      "source": "TechOrange 科技報橘",
-      "published": "2026-10-16T09:47:12+00:00",
-      "image": "https://techorange.com/app/uploads/2026/10/08e83d04d60785e6-720x480.jpg"
-    },
-    {
-      "title": "布局面板級先進封裝！海德漢推出新平台，運動控制精度瞄準 5 奈米",
-      "link": "https://technews.tw/2026/10/16/heidenhain-semicon-west-david-doyle/",
-      "summary": "海德漢（HEIDENHAIN）美國分公司總裁兼執行長 David Doyle 在 SEMICON West 接 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T09:45:26+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16173848/david-300x225.jpg"
-    },
-    {
-      "title": "北科大攜手14家產學夥伴推智慧鐵道！國產集電弓將落地、AI監測系統助攻軌道升級",
-      "link": "https://www.technice.com.tw/campus/328401/",
-      "summary": "臺灣智慧鐵道發展加速，從人才培育延伸至國產技術研發與AI應用。國立臺北科技大學今（16）日舉行「智慧鐵道產業人才學院」第三屆合作意向書簽署儀式，合作單位由原先11家擴大至14家，新增臺灣高鐵、臺中捷運及鐵道技術研究及驗證中心，串聯學術研究、軌道營運及測試驗證資源。交通部鐵道局長楊正君透露，北科大研發的國產集電弓已接近實際應用階段，未來有望導入國內軌道系統。",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T09:41:55+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/10/S__25837573.jpg",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "骨折癒合卻持續劇痛，神經阻斷術助重獲新生",
-      "link": "https://technews.tw/2026/10/16/crps-healed/",
-      "summary": "王姓男子遭重物砸傷腳掌造成趾骨粉碎性骨折，傷勢癒合後患部輕輕觸碰就出現針刺般劇烈疼痛，經大林慈濟醫院疼痛治療整 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T09:40:52+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/01/29110233/sick-asian-glasses-male-adult-feel-wrist-pain-hand-touch-wrist-muscle-with-stressful-tension-white-background-office-syndrome-ideas-concept-300x200.jpg"
-    },
-    {
-      "title": "工研院攜手七大廠成立TBC光電技術聯盟 加速高效太陽電池產業化",
-      "link": "https://www.technice.com.tw/issues/electro/328398/",
-      "summary": "面對全球太陽光電產業競爭加劇，以及綠電需求持續成長，台灣光電產業正加速尋求技術升級與轉型。工研院今（16）日在「Energy Taiwan臺灣國際智慧能源週」宣布，攜手元晶、聯合再生、茂迪、續日、友晁、立創及碩禾等七家指標業者，正式成立「TBC光電技術聯盟」，整合國內太陽電池製造、設備及材料供應鏈，推動新一代高效率太陽電池技術產業化，盼透過技術創新提升台灣光電產品競爭力，拓展…",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T09:38:23+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/10/62426737-894E-4727-BCA5-C3205AA4715D-1024x768.jpg",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "專家：中國人口數據遭高估，實際人口約 12.7 億",
-      "link": "https://technews.tw/2026/10/16/experts-china-population-data-overestimated-actual-1-27-billion/",
-      "summary": "中國人口問題專家、美國威斯康辛大學麥迪遜分校高級研究員易富賢最近發表一份有關中國人口研究報告，指出中國實際人口 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T09:30:39+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/01/14122337/javier-quiroga-FeBqmwrm1YI-unsplash-300x200.jpg"
-    },
-    {
-      "title": "科技巨頭想當礦商股東？英美資源證實洽談入股，尋求保障 AI 資料中心金屬供應",
-      "link": "https://techorange.com/2026/10/16/tech-firms-metals-supply-anglo-wanblad/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-      "summary": "隨著 AI 資料中心建設持續推進，科技企業正積極尋找確保關鍵金屬供應的方式。倫敦上市礦業集團英美資源（Anglo American）執行長 Duncan Wanblad 透露，公司已與有意入股的科技企業展開討論。 確保金屬供應，科技企業評估長期承購與直接入股 Wanblad 於 10 月 15 日在《金融時報》舉辦的金屬與礦業峰會上表示，相關討論「確實正在進行」。他指出，這些…",
-      "source": "TechOrange 科技報橘",
-      "published": "2026-10-16T09:24:45+00:00",
-      "image": "https://techorange.com/app/uploads/2026/10/22189cfcd4364a5e-720x478.jpeg"
-    },
-    {
-      "title": "【2026 高雄電影節】從 AI 語音辨識到 VR 自由探索，高雄電影節兩部原創 XR 新作重新定義沉浸式敘事 - INSIDE",
-      "link": "https://www.inside.com.tw/article/42658-from-ai-speech-recognition-to-free-roaming-vr-two-original-xr-works-at-kaohsiung-film-festival-redefine-immersive-storytelling",
-      "summary": "高雄原創XR新作《我的時光機》與《前往力馬卡伍得》，分別運用 6DoF 與 AI 語音辨識技術，賦予觀眾高度互動性，藉此探索突破導演主導視角的新敘事可能，重新定義創作者與觀眾的關係。",
-      "source": "INSIDE 硬塞的網路趨勢觀察",
-      "published": "2026-10-16T09:23:47+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/51e568e5-e898-4c28-b1bc-b9f8c644c78a.webp"
-    },
-    {
-      "title": "【2026 高雄電影節】從個人創傷到歷史記憶，高雄電影節六部 XR 作品探索沉浸式紀錄片的敘事可能 - INSIDE",
-      "link": "https://www.inside.com.tw/article/42659-from-personal-trauma-to-historical-memory-six-xr-works-at-kaohsiung-film-festival-explore-new-storytelling-possibilities-for-immersive-documentaries",
-      "summary": "高雄電影節XR論壇探討VR紀錄片，邀集國際創作者分享如何以沉浸式互動，讓觀眾從旁觀者轉為體驗者，親身感受性別、戰爭與創傷等議題，直面生命記憶與歷史時空。",
-      "source": "INSIDE 硬塞的網路趨勢觀察",
-      "published": "2026-10-16T09:22:49+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/cf58b946-86be-4cc8-b30f-0ab252c50bea.webp"
-    },
-    {
-      "title": "台灣品牌USB-C充電電池99元 Martinweb電池有指示燈、可用充電器與線材充電",
-      "link": "https://www.cool3c.com/article/253095",
-      "summary": "USB Type-C充電電池並不是什麼新東西，對岸有許多銅板價的商品可買，但在安規、品質方面你可能會有所疑慮。然而台灣也有品牌推出USB Type-C充電電池，像是Martinweb這系列產品有3號(AA)與4號(AAA)電池的版本，電池上有指示燈可顯示充電狀態，並且除了用線材充電外，也能用充電器充電更方便。價格方面雖然不到銅板價，但3號電池108元、4號電池99元也算可以接…",
-      "source": "Cool3c",
-      "published": "2026-10-16T09:13:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/719f4326-0229-4f2c-8587-04e0490becdb.webp"
-    },
-    {
-      "title": "東元 70 週年揭藍圖，AI 基建助攻千億營收目標",
-      "link": "https://technews.tw/2026/10/16/teco-70th-anniversary-blueprint-ai-infrastructure-boosts-100-billion-revenue-target/",
-      "summary": "東元電機今（16）日舉辦成立 70 週年論壇，聚焦 AI 時代產業轉型與未來能源發展。東元董事長利明献表示，未 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T09:10:55+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16162504/1504-300x225.jpg"
-    },
-    {
-      "title": "蘋果高層解密 iPhone Duo 折疊螢幕：從零開始深度客製化",
-      "link": "https://www.technice.com.tw/3c/328389/",
-      "summary": "外界普遍報導三星（Samsung）為蘋果（Apple）首款折疊手機 iPhone Duo 的關鍵螢幕供應商，甚至部分聲音質疑蘋果僅是「直接採用三星現有螢幕技術」。對此，蘋果高層在最新釋出的專訪中正面回應，說明雙方的合作模式與產品研發細節。",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T09:10:48+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/10/1792141671317.jpg",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "台灣邁入5兆元零售時代！電商、百貨、超商為何成大型集團布局焦點？",
-      "link": "https://www.bnext.com.tw/article/92662/taiwan-retail-ecommerce-5-trillion-era",
-      "summary": "2026年台灣零售業規模推估達新台幣5.08兆元，2010年以來電商、百貨、超商等5類綜合通路貢獻逾6成新增營業額，3C、家具專賣業則幾乎零成長。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T09:10:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-03a429f9e2cf7463.jpg?w=900&output=webp"
-    },
-    {
-      "title": "台積電2奈米換架構，3奈米仍有大生意？「FinFET之父」胡正明為何看好？",
-      "link": "https://www.bnext.com.tw/article/92680/hu-chenming-finfet-ai-power-3nm",
-      "summary": "胡正明新書發表會，魏哲家等半導體要角站台。他認為AI用電不能只靠增加能源供應，晶片效率須持續突破；即使2奈米換新架構，3奈米仍有長期市場。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T09:02:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-e06721f2c5d82682.jpg?w=900&output=webp"
-    },
-    {
-      "title": "科學家揭月球上萬條活動斷層，NASA 阿提米絲著陸點恐面臨月震風險",
-      "link": "https://technews.tw/2026/10/16/moon-active-fault-lobate-scarps-ridge/",
-      "summary": "當我們拉近視野仔細觀察月球表面，會發現月表佈滿蝕刻皺褶，這些特徵不單純為靜態疤痕，而是活動斷層。一項新研究首度 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T08:59:25+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16165855/moon-active-fault-300x235.jpg"
-    },
-    {
-      "title": "特斯拉Robotaxi再添2起遠端操作事故 目前5筆接管案例全數發生碰撞",
-      "link": "https://www.technice.com.tw/technology/autosystem/328384/",
-      "summary": "特斯拉最新提交給美國國家公路交通安全管理局（NHTSA）的事故資料顯示，又有2起Robotaxi在「遠端操作員」接管車輛後發生碰撞的案例，使目前公開事故資料中涉及遠端接管的事件增加至5起。",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T08:49:41+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/10/遠端操控下的-Robotaxi-碰撞現場.png",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "日本恐跌出全球前5大經濟體！2027將被印度、英國超越，OECD揭長期隱憂",
-      "link": "https://www.bnext.com.tw/article/92656/japan-gdp-sixth-india-uk-overtake-2027",
-      "summary": "IMF預估2027年日本名目GDP將被印度與英國超越，退居全球第6。日本經濟規模其實仍在成長，為何名次連掉兩名？關鍵不只是日圓貶值。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T08:47:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2017-12/img-1512120710-25349.jpg?w=900&output=webp"
-    },
-    {
-      "title": "全球柴油價格飆升 國際能源總署將釋逾2000萬桶庫存",
-      "link": "https://www.technice.com.tw/technology/energy/328385/",
-      "summary": "國際能源總署（IEA）週四在聲明中表示，成員國已同意「盡快」釋出超過2000萬桶柴油，以因應全球燃料價格飆升。",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T08:45:07+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/04/messageImage_1776322130775.jpg",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "AWS與Anthropic搶培AI部署工程師 力證企業AI投資能創造回報",
-      "link": "https://www.technice.com.tw/issues/ai/328380/",
-      "summary": "在投入數十億美元建置人工智慧之後，大型科技公司如今正大舉投資培育所需的人力，試圖證明這些投資確實帶來回報。企業正爭相尋找專業AI工程師，協助將這項技術導入企業內部。這些專業人才被稱為前線部署工程師（FDE），結合進階AI與軟體專業知識，以及對企業運作方式的理解。他們可能是將強大的大型語言模型轉化為企業系統的關鍵人力，讓AI真正產生可衡量的商業成果。",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T08:31:44+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/04/01_0-1.jpg",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "輝達、AMD、戴爾受賣壓下跌 20大AI股一週蒸發逾1兆美元",
-      "link": "https://www.technice.com.tw/issues/ai/328379/",
-      "summary": "全球AI與半導體類股週四持續遭遇賣壓。隨著市場擔心利率升高、AI基礎設施融資成本增加，以及記憶體產能擴張可能帶來供過於求，全球20家市值最高的AI與半導體企業，本週合計已蒸發超過1兆美元市值。",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T08:31:26+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/10/科技股暴跌與數據中心風暴.png",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "強迫症救星！DDR5 插槽空空的太難看？v-color 推出「0GB 假記憶體」千元搞定電競光效",
-      "link": "https://www.techbang.com/posts/133149-v-color-0gb-rgb-dummy-ram-filler?utm_source=flipboard&utm_content=other",
-      "summary": "全何推出專為視覺設計的 0GB 假記憶體，讓玩家能以低預算填補主機板空缺，享受同步的 RGB 燈效。這款 0GB 假記憶體不僅解決了插槽閒置的遺憾，更透過燦爛的 RGB 燈效打造滿血視...對於熱愛側透機殼與電競光效的 DIY …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T08:30:00+00:00",
-      "image": "https://cdn2.techbang.com/system/images/792352/original/b75e95c9eda24b2245c371641acda92c.jpg?1789347019"
-    },
-    {
-      "title": "日本緊急地震速報大烏龍，規模 6.9 誤判 9.9 氣象廳致歉",
-      "link": "https://technews.tw/2026/10/16/japan-emergency-earthquake-early-warning-blunder-magnitude-6-9-misjudged-9-9-jma-apologizes/?utm_source=flipboard&utm_content=other",
-      "summary": "TechNews 科技新報 日本今天中午發生緊急地震速報誤報事件，氣象廳一度判定千島群島發生規模 9.9 強震，緊急對北海道至東海地區發布大範圍緊急速報，但實際上是俄羅斯堪察加半島規模 6.9 地震，日本未觀測到強烈搖晃。氣象廳隨後緊急撤銷警報。 日本氣象廳下午2時召開記者會致歉，坦言這是日本首次撤銷 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T08:23:05+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/10/13105211/jens-aber-fClNK-MIz_E-unsplash.jpg"
-    },
-    {
-      "title": "彭博：歐盟醞釀新貿易工具，必要時全面阻止中國商品進口",
-      "link": "https://technews.tw/2026/10/16/bloomberg-eu-mulling-new-trade-tools-could-fully-block-chinese-imports-if-necessary/?utm_source=flipboard&utm_content=other",
-      "summary": "彭博（Bloomberg News）報導，知情人士透露，歐盟領導層15日在布魯塞爾開會時，要求歐洲聯盟執行委員會（European Commission）年底前提案。若歐盟認為中國等競爭對手攻擊歐盟經濟，這些權限將可在極端情況下動用。 立陶宛總統瑙塞達（Gitanas Nauseda）在峰會場邊告訴媒 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T08:23:05+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2023/03/17111133/shutterstock_1609033264.jpg"
-    },
-    {
-      "title": "Windows 11 效能改善有感，8GB 記憶體電腦也能順暢運作",
-      "link": "https://technews.tw/2026/10/16/microsoft-improves-memory-management-and-efficiency-across-windows/?utm_source=flipboard&utm_content=other",
-      "summary": "今年稍早，微軟提出一項改善 Windows 11 的計畫，將重心擺在效能、穩定性以及作業系統整體體驗。經過數個月的調整，微軟稱「Windows 體驗的反應速度提升高達 20%」。 微軟針對 Windows 11「開始」功能表、檔案總管、搜尋、剪取工具、Microsoft 365、Edge 瀏覽器等進行 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T08:23:05+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16151453/Microsoft-Improves-Memory-Management-and-Efficiency-Across-Windows.jpg"
-    },
-    {
-      "title": "AI 融資疑慮風險升溫 BE／GEV 等能源股承壓",
-      "link": "https://finance.technews.tw/2026/10/16/ai-funding-concerns-escalate-pressure-energy-stocks-be-gev/?utm_source=flipboard&utm_content=other",
-      "summary": "AI 基礎設施業者 CoreWeave 債務負擔引發市場疑慮，賣壓擴散至資料中心供電概念股，Bloom Energy（BE.US）、GE Vernova 和星座能源（Constellation Energy）同步承壓。 燃料電池大廠Bloom Energy、電力設備巨頭GE Vernova和美國無碳能 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T08:23:05+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/01/21145851/clean_Gemini_Generated_Image_yxcxmnyxcxmnyxcx.jpg"
-    },
-    {
-      "title": "工研院攜手 7 家業者成立 TBC 光電聯盟，推動高效率太陽電池量產",
-      "link": "https://technews.tw/2026/10/16/itri-collaborates-7-companies-form-tbc-optoelectronics-alliance-driving-mass-production-high-efficiency-solar-cells/?utm_source=flipboard&utm_content=other",
-      "summary": "為推動台灣太陽光電產業技術升級，工研院今（16）日於 2026 台灣國際智慧能源週宣布，攜手元晶、聯合再生、茂迪、續日、友晁、立創及碩禾等 7 家業者，成立「TBC 光電技術聯盟」，整合太陽電池、模組、材料及設備供應鏈，加速新一代高效率太陽電池技術開發與商業化應用。 TBC（穿隧氧化鈍化背接觸）太陽電 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T08:23:04+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16153653/solar-panel.jpg"
-    },
-    {
-      "title": "ASML 警告美擴大 DUV 禁令，恐加速中國半導體自主化",
-      "link": "https://technews.tw/2026/10/16/asml-calls-us-restrictions-on-duv-sales-to-china-counterproductive-stance-reflects-strategic-dilemma-amid-pressure/?utm_source=flipboard&utm_content=other",
-      "summary": "荷蘭半導體設備大廠艾司摩爾（ASML）近日再度對美國國會擬推動的《硬體技術管制多邊協調法案》（MATCH Act）表達疑慮，認為若進一步限制其向中國銷售深紫外光（DUV）微影設備，不僅難以達成抑制效果，反而可能刺激中國加快發展本土替代技術。 ASML 財務長 Roger Dassen 在公司公布第三季 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T08:23:04+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2022/01/26180219/ASML-TechNews-e1678507727641.jpeg"
-    },
-    {
-      "title": "工研院攜手七家業者成立 TBC 光電聯盟，推動高效率太陽電池量產",
-      "link": "https://technews.tw/2026/10/16/itri-collaborates-7-companies-form-tbc-optoelectronics-alliance-driving-mass-production-high-efficiency-solar-cells/",
-      "summary": "為推動台灣太陽光電產業技術升級，工研院今（16）日於 2026 台灣國際智慧能源週宣布，攜手元晶、聯合再生、茂 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T08:04:33+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16153653/solar-panel-300x200.jpg"
-    },
-    {
-      "title": "台積電獲利創新高，股價卻遇逆風？專家解讀魏哲家法說會7大訊號",
-      "link": "https://www.bnext.com.tw/article/92678/tsmc-q3-2026-earnings-call",
-      "summary": "台積電第三季每股盈餘29.43元創新高，法說會當天台股卻重挫1,655點。科技專家吳金榮解讀德州設廠、Terafab合作、1.4奈米與AI需求。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T08:01:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2024-07/img-1721293890-48412.jpg?w=900&output=webp"
-    },
-    {
-      "title": "《電馭叛客 2077》在手機上跑出 60 FPS！DroidDeck 讓 Android 手機免串流直接玩 Steam 遊戲",
-      "link": "https://www.techbang.com/posts/134126-droiddeck-android-steam-games-native-60fps?utm_source=flipboard&utm_content=other",
-      "summary": "開源應用程式 DroidDeck 成功將 ARM64 Steam 客戶端與 Proton 相容層整合，讓 Android 手機無需 Root 即可本機運行 PC 遊戲，流暢體驗 3A 大作。開源應用程式 DroidDeck 首度將 Valve 官方的 ARM64 Steam 客戶端與 Proton …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T08:00:00+00:00",
-      "image": "https://cdn1.techbang.com/system/images/796129/original/829436bcaf2674f28f2cbe10f72b41a4.png?1791948589"
-    },
-    {
-      "title": "亞馬遜發表Bee兩款AI錄音硬體！手環Frontier與磁吸卡片Eclipse亮相，月費12美元起",
-      "link": "https://www.bnext.com.tw/article/92679/amazon-bee-frontier-eclipse-bee-pro",
-      "summary": "亞馬遜推出Bee Frontier與Bee Eclipse兩款AI錄音裝置，可整理對話摘要與待辦，並發表月費11.99美元的Bee Pro方案。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T08:00:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/9wqv-1792138707.jpg?w=900&output=webp"
-    },
-    {
-      "title": "不只去參展！經濟部中企署率12家臺灣新創赴柏林IFA Berlin 2026「打市場」，8案合作落地，更拿下Pitch競賽亞洲唯一決賽席次｜Meet創業小聚",
-      "link": "https://www.bnext.com.tw/article/92617/jw7n15ng",
-      "summary": "對許多臺灣新創而言，進軍歐洲市場最難的，往往不是把產品帶出國，而是找到第一個願意坐下來談合作的企業、通路或投資人。",
-      "source": "Meet 創業小聚",
-      "published": "2026-10-16T08:00:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/8kk1-1791890648.jpg/w_900,output_webp"
-    },
-    {
-      "title": "10.3吋彩色閱讀器Boox Note Air 5 C折1598元 Android系統可用各家App 附磁吸電磁筆",
-      "link": "https://www.cool3c.com/article/253090",
-      "summary": "如果希望閱讀器在閱讀書籍以外，也有足夠的螢幕空間可以寫筆記，那或許可以考慮10吋左右的機種。例如Boox的Note Air 5 C採用10.3吋彩色螢幕並支援手寫筆，它搭載Boox Super Refresh技術讓畫面切換、手寫筆跡的顯示更為流暢，且手寫筆採用Wacom手寫技術，支援傾斜感應等功能。這款閱讀器採用Android 15系統，可以下載各大電子書平台App，也可搭配…",
-      "source": "Cool3c",
-      "published": "2026-10-16T07:46:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/09/3d1673de-6c21-4f83-9533-0f0c26faca32.webp"
-    },
-    {
-      "title": "OpenAI、Anthropic 的 AI 代理在政府網站上越界後，通報先成了各國共識、驗證機制仍各走各路 - INSIDE",
-      "link": "https://www.inside.com.tw/article/42657-ai-agent-incidents-openai-anthropic-us-uk-eu-response",
-      "summary": "AI 代理屢傳失控，如入侵政府網站、提交假表單，引發全球資安疑慮。美、英、澳等多國政府要求強制通報與測試，但 AI 業者對具約束力的監管態度不一，凸顯自主管理與法規的拉鋸。",
-      "source": "INSIDE 硬塞的網路趨勢觀察",
-      "published": "2026-10-16T07:45:03+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/c9607e7e-697a-4082-b616-a3f708f7ae1a.webp"
-    },
-    {
-      "title": "日本緊急地震速報大烏龍，規模 6.9 誤判 9.9 氣象廳致歉",
-      "link": "https://technews.tw/2026/10/16/japan-emergency-earthquake-early-warning-blunder-magnitude-6-9-misjudged-9-9-jma-apologizes/",
-      "summary": "日本今天中午發生緊急地震速報誤報事件，氣象廳一度判定千島群島發生規模 9.9 強震，緊急對北海道至東海地區發布 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T07:40:14+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/10/13105211/jens-aber-fClNK-MIz_E-unsplash-300x150.jpg"
-    },
-    {
-      "title": "全支付衝上電支二哥！730萬會員如何成為商家客源？游金榮談下一步布局",
-      "link": "https://www.bnext.com.tw/article/92672/pxpay-plus-4th-anniversary-beyond-pxmart",
-      "summary": "上線4年、會員突破730萬，全支付卻急著走出全聯！擴大外部合作、布局AI行銷，全支付總經理游金榮如何讓下一筆消費不再只靠買菜？",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T07:40:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/bbs3-1792121438.jpg?w=900&output=webp"
-    },
-    {
-      "title": "電腦及週邊設備產業鏈／鴻海9月營收首破兆元！Q3營收創高",
-      "link": "https://www.technice.com.tw/project/tech-frontline/328377/",
-      "summary": "鴻海（2317）受惠AI伺服器需求成長與消費性電子產品進入傳統旺季，2026年9月合併營收達1兆1,586.33億元，月增25.70%、年增38.42%，首次單月突破兆元大關，創下歷史新高。第三季合併營收達3兆269億元，季增20.44%、年增47.12%，同樣刷新單季紀錄。隨著全球雲端服務供應商持續擴大AI基礎建設投資，鴻海預期第四季AI相關業務將延續成長，成為支撐全年營運…",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T07:37:38+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/08/D860C6BD-B3B7-4A24-8255-F40B1D698A7F-1024x768.jpg",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "ASML 警告美擴大 DUV 禁令，恐加速中國半導體自主化",
-      "link": "https://technews.tw/2026/10/16/asml-calls-us-restrictions-on-duv-sales-to-china-counterproductive-stance-reflects-strategic-dilemma-amid-pressure/",
-      "summary": "荷蘭半導體設備大廠艾司摩爾（ASML）近日再度對美國國會擬推動的《硬體技術管制多邊協調法案》（MATCH Ac […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T07:30:27+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2022/01/26180219/ASML-TechNews-300x200.jpeg"
-    },
-    {
-      "title": "Sennheiser ACCENTUM Clip 開箱評測：實力派開放式耳夾新秀！配戴輕盈無負擔，好聲音隨行",
-      "link": "https://www.techbang.com/posts/134124-sennheiser-accentum-clip-review?utm_source=flipboard&utm_content=other",
-      "summary": "Sennheiser首款耳夾式耳機ACCENTUM …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T07:30:00+00:00",
-      "image": "https://cdn1.techbang.com/system/images/796120/original/9c92330730f4966fab943e349579e9d8.jpg?1791921357"
-    },
-    {
-      "title": "彭博：歐盟醞釀新貿易工具，必要時全面阻止中國商品進口",
-      "link": "https://technews.tw/2026/10/16/bloomberg-eu-mulling-new-trade-tools-could-fully-block-chinese-imports-if-necessary/",
-      "summary": "歐洲聯盟（EU）正準備制定新的貿易權限，必要時可全面阻止中國商品進入歐盟單一市場，為縮減對中貿易逆差的重大新行 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T07:20:33+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2023/03/17111133/shutterstock_1609033264-300x190.jpg"
-    },
-    {
-      "title": "Windows 11 效能改善有感，8GB 記憶體電腦也能順暢運作",
-      "link": "https://technews.tw/2026/10/16/microsoft-improves-memory-management-and-efficiency-across-windows/",
-      "summary": "今年稍早，微軟提出一項改善 Windows 11 的計畫，將重心擺在效能、穩定性以及作業系統整體體驗。經過數個 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T07:19:21+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16151453/Microsoft-Improves-Memory-Management-and-Efficiency-Across-Windows-300x169.jpg"
-    },
-    {
-      "title": "「史上最大的承諾之一」川普：台灣同意 20 年內買下阿拉斯加 LNG 計畫 30% 氣量 - INSIDE",
-      "link": "https://www.inside.com.tw/article/42650-trump-says-taiwan-buy-30-percent-alaska-lng-20-years-cpc-letter-of-intent",
-      "summary": "川普稱台灣同意 20 年內購買阿拉斯加 LNG 計畫約 30% 的天然氣，並將追加投資。台灣政府與中油目前未正式證實，中油先前僅簽署非約束性意向書。",
-      "source": "INSIDE 硬塞的網路趨勢觀察",
-      "published": "2026-10-16T07:17:48+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/09/3036d991-3d18-47cc-98bc-fb4d29b02e1b.webp"
-    },
-    {
-      "title": "連 6 季創高！台積電第 3 季淨利新台幣 7630.6 億元，年增 68.7%、2 奈米占比升至 8% - INSIDE",
-      "link": "https://www.inside.com.tw/article/42655-tsmc-3q26-net-income-nt763-billion-record-2nm-8-percent-4q-guidance",
-      "summary": "台積電第 3 季合併營收新台幣 1 兆 4942.4 億元，淨利新台幣 7630.6 億元、年增 68.7%，毛利率 66.4%，2 奈米占晶圓營收 8%，第 4 季財測營收 523 億至 543 億美元。",
-      "source": "INSIDE 硬塞的網路趨勢觀察",
-      "published": "2026-10-16T07:11:57+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/07/eb8e58f0-caf4-4c2f-83f2-aa67f04947ae.jpg"
-    },
-    {
-      "title": "仁寶AI伺服器轉型解析：營收占比拚10%，如何搶攻雲端大廠訂單？",
-      "link": "https://www.bnext.com.tw/article/92676/compal-ai-server-transformation",
-      "summary": "仁寶伺服器營收占比從2025年約2%拉高到今年預估一成，自稱已從AI門外漢追到中段班。換帥、換血、提前投資產能，仁寶下一步要拿下雲端大廠訂單。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T07:02:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-9ae48ad223763f6d.jpg"
-    },
-    {
-      "title": "AI 融資疑慮風險升溫 BE / GEV 等能源股承壓",
-      "link": "https://finance.technews.tw/2026/10/16/ai-funding-concerns-escalate-pressure-energy-stocks-be-gev/",
-      "summary": "AI 基礎設施業者 CoreWeave 債務負擔引發市場疑慮，賣壓擴散至資料中心供電概念股，Bloom Ene […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T07:00:37+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/01/21145851/clean_Gemini_Generated_Image_yxcxmnyxcxmnyxcx-300x168.jpg"
-    },
-    {
-      "title": "不只去參展！經濟部中企署率12家臺灣新創赴柏林IFA Berlin 2026「打市場」，8案合作落地，更拿下Pitch競賽亞洲唯一決賽席次",
-      "link": "https://www.bnext.com.tw/article/92617/jw7n15ng",
-      "summary": "對許多臺灣新創而言，進軍歐洲市場最難的，往往不是把產品帶出國，而是找到第一個願意坐下來談合作的企業、通路或投資人。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T07:00:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/8kk1-1791890648.jpg?w=900&output=webp"
-    },
-    {
-      "title": "高通首度在台舉辦Snapdragon Compute Connect活動，攜手生態系夥伴聚焦Snapdragon AI PC創新 #互通性 (253086) - Cool3c",
-      "link": "https://www.cool3c.com/article/253086",
-      "summary": "Chevelle.fu發佈高通首度在台舉辦Snapdragon Compute Connect活動，攜手生態系夥伴聚焦Snapdragon AI PC創新，最新資訊於2026-10-16 14:59：高通以智慧手機平台為起點，迄今正逐漸在PC裝置發揮影響力，然而為了持續擴大及提升Snapdragon...#(253086)",
-      "source": "Cool3c",
-      "published": "2026-10-16T06:54:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/48c8e586-3c6c-406f-bc29-2501ff1f3eee.webp"
-    },
-    {
-      "title": "台灣主權AI語料庫僅1%來自民間！想讓AI懂台灣，為何這麼難？",
-      "link": "https://www.bnext.com.tw/article/92675/taiwan-sovereign-ai-corpus-copyright-law",
-      "summary": "數發部主權AI訓練語料庫7161筆資料中僅111筆來自民間。《著作權法》未納入AI訓練情境，開發者怕吃刑事官司，修法與集體授權成破局關鍵。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T06:51:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-e71b848ecd179a51.jpg?w=900&output=webp"
-    },
-    {
-      "title": "美國肯德基拆夥 40 年搭檔百事 改賣可口可樂",
-      "link": "https://finance.technews.tw/2026/10/16/kfc-to-switch-to-coca-cola-beverages-in-u-s-restaurants-for-the-first-time-in-decades/",
-      "summary": "美國連鎖速食巨頭肯德基（KFC）15 日宣布，將結束與百事公司（PepsiCo）長達 40 年的飲料供應合作關 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T06:40:45+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16143829/KFC-Kentucky_Fried_Chicken_Tallulah_Louisiana_01-300x225.jpg"
-    },
-    {
-      "title": "AI 黑盒子沒那麼黑？Goodfire 研究員：神經元「亂塞概念」可能是誤讀",
-      "link": "https://techorange.com/2026/10/16/neural-networks-already-clean-goodfire/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-      "summary": "想了解 AI 為什麼做出某個判斷，最直接的方式，是打開模型，看看裡面的「神經元」各自在做什麼。但長期以來，研究界普遍認為這條路並不好走：神經元裡似乎塞滿了互不相干的概念，就像一團打結的毛線。AI 新創 Goodfire 研究員 Nick Cammarata 日前發表長文挑戰這個看法，他聲稱，在語言模型 Qwen3-32B 中，多數神經元其實只負責一件主要工作。 Cammara…",
-      "source": "TechOrange 科技報橘",
-      "published": "2026-10-16T06:39:03+00:00",
-      "image": "https://techorange.com/app/uploads/2026/10/1cff946979129a5e-scaled-e1792124928940-720x431.jpg"
-    },
-    {
-      "title": "Sony JustEar預告將攜手Walkman團隊推出為NW-WM1ZM3調音的特別版客製化耳機 #音質調整 (253085) - Cool3c",
-      "link": "https://www.cool3c.com/article/253085",
-      "summary": "Chevelle.fu發佈Sony JustEar預告將攜手Walkman團隊推出為NW-WM1ZM3調音的特別版客製化耳機，最新資訊於2026-10-16 14:37：」推出特別音質調整的版本，雖然還未公布在日本接受預購的時間，不過試聽機已經隨著新款Walkman在日本Sony Store直營店展...#(253085)",
-      "source": "Cool3c",
-      "published": "2026-10-16T06:36:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/dcbfbc34-24a0-41ac-b8bc-ca143df1106b.webp"
-    },
-    {
-      "title": "電腦及週邊設備產業鏈／樺漢Q3營收創新高！在手訂單突破2550億元",
-      "link": "https://www.technice.com.tw/project/tech-frontline/328320/",
-      "summary": "工業電腦廠樺漢（6414）受惠全球企業數位化及AI應用需求成長，9月合併營收達177.55億元，月增14.65%、年增45.34%，第三季營收達496.4億元，年增47.7%，雙雙創下歷史新高。今年前9個月累計營收達1,349.35億元，年增31.29%，同樣改寫同期紀錄。樺漢目前集團在手訂單金額已突破2,550億元，業務涵蓋工業物聯網、智慧軟體及智慧工廠等領域，並持續擴大邊…",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T06:24:38+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/10/未來智慧工廠自動化生產線.png",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "美超微尋覓兩年終於找到新財務長 延攬威騰老將",
-      "link": "https://finance.technews.tw/2026/10/16/supermicro-taps-western-digital-veteran-as-cfo/",
-      "summary": "AI伺服器大廠美超微（Super Micro Computer）15 日宣布，延攬威騰（Western Dig […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T06:20:26+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2024/08/07093850/S__8675723-300x187.jpg"
-    },
-    {
-      "title": "台波氫能合作升溫，瞄準分散式發電、無人機新商機",
-      "link": "https://technews.tw/2026/10/16/taiwan-poland-hydrogen-cooperation-targets-distributed-generation-drones-new-business-opportunities/",
-      "summary": "經濟部能源署 15 日舉行「第 3 屆臺波氫能工作小組會議暨氫能產業協會簽約儀式」，由經濟部次長賴建信與波蘭能 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T06:19:31+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16134223/1111-300x163.jpg"
-    },
-    {
-      "title": "烏克蘭軍用版星鏈服務受限，路透：限制令出自白宮內部",
-      "link": "https://technews.tw/2026/10/16/order-to-limit-starshield-for-ukraine-came-from-inside-white-house/",
-      "summary": "路透社引述兩名美國官員和一名知情西方官員說法報導，烏克蘭用於戰場通訊及無人機作業的衛星系統服務受到限制，而限制 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T06:10:47+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16134905/RC2ZUDAQSORP-300x213.jpg"
-    },
-    {
-      "title": "華碩 AI 超級電腦進駐北市國中校園，打造地端 AI 算力中心",
-      "link": "https://finance.technews.tw/2026/10/16/asus-ai-supercomputer/",
-      "summary": "華碩持續推動 AI 技術在教育領域的應用，旗下華碩文教基金會今日宣布，攜手台北市政府教育局及台北市立中山國中， […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T06:03:14+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16140255/asusfoundation-supercomputer-300x209.jpeg"
-    },
-    {
-      "title": "Affordating是什麼？Z世代流行省錢約會，戀愛新趨勢一次看",
-      "link": "https://www.bnext.com.tw/article/92661/affordating-gen-z-dating-cost",
-      "summary": "美國一次約會平均花費189美元，5成Z世代認為約會開銷妨礙財務目標。「Affordating」平價約會成新趨勢，金錢觀合拍比浪漫更受重視。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T06:01:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2025-02/img-1739503393-23090.jpg?w=900&output=webp"
-    },
-    {
-      "title": "矽谷晶片新創布局科學運算，Zeus GPU 採台積電製程",
-      "link": "https://technews.tw/2026/10/16/silicon-valley-chip-startup-focuses-scientific-computing-zeus-gpu-utilize-tsmc-process/",
-      "summary": "知情人士透露，晶片設計公司 Bolt Graphics 尋求募資約 1 億美元，公司估值約 7 億美元，目標開 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T06:00:03+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16134745/Bolt-Graphics-300x158.png"
-    },
-    {
-      "title": "IBM 推出 IBM Bob 自托管部署方案，助企業推進 AI 自主權與治理",
-      "link": "https://infosecu.technews.tw/2026/10/16/ibm-launches-ibm-bob-self-hosted-deployment-solution-for-enterprise-ai-sovereignty-and-governance/",
-      "summary": "IBM 近日正式推出 IBM Bob 的自托管部署（self-hosted deployment）模式，協助企 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T06:00:01+00:00",
-      "image": ""
-    },
-    {
-      "title": "微軟出手拯救與自救8GB記憶體Windows裝置，記憶體使用最佳化、反應時間提升20% #系統更新 (253084) - Cool3c",
-      "link": "https://www.cool3c.com/article/253084",
-      "summary": "Chevelle.fu發佈微軟出手拯救與自救8GB記憶體Windows裝置，記憶體使用最佳化、反應時間提升20%，最新資訊於2026-10-16 14:38：受到記憶體與儲存價格不斷攀升，微軟師法蘋果MacBook Neo推出僅配置8GB記憶體的Surface裝置，然而Windows 11雖將8GB...#(253084)",
-      "source": "Cool3c",
-      "published": "2026-10-16T06:00:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/c23e95ce-d92e-4b50-be62-1c9761549cb9.webp"
-    },
-    {
-      "title": "鴻海攜手台灣儲能業者，2027 年挑戰 100MWh 建置規模",
-      "link": "https://technews.tw/2026/10/16/foxconn-energy-storage/",
-      "summary": "鴻海積極布局儲能市場，宣布攜手東電綠能、利佳興業、盛達集團旗下盛齊綠能及晟瑞科技，共同開發符合政府國產電芯補助 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T05:54:02+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/11/18140034/Foxconn-Logo-300x174.jpeg"
-    },
-    {
-      "title": "赴德州建 AI 供應鏈，經部：每座園區投資估最高 40 億美元",
-      "link": "https://finance.technews.tw/2026/10/16/taiwan-moea-texas-ai-supply-chain-4-billion-investment-per-park/",
-      "summary": "為協助台廠赴美投資，經濟部今天表示，將由政府與電電公會合作推動，規劃採「業者出資、政府協助」的模式進行，單一園 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T05:50:38+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/02/03182927/shutterstock_2185656459-300x182.jpg"
-    },
-    {
-      "title": "SEMI 美洲總裁：美最先進半導體占比至 2030 年代末上看四成",
-      "link": "https://technews.tw/2026/10/16/semi-americas-president-us-advanced-chip-share-hit-40-percent-late-2030s/",
-      "summary": "美國晶圓廠建設項目持續增加，國際半導體產業協會（SEMI）美洲區總裁史托庫納斯接受中央社訪問時預估，若納入德州 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T05:45:24+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2016/10/20090959/shutterstock_192239360.jpg"
-    },
-    {
-      "title": "飛天車來了！Tesla Roadster 終於發表，搭載 SpaceX 推進器可短暫飛行，0–96 km/h 加速僅需 0.81 秒 - INSIDE",
-      "link": "https://www.inside.com.tw/article/42656-tesla-roadster-luanched",
-      "summary": "特斯拉發表第二代 Roadster，整合 SpaceX 冷氣體推進器，宣稱具備次秒級加速與短暫騰空能力。此全新楔形設計載具採單/雙座配置，搭載主動空力套件，目標 2028 年量產。",
-      "source": "INSIDE 硬塞的網路趨勢觀察",
-      "published": "2026-10-16T05:43:01+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/89e404d1-9bb3-4a59-928b-ea026552ad0b.webp"
-    },
-    {
-      "title": "美澳合作開發輕型 CAML，自主飛彈發射器家族擴增至三款",
-      "link": "https://technews.tw/2026/10/16/us-army-collabs-with-australia-for-developing-caml-light/",
-      "summary": "美國陸軍火力組合採購執行官洛薩諾中將（Frank Lozano）近日透露，陸軍將與澳洲軍方合作，在「通用自主多 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T05:30:37+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16132914/CAML-300x169.jpg"
-    },
-    {
-      "title": "日常聊天也能變購物提醒？亞馬遜推 Bee 新 AI 裝置，串接 Alexa+ 與電商平台",
-      "link": "https://techorange.com/2026/10/16/amazon-personal-ai-bee-frontier-bee-eclipse/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-      "summary": "亞馬遜（Amazon）近日推出兩款 AI 裝置，主打透過聆聽日常對話，協助使用者記住重要資訊、整理待辦事項，並根據過往互動提供個人化建議。新產品由亞馬遜旗下個人 AI 裝置品牌 Bee 開發，分別為穿戴式的 Frontier，以及可磁吸在手機背面的 Eclipse。 AI 裝置 Bee Frontier、Eclipse，可記錄對話、提供購物建議 兩款裝置是 Bee 前一代手環…",
-      "source": "TechOrange 科技報橘",
-      "published": "2026-10-16T04:52:44+00:00",
-      "image": "https://techorange.com/app/uploads/2026/10/d915896f1b03f6f2-720x405.jpg"
-    },
-    {
-      "title": "特斯拉二代Roadster發表！空氣推進器讓跑車飛起來，3種配置、規格與量產時間一次看",
-      "link": "https://www.bnext.com.tw/article/92674/tesla-roadster-2-reveal-air-thrusters",
-      "summary": "特斯拉10月15日發表二代Roadster，靠風扇與推進器倒掛翻轉、飛越5輛車，0到60英里加速0.81秒，馬斯克稱2028年開始生產，未公布售價。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T03:59:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/mfvw-1792123405.jpg?w=900&output=webp"
-    },
-    {
-      "title": "兩位創辦人相繼被趕出公司，品牌卻賣出6億美元：環保清潔品牌Seventh Generation的創業風暴｜Meet創業小聚",
-      "link": "https://meet.bnext.com.tw/articles/view/53572",
-      "summary": "環保清潔品牌第七世代兩位創辦人先後被開除，仍靠產品、通路、文化、價值觀環環相扣，從瀕臨倒閉的型錄生意做到被聯合利華收購。",
-      "source": "Meet 創業小聚",
-      "published": "2026-10-16T03:58:00+00:00",
-      "image": "https://www.seventhgeneration.com/sites/default/files/styles/max_650x650/public/2022-06/Timeline-1988.png?h=55a67d3d&itok=J4x1BN-9"
-    },
-    {
-      "title": "Apple、Meta 罕見攜手！8,160 億參數 AI 模型登上 Mac Studio，雙方為何放下多年恩怨？ - INSIDE",
-      "link": "https://www.inside.com.tw/article/42653-apple-meta-muse-spark-open-mac-studio-ai-collaboration",
-      "summary": "Meta 首席 AI 負責人 Alexandr Wang 更以一句「我們很高興看到爸爸媽媽終於又能好好相處了」，形容 Meta 與 Apple 這次合作。",
-      "source": "INSIDE 硬塞的網路趨勢觀察",
-      "published": "2026-10-16T03:52:52+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/872b169e-e377-4f1f-92dd-b74d4a9d1be9.webp"
-    },
-    {
-      "title": "Meta 推美最強開放模型 Muse Spark Open，8,160 億參數為何兩台 Mac 就能跑？",
-      "link": "https://techorange.com/2026/10/16/meta-muse-spark-open-ai/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-      "summary": "Meta 本週動作頻頻，先是發表新一代閉源 AI 模型 Muse Wonder，又於美國時間 10/15 發布新一代 AI 模型 Muse Spark Open，並宣稱是迄今最強的美國開放權重模型，總參數高達 8,160 億，主攻程式開發與 AI Agent（AI 代理）任務。其中更引人關注的是，Meta 與 Apple 合作，讓這款超大型模型能在兩台 Mac Studio…",
-      "source": "TechOrange 科技報橘",
-      "published": "2026-10-16T03:51:31+00:00",
-      "image": "https://techorange.com/app/uploads/2026/10/441db6978ef26b37-720x480.jpg"
-    },
-    {
-      "title": "蘋果與宿敵Meta破冰！開放權重模型Muse Spark Open串起Mac Studio，在桌上就能跑",
-      "link": "https://www.bnext.com.tw/article/92673/apple-meta-muse-spark-open-mac-studio",
-      "summary": "Meta釋出開放權重模型Muse Spark Open，並與蘋果合作讓其可在Mac Studio本機執行，是兩家宿敵多年來罕見的公開合作。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T03:45:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/qpk9-1792123101.jpg?w=900&output=webp"
-    },
-    {
-      "title": "Grok bot旅遊行程檢查教學：找出交通與證件風險，做成長輩看得懂的手冊",
-      "link": "https://www.bnext.com.tw/article/92670/grok-ai-travel-itinerary-check",
-      "summary": "長輩第一次海外自由行，AI排的行程還有哪些地方要確認？貼上行程，請AI檢查證件、交通與預約，再整理成方便閱讀的行前手冊。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T03:36:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-8f486168d55fc012.jpg"
-    },
-    {
-      "title": "2026金控獲利排名！13家前三季賺6318億元，富邦金、國泰金居冠",
-      "link": "https://www.bnext.com.tw/article/92669/fubon-cathay-financial-holding-profit-surge",
-      "summary": "富邦金、國泰金前三季獲利雙雙破千億，13家金控前三季獲利已超越2024全年紀錄，台新新光金年增146%最驚人。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T03:23:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-f42aa136bde26af8.jpg?w=900&output=webp"
-    },
-    {
-      "title": "四大類抗黴菌藥全失效，肯亞現全球第二例「全抗藥性」耳念珠菌感染",
-      "link": "https://technews.tw/2026/10/16/candida-auris-pan-drug-resistance-crisis/",
-      "summary": "肯亞研究團隊近日通報了一起極為罕見的「耳念珠菌」（Candida auris／亦稱 Candidozyma a […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T03:20:45+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16104212/Candida-auris-300x200.jpg"
-    },
-    {
-      "title": "Volvo與NVIDIA再擴大合作推進安全自駕技術 #自動駕駛 (253081) - Cool3c",
-      "link": "https://www.cool3c.com/article/253081",
-      "summary": "Chevelle.fu發佈Volvo與NVIDIA再擴大合作推進安全自駕技術，最新資訊於2026-10-16 11:22：先進技術的自動駕駛安全技術，該技術將建立在Volvo Cars的安全知識，並以NVIDIA Hyperion感測器與運算架構為核心，賦予下一代Volvo車款能在複雜的真實環境實現...#(253081)",
-      "source": "Cool3c",
-      "published": "2026-10-16T03:20:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/a08a17cf-c159-4e30-b466-aaa0c6c3438c.webp"
-    },
-    {
-      "title": "老人健保補助｜13縣市免申請自動代繳，65歲健保費要繳嗎？",
-      "link": "https://www.bnext.com.tw/article/92162/2026-elderly-nhi-premium-subsidy-by-county",
-      "summary": "2026年多縣市加碼老人健保費補助，多數由政府主動代繳，每月最高826元；但年齡、設籍與排富門檻不同，部分縣市一般長輩仍不適用。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T03:19:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-09/u4p6-1788849035.jpg?w=900&output=webp"
-    },
-    {
-      "title": "美、歐、中三條路線大不同，資料中心競賽的勝負取決於能源與實體基礎設施",
-      "link": "https://technews.tw/2026/10/16/the-ai-data-center-race-is-a-strategic-contest/",
-      "summary": "隨著各國加速布局人工智慧基礎設施，圍繞「主權 AI」與資料中心的競賽，正從技術話題升級為地緣政治與國家戰略議題 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T03:10:19+00:00",
-      "image": ""
-    },
-    {
-      "title": "俠盜獵車手6發行預告片出爐 #罪惡市 (253079) - Cool3c",
-      "link": "https://www.cool3c.com/article/253079",
-      "summary": "Chevelle.fu發佈俠盜獵車手6發行預告片出爐，最新資訊於2026-10-16 11:09：搶先沉浸在罪惡市的世界觀。搶先一探全新罪惡市的風貌▲俠盜獵車手6黑膠及CD原聲帶亦於官網開放預購，串流平台將與遊戲同步上架俠盜獵車手6聚焦主角傑森與露西亞與罪惡市，兩人因一次簡單行動出差錯，意外深陷陽光...#(253079)",
-      "source": "Cool3c",
-      "published": "2026-10-16T03:07:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/53985f18-91c2-4904-8fd9-7eb9e62bf55a.webp"
-    },
-    {
-      "title": "AI 電源功率一路飆升！光寶科 OCP 秀 1.2 MW 供電配置",
-      "link": "https://technews.tw/2026/10/16/ai-power-demand-skyrockets-lite-on-ocp-1-2mw-power-solution/",
-      "summary": "光寶科技受邀參與輝達於 2026 OCP 全球峰會舉辦的 MGX 生態系典禮，並於展會期間展示 800 VDC […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T03:05:10+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16103404/liteon1-300x212.jpg"
-    },
-    {
-      "title": "郵局ATM存款上限升至10萬！無卡存款、每日限額、手續費一次看",
-      "link": "https://www.bnext.com.tw/article/92667/post-office-atm-deposit-limit-2026",
-      "summary": "郵局ATM存款上限11月12日起由6萬元提高至10萬元，但單筆仍限100張鈔票，無卡存款維持3萬元。哪些存法適用、每日限額多少？",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T03:00:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-08/tsw8-1785919267.jpg?w=900&output=webp"
-    },
-    {
-      "title": "ChatGPT Chrome 擴充功能大改版！能跨分頁讀資料，Work 模式還能填表單、發訊息 - INSIDE",
-      "link": "https://www.inside.com.tw/article/42652-chatgpt-chrome-extension-computer-use-tabs",
-      "summary": "ChatGPT 的 Chrome 擴充功能升級，加入「電腦操作」能力：Chat 模式能跨分頁蒐集資訊，Work 模式則可直接操作瀏覽器，代填表單、傳送訊息與整理分頁。",
-      "source": "INSIDE 硬塞的網路趨勢觀察",
-      "published": "2026-10-16T02:45:41+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/social/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/a67d8065-d073-4c91-a9b6-6586673e4d59.webp"
-    },
-    {
-      "title": "美股2027年恐大跌？曾精準放空「黑色星期一」，傳奇操盤手瓊斯為何再看空？",
-      "link": "https://www.bnext.com.tw/article/92665/paul-tudor-jones-2027-stock-market-outlook",
-      "summary": "曾精準做空 1987 股災的傳奇經理人瓊斯警告，科技巨頭 IPO 狂潮恐吸乾資金，加上財政赤字與油價風險，美股 2027 年將面臨嚴峻考驗，他更直言計劃全年放空。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T02:26:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2024-08/img-1722927464-18269.jpg?w=900&output=webp"
-    },
-    {
-      "title": "連滑板都難不倒？日本人形機器人秀平衡技術",
-      "link": "https://www.technice.com.tw/technology/robot/328319/",
-      "summary": "平衡調整與瞬間判斷，是滑板運動特有的技術難題，人類在滑板上，會透過膝蓋彎曲、伸直，以及上半身的動作，控制身體平衡與滑行速度。這次展示的動作稱為「Pumping」（重心擺動推進），也就是不需要用腳蹬地，而是透過重心轉移及膝蓋屈伸來產生推進力。",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T02:07:22+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/10/1792114572276.jpg",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "momo月收25元，每月卻送50點！這筆「賠錢生意」為何非做不可？",
-      "link": "https://www.bnext.com.tw/article/92660/momo-mopro-membership-ai-shopping",
-      "summary": "momo新版輕量會員moPro年繳平均月付25元、每月再送50 mo點，看似賠本，實則為提高消費頻次、強化對供應商籌碼，並搶占AI代理購物時代的起跑位置。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T02:00:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2017-10/img-1509445564-31308.jpg?w=900&output=webp"
-    },
-    {
-      "title": "美國上百家人形機器人公司，機器人投資基金執行長為何只看好特斯拉、Figure AI 與 Apptronik？",
-      "link": "https://techorange.com/2026/10/16/humanoid-ai-robot-companies-win/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-      "summary": "封閉式基金 RoboStrategy 執行長 Andrew Kang 認為，真正值得投資的機器人公司，只有特斯拉（Tesla）、Figure AI 與 Apptronik，但 Optimus 業務還有待馬斯克回神。",
-      "source": "TechOrange 科技報橘",
-      "published": "2026-10-16T01:35:12+00:00",
-      "image": "https://techorange.com/app/uploads/2026/09/b822703a60bfc1fc-720x405.jpg"
-    },
-    {
-      "title": "Google 推 AI 新聞計畫，CNN 等 400 多家媒體授權內容",
-      "link": "https://technews.tw/2026/10/16/cnn-axios-and-other-publishers-join-googles-ai-news-program/",
-      "summary": "天空之舞（Skydance）旗下的 CNN、金融時報、Axios 等多家出版業者，加入 Google 的 AI […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T01:30:41+00:00",
-      "image": ""
-    },
-    {
-      "title": "BMW i3 搭配第六代電池，實測滿電跑了 1,213 公里",
-      "link": "https://technews.tw/2026/10/16/bmw-i3-with-gen6-battery-range-test/",
-      "summary": "BMW 今天在中國瀋陽啟動第六代電池量產，同時也展示了他們最新的續航實測，在新電池助威下，i3 竟然一口氣可以 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T01:21:39+00:00",
-      "image": ""
-    },
-    {
-      "title": "20種讓人反感的行為有哪些？職場人際關係與建立信任的關鍵",
-      "link": "https://www.bnext.com.tw/article/92658/fbi-20-annoying-habits-body-language",
-      "summary": "前FBI探員喬．納瓦羅點出20種破壞信任與人際關係的行為，從遲到、搶功到情緒失控，提醒你別讓壞習慣悄悄毀了交情。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T01:19:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-03/f9mj-1772590566.jpg?w=900&output=webp"
-    },
-    {
-      "title": "a16z領投19歲創辦人！新創Ghost推出無螢幕、手機操控的AI電腦「Core」｜Meet創業小聚",
-      "link": "https://meet.bnext.com.tw/articles/view/53567",
-      "summary": "19歲創辦人的新創Ghost獲a16z領投1,100萬美元種子輪，推出售價3,499美元、以手機操作的無螢幕AI電腦Core。",
-      "source": "Meet 創業小聚",
-      "published": "2026-10-16T01:17:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/qvzj-1791947995.png/w_900,output_webp"
-    },
-    {
-      "title": "台法學者探討台灣半導體產業核心地位，釐清 5 大誤解",
-      "link": "https://technews.tw/2026/10/16/taiwanese-french-scholars-discuss-taiwan-semiconductor-industry-core-status-clarifying-5-major-misconceptions/",
-      "summary": "法國智庫關注台灣半導體產業的戰略地位與安全挑戰。法國學者倪雅玲說，台海穩定是歐洲經濟安全一環；來自台灣的方怡然 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T01:10:35+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/05/29134330/Cadence_3d-ic-shutterstock--300x179.jpg"
-    },
-    {
-      "title": "QNAP《2026 台灣企業資安韌性大調查》78% 企業已建立異地備份，但其中近七成仍處可被刪除的失守危機",
-      "link": "https://infosecu.technews.tw/2026/10/16/qnap-cyber-security-awarness/",
-      "summary": "響應 10 月全球資安意識月（Cybersecurity Awareness Month），威聯通科技（QNA […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T01:00:54+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/12153547/cover-300x213.jpg"
-    },
-    {
-      "title": "多物理模擬重要性日增，思渤科技扮演系統解決方案供應商",
-      "link": "https://technews.tw/2026/10/16/cybernet-ansys-simulation-ai-agent/",
-      "summary": "隨著 AI 伺服器、機器人及先進封裝等產品朝高效能與高整合發展，產品設計也從過去針對單一元件進行驗證，逐漸轉向 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T01:00:34+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/07150352/CYBERNET_Nicholas_main1-300x200.jpg"
-    },
-    {
-      "title": "從茶葉到晶片，臺灣下一座護國神山需要什麼樣的人才？｜專家論點【郭啟全】",
-      "link": "https://www.technice.com.tw/opinion/321885/",
-      "summary": "一百多年前，茶葉可說是臺灣的「護國神山」之一。隨著技術進步與產業升級，臺灣逐步從以農業為主的經濟結構，轉型為以工業及高科技產業為重要支柱。這一段歷程反映不同時代的發展需求，也說明支撐臺灣經濟的關鍵產業會隨時代改變，人才培育亦須與時俱進。談到科技人，大家常想到數學好、邏輯強的「理工腦」，但從課堂走進產業，除了專業知識，還需要哪些準備？筆者今年暑假帶領三位大學部師徒制學生，由筆者…",
-      "source": "科技島 TechNice",
-      "published": "2026-10-16T01:00:29+00:00",
-      "image": "https://www.technice.com.tw/wp-content/uploads/2026/09/擷取-1.jpg",
-      "collection_scope": "technice-latest-v1"
-    },
-    {
-      "title": "暖化加速，科學家警告：30 歲世代恐見證氣候失控",
-      "link": "https://technews.tw/2026/10/16/global-warming-accelerates-scientists-warn-todays-30-year-olds-could-witness-climate-chaos/",
-      "summary": "地球即使沒有病入膏肓，也已經病況堪憂。最新《2026 年全球氣候狀況報告》指出，地球 16 項關鍵氣候指標中， […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T00:57:44+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/04/04131906/HE_w-huXMAE6bE1-300x192.jpg"
-    },
-    {
-      "title": "台灣 AI 紅利待擴散，學者籲拓展半導體上下游布局",
-      "link": "https://technews.tw/2026/10/16/taiwan-ai-dividend-awaits-wider-diffusion-scholars-urge-expanding-semiconductor-upstream-downstream-layout/",
-      "summary": "AI 熱潮帶動半導體需求，WTO 首席經濟學家史泰格表示，目前尚未看到 AI 熱潮放緩的跡象。港大經管學院副院 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T00:50:04+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/07/31182519/shutterstock_2709465015-300x183.jpg"
-    },
-    {
-      "title": "談松山機場遷建，經長：淡海新市鎮發展 AI 產業條件不錯",
-      "link": "https://technews.tw/2026/10/16/economic-minister-discusses-songshan-airport-relocation-says-tamsui-new-town-offers-good-conditions-for-ai-industry-development/",
-      "summary": "針對和碩董事長童子賢 14 日表示不贊成松山機場遷建，並建議 AI 產業園區可落腳淡海新市鎮，經濟部長龔明鑫 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T00:40:24+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16081259/53637171626_aaf93ec29a_b-300x225.jpg"
-    },
-    {
-      "title": "AI 代理人 2028 年可望成加密貨幣交易主流，創投點名隱私才是殺手級應用",
-      "link": "https://infosecu.technews.tw/2026/10/16/norm-will-be-to-trade-crypto-through-agents-by-2028-nansen-ceo-predicts/?utm_source=flipboard&utm_content=other",
-      "summary": "區塊鏈資料分析公司 Nansen 執行長艾力克斯·斯瓦內維克（Alex Svanevik）預測，加密貨幣產業最快 2027 年迎接 AI 代理人主導投資的重大轉變，到 2028 年，代理人下單將成為交易常態，使用者不再需要在交易所介面逐一點選操作。不過創投 Dragonfly 管理合夥人 Hasee …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:36:18+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/13134217/Gemini_Generated_Image_szif32szif32szif.jpg"
-    },
-    {
-      "title": "庫克晤王文濤，稱蘋果將進一步擴大在中國業務",
-      "link": "https://technews.tw/2026/10/16/cook-wang-wentao-apple-further-expands-china-business/?utm_source=flipboard&utm_content=other",
-      "summary": "剛卸任蘋果公司（APPLE）執行長的庫克近日以執行董事長新身分到訪中國。他 15 日與中國商務部部長王文濤會晤時表示，蘋果將進一步擴大在中國的業務；王文濤則盼蘋果發揮溝通橋梁作用，推動中美經貿關係穩定發展。 據中國商務部網站，王文濤15日會見庫克（Tim Cook），雙方就中美經貿關係、人工智慧（AI …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:36:16+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/05/26090248/chris-nagahama-FcvC3lDoIDU-unsplash.jpg"
-    },
-    {
-      "title": "AI 代理人 2028 年可望成加密貨幣交易主流，創投點名隱私才是殺手級應用",
-      "link": "https://infosecu.technews.tw/2026/10/16/norm-will-be-to-trade-crypto-through-agents-by-2028-nansen-ceo-predicts/",
-      "summary": "區塊鏈資料分析公司 Nansen 執行長艾力克斯·斯瓦內維克（Alex Svanevik）預測，加密貨幣產業最 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T00:30:48+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/13134217/Gemini_Generated_Image_szif32szif32szif-300x168.jpg"
-    },
-    {
-      "title": "日本數位好萊塢大學全校導入 Claude 創日本首例，師生用量無上限",
-      "link": "https://technews.tw/2026/10/16/jp-dhu-claude/?utm_source=flipboard&utm_content=other",
-      "summary": "日媒 ITmedia 報導，位於東京千代田區的數位好萊塢大學（Digital Hollywood University，DHU）14 日宣布，全校導入 Anthropic 的 Claude。11 月起全體學生與教職員都能以學校發放帳號使用 Claude，不必在意使用量與費用。校方表示，這是日本國內大 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:24:21+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/15143246/19201.jpg"
-    },
-    {
-      "title": "AI 益處終將大於風險，DeepMind 整備長拋三大提問助企業無痛轉型",
-      "link": "https://technews.tw/2026/10/16/google-deepmind-lila-ibrahim/?utm_source=flipboard&utm_content=other",
-      "summary": "Google DeepMind 首席 AI 整備長萊拉·易卜拉欣（Lila Ibrahim）表示，她之所以願意接下這個被外界認為可能是全球獨一無二的職位，是因為她堅信人工智慧（AI）最終帶來的好處將遠大於其潛在風險。她指出，自己近十年來持續參與 DeepMind 的 AI 發展進程，也一路面對這項快 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:24:21+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/07113615/LilaIbrahim.jpg"
-    },
-    {
-      "title": "Getty Images 擬申請破產重組私有化，現有股東料不獲補償",
-      "link": "https://finance.technews.tw/2026/10/16/getty-images-plans-bankruptcy-restructuring/?utm_source=flipboard&utm_content=other",
-      "summary": "全球知名圖片授權平台 Getty Images 10 月 12 日宣布，計劃透過美國《破產法》第 11 章（Chapter 11）程序進行債務重組，並於 2026 年底前完成私有化。Getty 家族及 Koch Equity Development 同意注入最多 5.33 億美元新資金。根據公司披露 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:24:20+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2021/04/15091731/laptop-3196481_1920-e1618449468267.jpg"
-    },
-    {
-      "title": "Getty Images 擬申請破產重組私有化，現有股東料不獲補償",
-      "link": "https://finance.technews.tw/2026/10/16/getty-images-plans-bankruptcy-restructuring/",
-      "summary": "全球知名圖片授權平台 Getty Images 10 月 12 日宣布，計劃透過美國《破產法》第 11 章（C […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T00:20:45+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2021/04/15091731/laptop-3196481_1920-300x200.jpg"
-    },
-    {
-      "title": "庫克晤王文濤，稱蘋果將進一步擴大在中國業務",
-      "link": "https://technews.tw/2026/10/16/cook-wang-wentao-apple-further-expands-china-business/",
-      "summary": "剛卸任蘋果公司（APPLE）執行長的庫克近日以執行董事長新身分到訪中國。他 15 日與中國商務部部長王文濤會晤 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T00:15:52+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/05/26090248/chris-nagahama-FcvC3lDoIDU-unsplash-300x200.jpg"
-    },
-    {
-      "title": "台灣繁中語料庫難拓展制度哪卡關？著作權法未鬆綁，主權 AI 訓練語料僅 1% 來自民間",
-      "link": "https://technews.tw/2026/10/16/taiwan-md/?utm_source=flipboard&utm_content=other",
-      "summary": "ChatGPT、Gemini 等 AI 模型幾乎只靠簡體資料來認識中文世界，讓 AI 向中國價值觀傾斜。台灣政府和民間都為此建立「繁體中文語料庫」，但實務進展有限，真正的制度卡關在哪？ 「這不只是介紹台灣的網站，更反向成為 ChatGPT、Gemini、Claude等大型語言模型的訓練資料，讓這些主流 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:12:23+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/14143154/54_20261014104601.jpg_1140x855.jpg"
-    },
-    {
-      "title": "馬斯克大讚黃仁勳！SpaceX 攜手輝達打造 Star Mind，明年量產",
-      "link": "https://technews.tw/2026/10/16/elon-musk-praises-jensen-huang-spacex-nvidia-star-mind-mass-production-next-year/?utm_source=flipboard&utm_content=other",
-      "summary": "特斯拉執行長馬斯克近日透露，SpaceX 與輝達共同開發的 Star Mind AI 電腦，性能表現遠超多數人的預期，預計 2027 年進入量產階段。馬斯克也公開稱讚輝達執行長黃仁勳，表示「老朋友才是最好的朋友」。 Old friends are the best friends. Jensen ro …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:12:22+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/01154742/SPACEX-rocket-falcon9.jpg"
-    },
-    {
-      "title": "不運動也能增加肌肉？研究發現「肌酸」可能的新作用",
-      "link": "https://technews.tw/2026/10/16/creatine-may-help-build-muscle-even-without-exercise-researchers-find/?utm_source=flipboard&utm_content=other",
-      "summary": "人到中年，即使體重沒有明顯改變，肌肉仍可能逐漸流失，而阻力訓練則是維持肌肉量最有效的方法之一。但最近美國德州農工大學（Texas A&M University）研究發現，中年與較年長成人每天補充肌酸（creatine），12 週後即使沒有接受系統化運動訓練，肌肉量與肌力也會增加。論文近日刊登於《國際 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:12:22+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/05150455/2210.i121.025.S.m005.c13.isometric-sport-nutrition-isolated.jpg"
-    },
-    {
-      "title": "電動公車靠站即充，瑞士新創研發「輪胎無線充電」傳輸效率突破 90%",
-      "link": "https://technews.tw/2026/10/16/electric-bus-tire-wireless-charging-technology/?utm_source=flipboard&utm_content=other",
-      "summary": "瑞士蘇黎世聯邦理工學院（ETH Zurich）衍生新創 Winduction，正推進一項別具巧思的電動公車充電方案：讓公車在停靠站點時，直接透過輪胎內的線圈接收路面供電，完全無需插充電槍即可補電。這套系統採用感應式無線充電，將發射線圈埋設於嵌入路面的充電板中，接收線圈則整合進特製公車輪胎，藉此大幅縮 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:12:22+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/07120006/Winduction.jpg"
-    },
-    {
-      "title": "俄羅斯 Yandex 被自家 AI 出賣，向假烏軍記者回報資料中心地址",
-      "link": "https://infosecu.technews.tw/2026/10/16/yandex-ai-gives-journalists-data-center-addresses/?utm_source=flipboard&utm_content=other",
-      "summary": "俄羅斯科技公司 Yandex 在旗下地圖模糊化部分資料中心位置後，卻被記者發現自家 AI 助理 Alice 仍會提供相關設施地址。俄羅斯獨立媒體 SOTA 10 月 12 日公布測試結果，記者假扮烏克蘭無人機操作員向 Alice 查詢，AI 回覆「明白任務」後列出資料中心地址，最後更祝對方「工作順利 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:12:22+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/15121231/Yandex_Alice-AI.jpg"
-    },
-    {
-      "title": "記憶體價格引爆口水戰，特斯拉遭三星員工指控惡劣壓價與挖角",
-      "link": "https://technews.tw/2026/10/16/memory-prices-ignite-a-war-of-words/?utm_source=flipboard&utm_content=other",
-      "summary": "特斯拉（Tesla）執行長馬斯克（Elon Musk）近期公開讚揚美光（Micron）的記憶體價格合理，並暗示其他供應商價格過高、宛如敲詐，外界普遍認為此言是在指責韓國三星（Samsung）。 這番言論引發三星半導體工程師在社群平台 X 上公開反擊，痛批馬斯克與旗下企業對三星採取不正當且剝削性的手段 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:12:22+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16064940/tesla-vs-samsung.png"
-    },
-    {
-      "title": "誰在替你下指令？AI 助理出錯，責任算誰的？",
-      "link": "https://technews.tw/2026/10/16/who-responsible-when-ai-assistants-make-mistakes/?utm_source=flipboard&utm_content=other",
-      "summary": "9 月 29 日 OpenAI 在 DevDay 發表 Dots，搭載 GPT-6 Astra，有雲端電腦與瀏覽器，能以外掛連接逾 4 千個應用程式，持續替使用者處理工作。AI 從「回答問題」走向「替人做事」，企業該問的不只是能完成多少任務，還有它會不會為了完成工作跨過界線，出了事，又由誰負責？ Do …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:12:21+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/10/07170140/AI_artificial-intelligence_Robots-analyzing-data-computer_automation.jpg"
-    },
-    {
-      "title": "IBM 攜手西門子推進奈米堆疊半導體技術，邁向埃米世代與 3D 晶片新紀元",
-      "link": "https://technews.tw/2026/10/16/ibm-and-siemens-advance-nano-stacked-semiconductor-technology/?utm_source=flipboard&utm_content=other",
-      "summary": "IBM 與西門子（Siemens）宣布展開全新研究合作，致力於推進 IBM 於 2026 年稍早推出的「奈米堆疊」（Nanostack）電晶體架構。此合作結合 IBM 在半導體元件創新的領導地位，以及西門子在電子設計自動化（EDA）、製程模擬、微影曝光（Lithography）優化與先進製造軟體的技 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:12:21+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16071848/IBM.jpg"
-    },
-    {
-      "title": "外資指英特爾晶圓代工與先進封裝獲重大突破，取得蘋果、輝達、微軟等廠商訂單",
-      "link": "https://finance.technews.tw/2026/10/16/foreign-investors-point-to-major-breakthroughs-in-intels-wafer-foundry-and-advanced-packaging/?utm_source=flipboard&utm_content=other",
-      "summary": "華爾街投資機構 KeyBanc 分析師在結束近期亞洲考察後發布報告指出，英特爾（Intel）晶圓代工業務（Intel Foundry）展現出極為強勁的發展趨勢。根據最新調查，英特爾已準備好從多家 AI 與雲端超大型業者手中奪得大量訂單，主要集中於其先進的 14A 製程與 18A-P 製程，其中以 1 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:12:20+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/10/10054450/intel-1.jpg"
-    },
-    {
-      "title": "告別單純連網服務！全球電信商邁向「智慧平台」，開闢 AI 新藍海",
-      "link": "https://technews.tw/2026/10/16/global-telecom-operators-embrace-smart-platforms-opening-new-ai-blue-ocean/?utm_source=flipboard&utm_content=other",
-      "summary": "2026 年全球電信服務收入估達 1.23 兆美元，2029 年溫和成長至 1.32 兆美元，而行動用戶平均收入（Average Revenue Per Paying User，ARPU）從 2025 年 6.3 美元，小幅下降至 2029 年 6.2 美元，結構性挑戰為用戶數量快速增加，但用戶付費 …",
-      "source": "Flipboard 科技專區",
-      "published": "2026-10-16T00:12:20+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/06/15163545/shutterstock_1495556456_20260617.jpg"
-    },
-    {
-      "title": "日本數位好萊塢大學全校導入 Claude 創日本首例，師生用量無上限",
-      "link": "https://technews.tw/2026/10/16/jp-dhu-claude/",
-      "summary": "日媒 ITmedia 報導，位於東京千代田區的數位好萊塢大學（Digital Hollywood Univer […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T00:10:32+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/15143246/19201-300x157.jpg"
-    },
-    {
-      "title": "誰在替你下指令？AI 助理出錯，責任算誰的？",
-      "link": "https://technews.tw/2026/10/16/who-responsible-when-ai-assistants-make-mistakes/",
-      "summary": "9 月 29 日 OpenAI 在 DevDay 發表 Dots，搭載 GPT-6 Astra，有雲端電腦與瀏 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-16T00:00:33+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/10/07170140/AI_artificial-intelligence_Robots-analyzing-data-computer_automation-300x171.jpg"
-    },
-    {
-      "title": "AI太會討好，成大教授劉世南示警：人類連自由意志都要交出去！",
-      "link": "https://fc.bnext.com.tw/articles/view/4954",
-      "summary": "成大特聘教授劉世南指出，討好型AI讓人困在同溫層、抹平群體差異，主張以適應性智慧與橘色科技，讓AI成為帶溫度的成長夥伴。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T00:00:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/xqx5-1791091629.jpg?w=900&output=webp"
-    },
-    {
-      "title": "Scratch是什麼？免費中文版、下載方式與遊戲教學",
-      "link": "https://www.bnext.com.tw/article/92641/scratch-tutorial",
-      "summary": "Scratch是MIT開發的免費積木式程式工具，不必寫程式碼就能做動畫和遊戲。本文比較網頁版與桌面版差異，並帶新手用5步驟做出第一個小遊戲。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-16T00:00:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-10/img-mcp-7c2317ed0588c690.png?w=900&output=webp"
-    },
-    {
-      "title": "台灣繁中語料庫難拓展制度哪卡關？著作權法未鬆綁，主權 AI 訓練語料僅 1% 來自民間",
-      "link": "https://technews.tw/2026/10/16/taiwan-md/",
-      "summary": "ChatGPT、Gemini 等 AI 模型幾乎只靠簡體資料來認識中文世界，讓 AI 向中國價值觀傾斜。台灣政 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T23:50:33+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/14143154/54_20261014104601.jpg_1140x855-300x225.jpg"
-    },
-    {
-      "title": "馬斯克大讚黃仁勳！SpaceX 攜手輝達打造 Star Mind，明年量產",
-      "link": "https://technews.tw/2026/10/16/elon-musk-praises-jensen-huang-spacex-nvidia-star-mind-mass-production-next-year/",
-      "summary": "特斯拉執行長馬斯克近日透露，SpaceX 與輝達共同開發的 Star Mind AI 電腦，性能表現遠超多數人 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T23:50:13+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/01154742/SPACEX-rocket-falcon9-300x198.jpg"
-    },
-    {
-      "title": "AI 益處終將大於風險，DeepMind 整備長拋三大提問助企業無痛轉型",
-      "link": "https://technews.tw/2026/10/16/google-deepmind-lila-ibrahim/",
-      "summary": "Google DeepMind 首席 AI 整備長萊拉·易卜拉欣（Lila Ibrahim）表示，她之所以願意 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T23:40:49+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/07113615/LilaIbrahim-300x200.jpg"
-    },
-    {
-      "title": "不運動也能增加肌肉？研究發現「肌酸」可能的新作用",
-      "link": "https://technews.tw/2026/10/16/creatine-may-help-build-muscle-even-without-exercise-researchers-find/",
-      "summary": "人到中年，即使體重沒有明顯改變，肌肉仍可能逐漸流失，而阻力訓練則是維持肌肉量最有效的方法之一。但最近美國德州農 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T23:30:26+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/05150455/2210.i121.025.S.m005.c13.isometric-sport-nutrition-isolated-300x233.jpg"
-    },
-    {
-      "title": "IBM 攜手西門子推進奈米堆疊半導體技術，邁向埃米世代與 3D 晶片新紀元",
-      "link": "https://technews.tw/2026/10/16/ibm-and-siemens-advance-nano-stacked-semiconductor-technology/",
-      "summary": "IBM 與西門子（Siemens）宣布展開全新研究合作，致力於推進 IBM 於 2026 年稍早推出的「奈米堆 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T23:30:12+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16071848/IBM.jpg"
-    },
-    {
-      "title": "電動公車靠站即充，瑞士新創研發「輪胎無線充電」傳輸效率突破 90%",
-      "link": "https://technews.tw/2026/10/16/electric-bus-tire-wireless-charging-technology/",
-      "summary": "瑞士蘇黎世聯邦理工學院（ETH Zurich）衍生新創 Winduction，正推進一項別具巧思的電動公車充電 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T23:20:00+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/07120006/Winduction.jpg"
-    },
-    {
-      "title": "越推銷，顧客越不想買！雜誌編輯揭露5個文案技巧，讓消費者主動買單",
-      "link": "https://www.bnext.com.tw/article/92657/copywriting-tips-that-make-women-buy",
-      "summary": "女性雜誌編輯跨海傳授5個文案技巧，從精華液到大衣，用「留白式提案」取代硬推銷，讓消費者主動想像擁有後的美好畫面。",
-      "source": "數位時代 BNext",
-      "published": "2026-10-15T23:19:00+00:00",
-      "image": "https://image-cdn.learnin.tw/bnextmedia/image/album/2026-06/bta3-1780394132.png?w=900&output=webp"
-    },
-    {
-      "title": "外資指英特爾晶圓代工與先進封裝獲重大突破，取得蘋果、輝達、微軟等廠商訂單",
-      "link": "https://finance.technews.tw/2026/10/16/foreign-investors-point-to-major-breakthroughs-in-intels-wafer-foundry-and-advanced-packaging/",
-      "summary": "華爾街投資機構 KeyBanc 分析師在結束近期亞洲考察後發布報告指出，英特爾（Intel）晶圓代工業務（In […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T23:15:24+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/10/10054450/intel-1-300x213.jpg"
-    },
-    {
-      "title": "俄羅斯 Yandex 被自家 AI 出賣，向假烏軍記者回報資料中心地址",
-      "link": "https://infosecu.technews.tw/2026/10/16/yandex-ai-gives-journalists-data-center-addresses/",
-      "summary": "俄羅斯科技公司 Yandex 在旗下地圖模糊化部分資料中心位置後，卻被記者發現自家 AI 助理 Alice 仍 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T23:10:28+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/15121231/Yandex_Alice-AI-300x166.jpg"
-    },
-    {
-      "title": "記憶體價格引爆口水戰，特斯拉遭三星員工指控惡劣壓價與挖角",
-      "link": "https://technews.tw/2026/10/16/memory-prices-ignite-a-war-of-words/",
-      "summary": "特斯拉（Tesla）執行長馬斯克（Elon Musk）近期公開讚揚美光（Micron）的記憶體價格合理，並暗示 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T23:00:54+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/16064940/tesla-vs-samsung-300x200.png"
-    },
-    {
-      "title": "告別單純連網服務！全球電信商邁向「智慧平台」，開闢 AI 新藍海",
-      "link": "https://technews.tw/2026/10/16/global-telecom-operators-embrace-smart-platforms-opening-new-ai-blue-ocean/",
-      "summary": "2026 年全球電信服務收入估達 1.23 兆美元，2029 年溫和成長至 1.32 兆美元，而行動用戶平均收 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T23:00:21+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/06/15163545/shutterstock_1495556456_20260617-150x150.jpg"
-    },
-    {
-      "title": "Grok Voice 3.0 超車 OpenAI、Google，星鏈、特斯拉已如何應用語音 Agent？",
-      "link": "https://techorange.com/2026/10/16/grok-voice-3-0-ai-agent/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-      "summary": "SpaceX 旗下 AI 業務 SpaceXSI（原 xAI）10/14 推出 Grok Voice 3.0，在第三方語音 AI 綜合評測中超越 OpenAI、Google。除了模型性能，SpaceXSI 也展示 Grok Voice 的商業化進展：衛星網路服務商 Starlink（星鏈）平日約有 2 萬通客服與銷售來電使用 Grok Voice 處理，其中約 70% 無須真…",
-      "source": "TechOrange 科技報橘",
-      "published": "2026-10-15T22:30:00+00:00",
-      "image": "https://techorange.com/app/uploads/2026/10/6301d107de9ea9a3-720x480.jpg"
-    },
-    {
-      "title": "西門子 blue GIS 導入台電、台船，無 SF6 技術拓展電力市場",
-      "link": "https://technews.tw/2026/10/16/siemens-sf6-free-switchgear-taipower-csbc-low-carbon-grid-opportunities/",
-      "summary": "隨著電力設備加速朝低碳化發展，西門子於 2026 台灣國際智慧能源週展示無六氟化硫（SF6）氣體絕緣開關設備（ […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T22:00:10+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2026/10/15221653/siemens-300x179.jpg"
-    },
-    {
-      "title": "【科技早餐】台積電證實洽談馬斯克晶圓廠！魏哲家：必須由我們營運",
-      "link": "https://techorange.com/2026/10/16/tsmc-musk-terafab-talks/?utm_source=rss&utm_medium=feed&utm_campaign=techorange_rss",
-      "summary": "【科技早餐】今天精選 7 則國內外重要科技新聞。 ＊台積電證實洽談馬斯克 Terafab，魏哲家：晶圓廠必須由台積電營運 台積電（TSMC）10 月 15 日在法說會證實，正與馬斯克推動的 Terafab 晶圓廠計畫洽談合作，並已派團隊前往德州評估。董事長暨總裁魏哲家表示，美國主要客戶持續要求增加當地產能，公司因此評估亞利桑那州以外的擴產機會，德州是選項之一。他強調，合作方式…",
-      "source": "TechOrange 科技報橘",
-      "published": "2026-10-15T21:30:00+00:00",
-      "image": "https://techorange.com/app/uploads/2026/10/05d35498716fcbda-720x375.png"
-    },
-    {
-      "title": "防範 AI 代理風險！字節跳動成立 AI 安全團隊，擬啟動全球招聘計畫",
-      "link": "https://technews.tw/2026/10/16/bytedance-sets-up-ai-safety-team/",
-      "summary": "中國科技巨頭字節跳動旗下 AI 研究部門 Seed 已成立「對齊與預備」（Alignment & Pr […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T17:36:32+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/09/01115359/AAA59E13-97BD-4313-AEE6-450C343617B6-2-300x225.jpg"
-    },
-    {
-      "title": "AI 要改名了？川普力推「超級智慧」（SI）取代人工智慧，盼國際跟進",
-      "link": "https://technews.tw/2026/10/16/us-want-super-intelligence-not-ai/",
-      "summary": "美國財政部高階官員週四（15 日）接受路透社專訪時表示，美國希望全球夥伴將人工智慧（AI）更名為「超級智慧」（ […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T17:17:20+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/09/21142037/Donald-Trump-300x200.jpg"
-    },
-    {
-      "title": "Sony公布NW-WM1ZM3、NW-WM1AM3、NW-ZX900等三款全新Walkman數位播放器，售價1,900美金起",
-      "link": "https://www.cool3c.com/article/253065",
-      "summary": "在挪威Sony先行放上新聞稿、日本電商報出實際商品與價格後，Sony於2026年10月中旬正式公布三款全新高階Walkman數位播放機，包括NW-WM1ZM3、NW-WM1AM3兩款Signature系列孿生旗艦機，以及活用大量新旗艦機概念的高階機NW-ZX900；NW-WM1ZM3、NW-WM1AM3、NW-ZX900強調提升軟硬體與易用性，使樂迷能沉浸在表演者想傳達的音樂…",
-      "source": "Cool3c",
-      "published": "2026-10-15T17:15:00+00:00",
-      "image": "https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2026/10/65544479-879b-4bf8-b0ef-3057f1a301d5.webp"
-    },
-    {
-      "title": "輝達、蘋果各捐 2,500 萬美元，支持川普白宮國宴廳計畫",
-      "link": "https://technews.tw/2026/10/16/nvidia-apple-each-gave-25-million-white-house-ballroom/",
-      "summary": "根據路透社引述《華盛頓郵報》週四（15 日）報導，各承諾捐款 2,500 萬美元，支持美國總統川普規畫興建的白 […]",
-      "source": "TechNews 科技新報",
-      "published": "2026-10-15T16:57:57+00:00",
-      "image": "https://img.technews.tw/wp-content/uploads/2025/12/10155942/mariia-shalabaieva-0SqsTxWhgNU-unsplash-300x169.jpg"
     }
   ]
 }
