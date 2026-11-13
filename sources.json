@@ -29,7 +29,12 @@
       "name": "INSIDE 硬塞的網路趨勢觀察",
       "short_name": "INSIDE",
       "homepage": "https://www.inside.com.tw/",
-      "feeds": [],
+      "feeds": [
+        "https://www.inside.com.tw/feed/rss",
+        "https://feeds.feedburner.com/inside-blog-taiwan"
+      ],
+      "enrich_feed_item_pages": false,
+      "stop_when_all_articles_older": true,
       "pagination": {
         "first_url": "https://www.inside.com.tw/?page=1",
         "url_template": "https://www.inside.com.tw/?page={page}"
